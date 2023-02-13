@@ -17,7 +17,36 @@ In 2020, I was a <a href="https://is.mpg.de/person/ftosi"> visiting PhD student 
 
 In 2022, I was awarded the <a href="https://www.cvpl.it/en/awards/#miglior_tesi_dottorato"> best PhD thesis </a> by the <a href="https://www.cvpl.it/"> Italian Association for Research in Computer Vision, Pattern Recognition and Machine Learning (CVPL)</a>.
 
-You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/files/Fabio_Tosi_s_CV.pdf)!
+You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/files/Fabio_Tosi_s_CV.pdf)! (13/02/2023)
+
+
+
+## News 
+
+<ul>
+  <li>
+    <strong>02/2023</strong> I received my <a href="https://asn21.cineca.it/pubblico/miur/esito/09%252FH1/2/4">National Scientific Habilitation</a> (09/H1)
+  </li>
+  <li>
+    <strong>11/2022</strong> <a href="https://www.cvpl.it/en/awards/#miglior_tesi_dottorato">Best PhD Thesis Award</a>, Italian Association for Computer Vision Research(CVPL 2022)
+  </li>
+  <li>
+    <strong>02/2022</strong> 2 papers accepted at 3DV 2022. 
+  </li>
+  <li>
+    <strong>02/2022</strong> 2 papers accepted at CVPR 2022 this year!
+  </li>
+  <li>
+    <strong>11/2021</strong> Proof of Concept d’Ateneo, PoC UNIBO 3rd edition (Principal Investigator, PI)
+  </li>
+  <li>
+    <strong>09/2021</strong> <a href="https://3dv2021.surrey.ac.uk/prizes/">Best Paper Honorable Mention</a> to our work <strong>“Neural Disparity Refinement for Arbitrary
+Resolution Stereo" </strong>
+  </li>
+
+
+
+</ul>
 
 ## My Research Team
 
@@ -71,35 +100,7 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
   </div>
 </div>
 
-## News 
-
-<ul>
-  <li>
-    <strong>02/2023</strong> I received my <a href="https://asn21.cineca.it/pubblico/miur/esito/09%252FH1/2/4">National Scientific Habilitation</a> (09/H1)
-  </li>
-  <li>
-    <strong>11/2022</strong> <a href="https://www.cvpl.it/en/awards/#miglior_tesi_dottorato">Best PhD Thesis Award</a>, Italian Association for Computer Vision Research(CVPL 2022)
-  </li>
-  <li>
-    <strong>02/2022</strong> 2 papers accepted at 3DV 2022. 
-  </li>
-  <li>
-    <strong>02/2022</strong> 2 papers accepted at CVPR 2022 this year!
-  </li>
-  <li>
-    <strong>11/2021</strong> Proof of Concept d’Ateneo, PoC UNIBO 3rd edition (Principal Investigator, PI)
-  </li>
-  <li>
-    <strong>09/2021</strong> <a href="https://3dv2021.surrey.ac.uk/prizes/">Best Paper Honorable Mention</a> to our work <strong>“Neural Disparity Refinement for Arbitrary
-Resolution Stereo" </strong>
-  </li>
-
-
-
-</ul>
-
-
-## Research
+## Publications
 
 <div style="display:flex;">
   <div style="width:80%;padding-right: 40px;">
