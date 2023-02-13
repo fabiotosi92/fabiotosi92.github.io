@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Fabio Tosi / Site Title"
+title                    : "Fabio Tosi / Dr."
 title_separator          : "-"
 name                     : &name "Fabio Tosi"
 description              : &description "personal description"
@@ -83,7 +83,7 @@ author:
   name             : "Fabio Tosi"
   avatar           : "me.jpg"
   bio              : "Post-doctoral Researcher @ University of Bologna"
-  location         : "Location"
+  location         : "Bologna, Italy"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=5-UOaQkAAAAJ&hl=it"
   email            :
@@ -95,7 +95,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/fabiotosi92"
+  github           : "fabiotosi92"
   google_plus      :
   keybase          :
   instagram        :
