@@ -25,6 +25,9 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
 
 <ul>
   <li>
+    <strong>02/2023</strong> 1 paper accepted at CVPR 2023 this year! 
+  </li>
+  <li>
     <strong>02/2023</strong> I received my <a href="https://asn21.cineca.it/pubblico/miur/esito/09%252FH1/2/4">National Scientific Habilitation</a> (09/H1)
   </li>
   <li>
