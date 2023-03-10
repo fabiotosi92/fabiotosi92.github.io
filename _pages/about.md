@@ -237,3 +237,19 @@ On the Synergies Between Machine Learning and Binocular Stereo for Depth Estimat
 
   </div>
 </div>
+
+
+<div style="display:flex;">
+  <div style="width:80%;padding-right: 40px;">
+    <img src="../images/publications/omeganet.png" alt="omeganet">
+  </div>
+  <div style="width:100%;">
+    <a href="https://github.com/CVLAB-Unibo/omeganet"><strong>Distilled Semantics for Comprehensive Scene Understanding from Videos</strong> </a><br> 
+    <strong>Fabio Tosi*</strong>, <a href="https://filippoaleotti.github.io/website/">Filippo Aleotti*</a>, <a href="https://pierlui92.github.io/">Pierluigi Zama Ramirez*</a>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, <a href="https://www.unibo.it/sitoweb/samuele.salti">Samuele Salti</a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>, <a href="https://www.unibo.it/sitoweb/luigi.distefano">Luigi Di Stefano</a>  <br>
+    CVPR 2020 <br>
+    <a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Tosi_Distilled_Semantics_for_Comprehensive_Scene_Understanding_from_Videos_CVPR_2020_paper.pdf">paper</a> | | <a href="https://openaccess.thecvf.com/content_CVPR_2020/supplemental/Tosi_Distilled_Semantics_for_CVPR_2020_supplemental.pdf">supplementary</a> | <a href="https://github.com/CVLAB-Unibo/omeganet">code</a> | <a href="https://github.com/CVLAB-Unibo/omeganet/blob/master/assets/poster.pdf">poster</a>
+
+  <br><br>
+
+  </div> 
+</div>
