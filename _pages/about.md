@@ -129,7 +129,7 @@ Resolution Stereo" </strong>
     <img src="../images/publications/monovit.png" alt="monovit">
   </div>
   <div style="width:100%;">
-    <a href="https://autonomousvision.github.io/smdnets/"><strong>Monovit: Self-supervised monocular depth estimation with a vision transformer</strong> </a><br> 
+    <a href="https://github.com/zxcqlf/MonoViT"><strong>Monovit: Self-supervised monocular depth estimation with a vision transformer</strong> </a><br> 
     <a href="https://zxcqlf.github.io/">Chaoqiang Zhao</a>, <a href="https://youmi-zym.github.io/">Youmin Zhang</a>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, <strong>Fabio Tosi,</strong>, Xianda Guo, Zheng Zhu, Guan Huang, Yang Tang, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>  <br>
     3DV 2022 <br>
     <a href="https://arxiv.org/abs/2208.03543">paper</a> | <a href="https://github.com/zxcqlf/MonoViT">code</a>
@@ -138,6 +138,24 @@ Resolution Stereo" </strong>
 
   </div>
 </div>
+
+<div style="display:flex;">
+  <div style="width:80%;padding-right: 40px;">
+    <img src="../images/publications/xnerf.png" alt="xnerf">
+  </div>
+  <div style="width:100%;">
+    <a href="https://cvlab-unibo.github.io/xnerf-web/"><strong>
+Cross-Spectral Neural Radiance Fields</strong> </a><br> 
+    <a href="https://mattpoggi.github.io/">Matteo Poggi*</a>, <a href="https://pierlui92.github.io/">Pierluigi Zama Ramirez*</a>, <strong>Fabio Tosi*</strong>, <a href="https://www.unibo.it/sitoweb/samuele.salti">Samuele Salti</a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>, <a href="https://www.unibo.it/sitoweb/luigi.distefano">Luigi Di Stefano</a>  <br>
+    3DV 2022 <br> 
+    <a href="https://arxiv.org/abs/2209.00648">paper</a> | <a href="https://drive.google.com/file/d/1V40AeNQ7qacg4GlxK_6jmfm6bCcqykms/view">video & supplementary</a> | <a href="http://amsacta.unibo.it/7142/">dataset</a>
+
+  <br><br>
+
+  </div>
+</div>
+
+
 
 <div style="display:flex;">
   <div style="width:80%;padding-right: 40px;">
