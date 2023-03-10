@@ -112,7 +112,7 @@ Resolution Stereo" </strong>
     <img src="../images/publications/stereonerf.png" alt="stereonerf">
   </div>
   <div style="width:100%;">
-    <a href="https://autonomousvision.github.io/smdnets/"><strong>NeRF-Supervised Deep Stereo</strong> </a><br> 
+    <strong>NeRF-Supervised Deep Stereo</strong><br> 
     <strong>Fabio Tosi</strong>, <a href="https://alessiotonioni.github.io/">Alessio Tonioni</a>, <a href="https://www.eyecan.ai/">Daniele De Gregorio </a> , <a href="https://mattpoggi.github.io/">Matteo Poggi</a>   <br>
     CVPR 2023 <br>
     <p style="color:red;">COMING SOON!</p>
