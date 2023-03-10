@@ -108,6 +108,22 @@ Resolution Stereo" </strong>
 
 
 <div style="display:flex;">
+  <div style="height:10%;width:80%;padding-right: 40px;">
+    <img src="../images/publications/stereonerf.png" alt="stereonerf">
+  </div>
+  <div style="width:100%;">
+    <a href="https://autonomousvision.github.io/smdnets/"><strong>NeRF-Supervised Deep Stereo</strong> </a><br> 
+    <strong>Fabio Tosi,</strong> <a href="https://alessiotonioni.github.io/">Alessio Tonioni</a>, <a href="https://www.eyecan.ai/">Daniele De Gregorio </a> , <a href="https://mattpoggi.github.io/">Matteo Poggi</a>   <br>
+    CVPR 2023 <br>
+    <p style="color:red;">COMING SOON!</p>
+
+
+  <br><br>
+
+  </div>
+</div>
+
+<div style="display:flex;">
   <div style="width:80%;padding-right: 40px;">
     <img src="../images/publications/3dv2021.png" alt="3DV2021">
   </div>
@@ -183,6 +199,23 @@ RGB-Multispectral Matching: Dataset, Learning Methodology, Evaluation</strong> <
     <strong>Fabio Tosi*</strong>, <a href="https://pierlui92.github.io/">Pierluigi Zama Ramirez*</a>, <a href="https://mattpoggi.github.io/">Matteo Poggi*</a>, <a href="https://www.unibo.it/sitoweb/samuele.salti">Samuele Salti</a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>, <a href="https://www.unibo.it/sitoweb/luigi.distefano">Luigi Di Stefano</a>  <br>
     CVPR 2022 <br>
     <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Tosi_RGB-Multispectral_Matching_Dataset_Learning_Methodology_Evaluation_CVPR_2022_paper.pdf">paper</a> | <a href="https://openaccess.thecvf.com/content/CVPR2022/supplemental/Tosi_RGB-Multispectral_Matching_Dataset_CVPR_2022_supplemental.pdf">supplementary</a> | <a href="http://amsacta.unibo.it/6877/">dataset</a>  | <a href="https://youtu.be/dmN23_rnmjQ">video</a>
+
+  <br><br>
+
+  </div>
+</div>
+
+
+<div style="display:flex;">
+  <div style="width:80%;padding-right: 40px;">
+    <img src="../images/publications/stereo_survey.png" alt="rgb-ms">
+  </div>
+  <div style="width:100%;">
+    <strong>
+On the Synergies Between Machine Learning and Binocular Stereo for Depth Estimation From Images: A Survey</strong><br> 
+    <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, <strong>Fabio Tosi</strong>, Konstantinos Batsos, <a href="https://mordohai.github.io/">Philippos Mordohai</a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>,   <br>
+    TPAMI 2021 <br>
+    <a href="https://arxiv.org/abs/2004.08566">paper</a>
 
   <br><br>
 
