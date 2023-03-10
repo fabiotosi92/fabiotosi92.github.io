@@ -113,7 +113,7 @@ Resolution Stereo" </strong>
   </div>
   <div style="width:100%;">
     <a href="https://autonomousvision.github.io/smdnets/"><strong>NeRF-Supervised Deep Stereo</strong> </a><br> 
-    <strong>Fabio Tosi,</strong> <a href="https://alessiotonioni.github.io/">Alessio Tonioni</a>, <a href="https://www.eyecan.ai/">Daniele De Gregorio </a> , <a href="https://mattpoggi.github.io/">Matteo Poggi</a>   <br>
+    <strong>Fabio Tosi</strong>, <a href="https://alessiotonioni.github.io/">Alessio Tonioni</a>, <a href="https://www.eyecan.ai/">Daniele De Gregorio </a> , <a href="https://mattpoggi.github.io/">Matteo Poggi</a>   <br>
     CVPR 2023 <br>
     <p style="color:red;">COMING SOON!</p>
 
@@ -259,10 +259,28 @@ On the Synergies Between Machine Learning and Binocular Stereo for Depth Estimat
     <img src="../images/publications/monoresmatch.png" alt="monoresmatch">
   </div>
   <div style="width:100%;">
-    <a href="https://github.com/CVLAB-Unibo/omeganet"><strong>Learning monocular depth estimation infusing traditional stereo knowledge</strong> </a><br> 
+    <strong>Learning monocular depth estimation infusing traditional stereo knowledge</strong> <br> 
     <strong>Fabio Tosi</strong>, <a href="https://filippoaleotti.github.io/website/">Filippo Aleotti</a>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a> <br>
     CVPR 2019 <br>
     <a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Tosi_Learning_Monocular_Depth_Estimation_Infusing_Traditional_Stereo_Knowledge_CVPR_2019_paper.pdf">paper</a> | | <a href="https://openaccess.thecvf.com/content_CVPR_2020/supplemental/Tosi_Distilled_Semantics_for_CVPR_2020_supplemental.pdf">supplementary</a> | <a href="https://github.com/fabiotosi92/monoResMatch-Tensorflow">code</a> | <a href="https://vision.disi.unibo.it/~ftosi/papers/monoResMatch_poster.pdf">poster</a> | <a href="https://www.youtube.com/watch?v=h6Wo5MqbCY0&t=2s">video</a>
+
+  <br><br>
+
+  </div> 
+</div>
+
+
+<div style="display:flex;">
+  <div style="width:80%;padding-right: 40px;">
+    <img src="../images/publications/adaptation2019.png" alt="adaptation2019">
+  </div>
+  <div style="width:100%;">
+    <strong>Real-time self-adaptive deep stereo</strong> <br> 
+    <p style="color:red;">ORAL!</p>
+    <a href="https://alessiotonioni.github.io/">Alessio Tonioni</a>,
+    <strong>Fabio Tosi</strong>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>, <a href="https://www.unibo.it/sitoweb/luigi.distefano">Luigi Di Stefano</a><br>
+    CVPR 2019 <br>
+    <a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Tonioni_Real-Time_Self-Adaptive_Deep_Stereo_CVPR_2019_paper.pdf">paper</a> | | <a href="https://openaccess.thecvf.com/content_CVPR_2019/supplemental/Tonioni_Real-Time_Self-Adaptive_Deep_CVPR_2019_supplemental.pdf">supplementary</a> | <a href="https://github.com/CVLAB-Unibo/Real-time-self-adaptive-deep-stereo">code</a> | <a href="https://www.youtube.com/watch?v=7SjyzDxmCY4">video</a> | <a href="https://www.youtube.com/watch?v=4O-7OzVYAeU">live demo</a>
 
   <br><br>
 
