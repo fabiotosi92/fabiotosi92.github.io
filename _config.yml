@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Dr. Fabio Tosi"
+title                    : "Fabio Tosi, PhD"
 title_separator          : "-"
 name                     : &name "Fabio Tosi"
 description              : &description "personal description"

@@ -174,6 +174,23 @@ Open Challenges in Deep Stereo: the Booster Dataset</strong> </a><br>
 </div>
 
 <div style="display:flex;">
+  <div style="width:80%;padding-right: 40px;">
+    <img src="../images/publications/rgb-ms.png" alt="rgb-ms">
+  </div>
+  <div style="width:100%;">
+    <a href="https://cvlab-unibo.github.io/rgb-ms-web/"><strong>
+RGB-Multispectral Matching: Dataset, Learning Methodology, Evaluation</strong> </a><br> 
+    <strong>Fabio Tosi*</strong>, <a href="https://pierlui92.github.io/">Pierluigi Zama Ramirez*</a>, <a href="https://mattpoggi.github.io/">Matteo Poggi*</a>, <a href="https://www.unibo.it/sitoweb/samuele.salti">Samuele Salti</a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>, <a href="https://www.unibo.it/sitoweb/luigi.distefano">Luigi Di Stefano</a>  <br>
+    CVPR 2022 <br>
+    <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Tosi_RGB-Multispectral_Matching_Dataset_Learning_Methodology_Evaluation_CVPR_2022_paper.pdf">paper</a> | <a href="https://openaccess.thecvf.com/content/CVPR2022/supplemental/Tosi_RGB-Multispectral_Matching_Dataset_CVPR_2022_supplemental.pdf">supplementary</a> | <a href="http://amsacta.unibo.it/6877/">dataset</a>  | <a href="https://youtu.be/dmN23_rnmjQ">video</a>
+
+  <br><br>
+
+  </div>
+</div>
+
+
+<div style="display:flex;">
   <div style="height:10%;width:80%;padding-right: 40px;">
     <img src="../images/publications/smdnets.png" alt="SMD-Nets">
   </div>
