@@ -286,3 +286,19 @@ On the Synergies Between Machine Learning and Binocular Stereo for Depth Estimat
 
   </div> 
 </div>
+
+
+<div style="display:flex;">
+  <div style="width:80%;padding-right: 40px;">
+    <img src="../images/publications/guided.png" alt="guided">
+  </div>
+  <div style="width:100%;">
+    <strong>Guided Stereo Matching</strong> <br> 
+    <a href="https://mattpoggi.github.io/">Matteo Poggi*</a>, Davide Pallotti*, <strong>Fabio Tosi</strong>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a><br>
+    CVPR 2019 <br>
+    <a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Poggi_Guided_Stereo_Matching_CVPR_2019_paper.pdf">paper</a> | <a href="https://github.com/mattpoggi/guided-stereo">demo code</a> | <a href="https://www.youtube.com/watch?v=AVlPu3K2ays">video</a> | <a href="https://vision.deis.unibo.it/~mpoggi/papers/cvpr2019guided_poster.pdf">poster</a>
+
+  <br><br>
+
+  </div> 
+</div> 
