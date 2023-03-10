@@ -253,3 +253,18 @@ On the Synergies Between Machine Learning and Binocular Stereo for Depth Estimat
 
   </div> 
 </div>
+
+<div style="display:flex;">
+  <div style="width:80%;padding-right: 40px;">
+    <img src="../images/publications/monoresmatch.png" alt="monoresmatch">
+  </div>
+  <div style="width:100%;">
+    <a href="https://github.com/CVLAB-Unibo/omeganet"><strong>Learning monocular depth estimation infusing traditional stereo knowledge</strong> </a><br> 
+    <strong>Fabio Tosi</strong>, <a href="https://filippoaleotti.github.io/website/">Filippo Aleotti</a>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a> <br>
+    CVPR 2019 <br>
+    <a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Tosi_Learning_Monocular_Depth_Estimation_Infusing_Traditional_Stereo_Knowledge_CVPR_2019_paper.pdf">paper</a> | | <a href="https://openaccess.thecvf.com/content_CVPR_2020/supplemental/Tosi_Distilled_Semantics_for_CVPR_2020_supplemental.pdf">supplementary</a> | <a href="https://github.com/fabiotosi92/monoResMatch-Tensorflow">code</a> | <a href="https://vision.disi.unibo.it/~ftosi/papers/monoResMatch_poster.pdf">poster</a> | <a href="https://www.youtube.com/watch?v=h6Wo5MqbCY0&t=2s">video</a>
+
+  <br><br>
+
+  </div> 
+</div>
