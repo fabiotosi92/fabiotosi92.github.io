@@ -105,20 +105,7 @@ Resolution Stereo" </strong>
 
 ## Publications
 
-<div style="display:flex;">
-  <div style="width:80%;padding-right: 40px;">
-    <img src="../images/publications/smdnets.png" alt="SMD-Nets">
-  </div>
-  <div style="width:100%;">
-    <a href="https://autonomousvision.github.io/smdnets/"><strong>SMD-Nets: Stereo Mixture Density Networks</strong> </a><br> 
-    <strong>Fabio Tosi,</strong> <a href="https://yiyiliao.github.io/">Yiyi Liao</a>, Carolin Schmitt, <a href="https://www.cvlibs.net/">Andreas Geiger </a>   <br>
-    CVPR 2021 <br>
-    <a href="https://www.cvlibs.net/publications/Tosi2021CVPR.pdf">paper</a> | <a href="http://www.cvlibs.net/publications/Tosi2021CVPR_supplementary.pdf">supplement</a> | <a href="https://autonomousvision.github.io/smdnets/">blog</a> | <a href="https://github.com/fabiotosi92/SMD-Nets">code</a> | <a href="https://www.youtube.com/watch?v=tvVGuUSe2n8&t=148s">video</a>  | <a href="http://www.cvlibs.net/publications/Tosi2021CVPR_poster.pdf">poster</a> 
 
-  <br><br>
-
-  </div>
-</div>
 
 <div style="display:flex;">
   <div style="width:80%;padding-right: 40px;">
@@ -138,6 +125,21 @@ Resolution Stereo" </strong>
 
 
 <div style="display:flex;">
+  <div style="height:10%;width:80%;padding-right: 40px;">
+    <img src="../images/publications/monovit.png" alt="monovit">
+  </div>
+  <div style="width:100%;">
+    <a href="https://autonomousvision.github.io/smdnets/"><strong>Monovit: Self-supervised monocular depth estimation with a vision transformer</strong> </a><br> 
+    <a href="https://zxcqlf.github.io/">Chaoqiang Zhao</a>, <a href="https://youmi-zym.github.io/">Youmin Zhang</a>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, <strong>Fabio Tosi,</strong>, Xianda Guo, Zheng Zhu, Guan Huang, Yang Tang, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>  <br>
+    3DV 2022 <br>
+    <a href="https://arxiv.org/abs/2208.03543">paper</a> | <a href="https://github.com/zxcqlf/MonoViT">code</a>
+
+  <br><br>
+
+  </div>
+</div>
+
+<div style="display:flex;">
   <div style="width:80%;padding-right: 40px;">
     <img src="../images/publications/booster.png" alt="Booster">
   </div>
@@ -147,6 +149,21 @@ Open Challenges in Deep Stereo: the Booster Dataset</strong> </a><br>
     <a href="https://pierlui92.github.io/">Pierluigi Zama Ramirez*</a>, <strong>Fabio Tosi*</strong>, <a href="https://mattpoggi.github.io/">Matteo Poggi*</a>, <a href="https://www.unibo.it/sitoweb/samuele.salti">Samuele Salti</a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>, <a href="https://www.unibo.it/sitoweb/luigi.distefano">Luigi Di Stefano</a>  <br>
     CVPR 2022 <br>
     <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Ramirez_Open_Challenges_in_Deep_Stereo_The_Booster_Dataset_CVPR_2022_paper.pdf">paper</a> | <a href="https://openaccess.thecvf.com/content/CVPR2022/supplemental/Ramirez_Open_Challenges_in_CVPR_2022_supplemental.pdf">supplementary</a> | <a href="http://amsacta.unibo.it/6876/">dataset</a>  | <a href="https://cvlab-unibo.github.io/booster-web/benchmark.html">benchmark</a> | <a href="https://youtu.be/EEg3z9b_Bt4">video</a>
+
+  <br><br>
+
+  </div>
+</div>
+
+<div style="display:flex;">
+  <div style="height:10%;width:80%;padding-right: 40px;">
+    <img src="../images/publications/smdnets.png" alt="SMD-Nets">
+  </div>
+  <div style="width:100%;">
+    <a href="https://autonomousvision.github.io/smdnets/"><strong>SMD-Nets: Stereo Mixture Density Networks</strong> </a><br> 
+    <strong>Fabio Tosi,</strong> <a href="https://yiyiliao.github.io/">Yiyi Liao</a>, Carolin Schmitt, <a href="https://www.cvlibs.net/">Andreas Geiger </a>   <br>
+    CVPR 2021 <br>
+    <a href="https://www.cvlibs.net/publications/Tosi2021CVPR.pdf">paper</a> | <a href="http://www.cvlibs.net/publications/Tosi2021CVPR_supplementary.pdf">supplement</a> | <a href="https://autonomousvision.github.io/smdnets/">blog</a> | <a href="https://github.com/fabiotosi92/SMD-Nets">code</a> | <a href="https://www.youtube.com/watch?v=tvVGuUSe2n8&t=148s">video</a>  | <a href="http://www.cvlibs.net/publications/Tosi2021CVPR_poster.pdf">poster</a> 
 
   <br><br>
 
