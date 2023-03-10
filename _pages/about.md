@@ -129,7 +129,7 @@ Resolution Stereo" </strong>
   </div>
   <div style="width:100%;">
     <a href="https://cvlab-unibo.github.io/neural-disparity-refinement-web/"><strong>Neural Disparity Refinement for Arbitrary Resolution Stereo</strong> </a><br> 
-    (Best Paper Honorable Mention at 3DV 2021) <br>
+    <p style="color:red;">(Best Paper Honorable Mention at 3DV 2021)</p> 
     <a href="https://filippoaleotti.github.io/website/">Filippo Aleotti*</a>, <strong>Fabio Tosi*</strong>, <a href="https://pierlui92.github.io/">Pierluigi Zama Ramirez*</a>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, <a href="https://www.unibo.it/sitoweb/samuele.salti">Samuele Salti</a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>, <a href="https://www.unibo.it/sitoweb/luigi.distefano">Luigi Di Stefano</a>  <br>
     3DV 2022 <br>
     <a href="https://cvlab-unibo.github.io/neural-disparity-refinement-web/">project page</a>  | <a href="https://arxiv.org/abs/2110.15367">paper & supplementary</a> | <a href="https://github.com/CVLAB-Unibo/neural-disparity-refinement">code</a> 
@@ -277,8 +277,7 @@ On the Synergies Between Machine Learning and Binocular Stereo for Depth Estimat
   <div style="width:100%;">
     <strong>Real-time self-adaptive deep stereo</strong> <br> 
     <p style="color:red;">ORAL!</p>
-    <a href="https://alessiotonioni.github.io/">Alessio Tonioni</a>,
-    <strong>Fabio Tosi</strong>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>, <a href="https://www.unibo.it/sitoweb/luigi.distefano">Luigi Di Stefano</a><br>
+    <a href="https://alessiotonioni.github.io/">Alessio Tonioni</a>, <strong>Fabio Tosi</strong>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a> <br>
     CVPR 2019 <br>
     <a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Tonioni_Real-Time_Self-Adaptive_Deep_Stereo_CVPR_2019_paper.pdf">paper</a> | | <a href="https://openaccess.thecvf.com/content_CVPR_2019/supplemental/Tonioni_Real-Time_Self-Adaptive_Deep_CVPR_2019_supplemental.pdf">supplementary</a> | <a href="https://github.com/CVLAB-Unibo/Real-time-self-adaptive-deep-stereo">code</a> | <a href="https://www.youtube.com/watch?v=7SjyzDxmCY4">video</a> | <a href="https://www.youtube.com/watch?v=4O-7OzVYAeU">live demo</a>
 
@@ -297,6 +296,23 @@ On the Synergies Between Machine Learning and Binocular Stereo for Depth Estimat
     <a href="https://mattpoggi.github.io/">Matteo Poggi*</a>, Davide Pallotti*, <strong>Fabio Tosi</strong>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a><br>
     CVPR 2019 <br>
     <a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Poggi_Guided_Stereo_Matching_CVPR_2019_paper.pdf">paper</a> | <a href="https://github.com/mattpoggi/guided-stereo">demo code</a> | <a href="https://www.youtube.com/watch?v=AVlPu3K2ays">video</a> | <a href="https://vision.deis.unibo.it/~mpoggi/papers/cvpr2019guided_poster.pdf">poster</a>
+
+  <br><br>
+
+  </div> 
+</div> 
+
+<div style="display:flex;">
+  <div style="width:80%;padding-right: 40px;">
+    <img src="../images/publications/reversing.png" alt="reversing">
+  </div>
+  <div style="width:100%;">
+    <strong>Reversing the cycle: self-supervised deep stereo
+through enhanced monocular distillation</strong> <br> 
+    <a href="https://filippoaleotti.github.io/website/">Filippo Aleotti*</a>, <strong>Fabio Tosi*</strong>, Li Zhang,
+    <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, , <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a><br>
+    ECCV 2020 <br>
+    <a href="https://arxiv.org/pdf/2008.07130.pdf">paper</a> | <a href="https://github.com/FilippoAleotti/Reversing">code</a> | <a href="https://drive.google.com/file/d/1V1vrMtEw6uy3TfAW0wXlc-zxxsuIlJY2/view">video</a> 
 
   <br><br>
 
