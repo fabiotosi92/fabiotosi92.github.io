@@ -118,5 +118,4 @@ Resolution Stereo" </strong>
   <br><br>
 
   </div>
-
 </div>

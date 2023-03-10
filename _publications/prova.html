@@ -3,19 +3,44 @@
 
 <style type="text/css">
 	body {
-		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-		font-weight:300;
-		font-size:18px;
+		font-family: 'Noto Sans', sans-serif;
+		color: #4a4a4a;
+		font-size: 1em;
+		font-weight: 400;
+		line-height: 1.5;
+		font-display: block;
 		margin-left: auto;
 		margin-right: auto;
 		width: 1100px;
 	}
-	
+
+	.title {
+		color: #363636;
+		font-size: 3rem;
+		font-weight: 600;
+		line-height: 1.125;
+		font-weight: 600;
+		line-height: 1.125;
+		font-family: 'Google Sans', sans-serif;
+	}
+
+	.publication-title {
+  		font-family: 'Google Sans', sans-serif;
+	}
+
+	.subtitle, .title {
+ 	 word-break: break-word;
+	}
+
 	h1 {
 		font-size:32px;
 		font-weight:300;
 	}
 	
+	.title.is-2 {
+		font-size: 3rem;
+	}
+
 	.disclaimerbox {
 		background-color: #eee;		
 		border: 1px solid #eeeeee;
@@ -27,7 +52,7 @@
 
 	video.header-vid {
 		height: 140px;
-		border: 1px solid black;
+		border: 1px solid rgba(0, 0, 0, 0.212);
 		border-radius: 10px ;
 		-moz-border-radius: 10px ;
 		-webkit-border-radius: 10px ;
@@ -50,11 +75,11 @@
 	
 	a:link,a:visited
 	{
-		color: #1367a7;
+		color: #2994c5;
 		text-decoration: none;
 	}
 	a:hover {
-		color: #208799;
+		color: #0e889e;
 	}
 	
 	td.dl-link {
@@ -88,7 +113,147 @@
 		margin-right: 45px;
 	}
 
+	.button.is-dark {
+		background-color: #363636;
+		border-color: transparent;
+		color: #fff;
+	}	
 
+	.button.is-rounded {
+		border-radius: 290486px;
+		padding-left: calc(1em + .25em);
+		padding-right: calc(1em + .25em);
+	}
+
+	.button.is-normal {
+  		font-size: 1rem;
+	}
+
+	.button .icon, .button .icon.is-large, .button .icon.is-medium, .button .icon.is-small {
+  		height: 1.5em;
+  		width: 1.5em;
+	}
+
+	.icon {
+		align-items: center;
+		display: inline-flex;
+		justify-content: center;
+		height: 1.5rem;
+		width: 1.5rem;
+	}
+
+	.button.is-normal {
+		font-size: 1rem;
+	}
+
+	.button {
+	background-color: #fff;
+	border-color: #dbdbdb;
+	border-width: 1px;
+	color: #363636;
+	cursor: pointer;
+	justify-content: center;
+	padding-bottom: calc(.5em - 1px);
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: calc(.5em - 1px);
+	text-align: center;
+	white-space: nowrap;
+	}
+
+	.button .icon:first-child:not(:last-child) {
+	margin-left: calc(-.5em - 1px);
+	margin-right: .25em;
+	}	
+	
+	element {
+	}
+	.button.is-rounded {
+	border-radius: 290486px;
+	padding-left: calc(1em + .25em);
+	padding-right: calc(1em + .25em);
+	}
+	.button.is-normal {
+	font-size: 1rem;
+	}
+
+	.button.is-dark {
+	background-color: #363636;
+	border-color: transparent;
+	color: #fff;
+	}
+	.link-block a {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	}
+	.button {
+	background-color: #fff;
+	border-color: #dbdbdb;
+	border-width: 1px;
+	color: #363636;
+	cursor: pointer;
+	justify-content: center;
+	padding-bottom: calc(.5em - 1px);
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: calc(.5em - 1px);
+	text-align: center;
+	white-space: nowrap;
+	}
+	.button, .file-cta, .file-name, .input, .pagination-ellipsis, .pagination-link, .pagination-next, .pagination-previous, .select select, .textarea {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	align-items: center;
+	border: 1px solid transparent;
+		border-top-color: transparent;
+		border-top-width: 1px;
+		border-right-color: transparent;
+		border-right-width: 1px;
+		border-bottom-color: transparent;
+		border-bottom-width: 1px;
+		border-left-color: transparent;
+		border-left-width: 1px;
+	border-radius: 4px;
+	box-shadow: none;
+	display: inline-flex;
+	font-size: 1rem;
+	height: 2.5em;
+	justify-content: flex-start;
+	line-height: 1.5;
+	padding-bottom: calc(.5em - 1px);
+	padding-left: calc(.75em - 1px);
+	padding-right: calc(.75em - 1px);
+	padding-top: calc(.5em - 1px);
+	position: relative;
+	vertical-align: top;
+	}
+	.breadcrumb, .button, .delete, .file, .is-unselectable, .modal-close, .pagination-ellipsis, .pagination-link, .pagination-next, .pagination-previous, .tabs {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	}
+	a {
+	color: #3273dc;
+	cursor: pointer;
+	text-decoration: none;
+	}
+	a {
+	color: #007bff;
+	text-decoration: none;
+	background-color: transparent;
+	}
+	*, ::after, ::before {
+	box-sizing: inherit;
+	}
+	*, ::before, ::after {
+	box-sizing: border-box;
+	}
+	span {
+	font-style: inherit;
+	font-weight: inherit;
+	}
 	.layered-paper { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
 		box-shadow:
 		0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
@@ -122,7 +287,7 @@
 	<meta property="og:image" content="Path to my teaser.png"/> <!-- Facebook automatically scrapes this. Go to https://developers.facebook.com/tools/debug/ if you update and want to force Facebook to rescrape. -->
 	<meta property="og:title" content="Creative and Descriptive Paper Title." />
 	<meta property="og:description" content="Paper description." />
-
+	<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"> </script>
 	<!-- Get from Google Analytics -->
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src=""></script> 
@@ -138,41 +303,106 @@
 <body>
 	<br>
 	<center>
-		<span style="font-size:36px">Creative and Descriptive Paper Title</span>
-		<table align=center width=600px>
+		<h1 class="title is-1 publication-title" style="margin-bottom: 0"><strong>NeRF-Supervised</strong></h1>
+		<h2 class="title is-2 publication-title" style="margin-top: 0; margin-bottom: 0">Deep Stereo </h2>
+
+		<br>
+		<table align=center width=900px>
+			<table align=center width=800px>
+				<tr>
+					<td align=center width=100px>
+						<center>
+							<span style="font-size:20px"><a href="https://fabiotosi92.github.io/">Fabio Tosi<sup>1</sup></a></span>
+						</center>
+					</td>
+					<td align=center width=100px>
+						<center>
+							<span style="font-size:20px"><a href="https://alessiotonioni.github.io/">Alessio Tonioni<sup>2</sup></a></span>
+						</center>
+					</td>
+					<td align=center width=120px>
+						<center>
+							<span style="font-size:20px"><a href="https://www.eyecan.ai/">Daniele De Gregorio<sup>3</sup></a></span>
+						</center>
+					</td>
+					<td align=center width=100px>
+						<center>
+							<span style="font-size:20px"><a href="https://mattpoggi.github.io/">Matteo Poggi<sup>1</sup></a></span>
+						</center>
+					</td>
+				</tr>
+			</table>
 			<table align=center width=600px>
-				<tr>
-					<td align=center width=100px>
-						<center>
-							<span style="font-size:24px"><a href="https://en.wikipedia.org/wiki/James_J._Gibson">First Author</a></span>
-						</center>
-					</td>
-					<td align=center width=100px>
-						<center>
-							<span style="font-size:24px"><a href="https://en.wikipedia.org/wiki/James_J._Gibson">Second Author</a></span>
-						</center>
-					</td>
-					<td align=center width=100px>
-						<center>
-							<span style="font-size:24px"><a href="https://en.wikipedia.org/wiki/James_J._Gibson">Third Author</a></span>
-						</center>
-					</td>
-				</tr>
-			</table>
-			<table align=center width=250px>
-				<tr>
-					<td align=center width=120px>
-						<center>
-							<span style="font-size:24px"><a href=''>[Paper]</a></span>
-						</center>
-					</td>
-					<td align=center width=120px>
-						<center>
-							<span style="font-size:24px"><a href='https://github.com/richzhang/webpage-template'>[GitHub]</a></span><br>
-						</center>
-					</td>
-				</tr>
-			</table>
+				<table align=center width=600px>
+					<tr>
+						<td align=center width=180px>
+							<center>
+								<span style="font-size:20px">University of Bologna<sup>1</sup></span>
+							</center>
+						</td>
+						<td align=center width=180px>
+							<center>
+								<span style="font-size:20px">Google Switzerland<sup>2</sup></span>
+							</center>
+						</td>
+						<td align=center width=80px>
+							<center>
+								<span style="font-size:20px">Eyecan.ai<sup>3</sup></span>
+							</center>
+						</td>
+					</tr>
+				</table>
+
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2206.00665.pdf" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <svg class="svg-inline--fa fa-file-pdf fa-w-12" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="file-pdf" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M181.9 256.1c-5-16-4.9-46.9-2-46.9 8.4 0 7.6 36.9 2 46.9zm-1.7 47.2c-7.7 20.2-17.3 43.3-28.4 62.7 18.3-7 39-17.2 62.9-21.9-12.7-9.6-24.9-23.4-34.5-40.8zM86.1 428.1c0 .8 13.2-5.4 34.9-40.2-6.7 6.3-29.1 24.5-34.9 40.2zM248 160h136v328c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V24C0 10.7 10.7 0 24 0h200v136c0 13.2 10.8 24 24 24zm-8 171.8c-20-12.2-33.3-29-42.7-53.8 4.5-18.5 11.6-46.6 6.2-64.2-4.7-29.4-42.4-26.5-47.8-6.8-5 18.3-.4 44.1 8.1 77-11.6 27.6-28.7 64.6-40.8 85.8-.1 0-.1.1-.2.1-27.1 13.9-73.6 44.5-54.5 68 5.6 6.9 16 10 21.5 10 17.9 0 35.7-18 61.1-61.8 25.8-8.5 54.1-19.1 79-23.2 21.7 11.8 47.1 19.5 64 19.5 29.2 0 31.2-32 19.7-43.4-13.9-13.6-54.3-9.7-73.6-7.2zM377 105L279 7c-4.5-4.5-10.6-7-17-7h-6v128h128v-6.1c0-6.3-2.5-12.4-7-16.9zm-74.1 255.3c4.1-2.7-2.5-11.9-42.8-9 37.1 15.8 42.8 9 42.8 9z"></path></svg><!-- <i class="fas fa-file-pdf"></i> Font Awesome fontawesome.com -->
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+
+			  <span class="link-block">
+                <a href="https://arxiv.org/pdf/2206.00665.pdf" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <svg class="svg-inline--fa fa-file-pdf fa-w-12" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="file-pdf" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M181.9 256.1c-5-16-4.9-46.9-2-46.9 8.4 0 7.6 36.9 2 46.9zm-1.7 47.2c-7.7 20.2-17.3 43.3-28.4 62.7 18.3-7 39-17.2 62.9-21.9-12.7-9.6-24.9-23.4-34.5-40.8zM86.1 428.1c0 .8 13.2-5.4 34.9-40.2-6.7 6.3-29.1 24.5-34.9 40.2zM248 160h136v328c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V24C0 10.7 10.7 0 24 0h200v136c0 13.2 10.8 24 24 24zm-8 171.8c-20-12.2-33.3-29-42.7-53.8 4.5-18.5 11.6-46.6 6.2-64.2-4.7-29.4-42.4-26.5-47.8-6.8-5 18.3-.4 44.1 8.1 77-11.6 27.6-28.7 64.6-40.8 85.8-.1 0-.1.1-.2.1-27.1 13.9-73.6 44.5-54.5 68 5.6 6.9 16 10 21.5 10 17.9 0 35.7-18 61.1-61.8 25.8-8.5 54.1-19.1 79-23.2 21.7 11.8 47.1 19.5 64 19.5 29.2 0 31.2-32 19.7-43.4-13.9-13.6-54.3-9.7-73.6-7.2zM377 105L279 7c-4.5-4.5-10.6-7-17-7h-6v128h128v-6.1c0-6.3-2.5-12.4-7-16.9zm-74.1 255.3c4.1-2.7-2.5-11.9-42.8-9 37.1 15.8 42.8 9 42.8 9z"></path></svg><!-- <i class="fas fa-file-pdf"></i> Font Awesome fontawesome.com -->
+                  </span>
+                  <span>Supplement</span>
+                </a>
+              </span>
+
+			  <span class="link-block">	
+				<a href="https://youtu.be/V5hYTz5os0M" class="external-link button is-normal is-rounded is-dark" style="background-color:#808080">
+					<span class="icon">
+						<svg class="svg-inline--fa fa-youtube fa-w-18" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg><!-- <i class="fab fa-youtube"></i> Font Awesome fontawesome.com -->
+					</span>
+					<span>Video</span>
+				</a>
+			  </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/autonomousvision/monosdf" class="external-link button is-normal is-rounded is-dark disabled" style="background-color:#808080">
+                  <span class="icon">
+                      <svg class="svg-inline--fa fa-github fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg=""><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg><!-- <i class="fab fa-github"></i> Font Awesome fontawesome.com -->
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+
+              <!-- Dataset Link. -->
+              <!--
+              <span class="link-block">
+                <a href="https://github.com/google/nerfies/releases/tag/0.1"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a>
+              </span>
+              -->
+            
 		</table>
 	</center>
 
@@ -181,15 +411,16 @@
 			<tr>
 				<td width=260px>
 					<center>
-						<img class="round" style="width:500px" src="./resources/teaser.png"/>
+						<img class="round" style="width:1000px" src="./NS-DeepStereo/images/teaser_ns.png"/>
 					</center>
 				</td>
 			</tr>
 		</table>
-		<table align=center width=850px>
+		<table align=center width=1000px>
 			<tr>
-				<td>
-					This was a template originally made for <a href="http://richzhang.github.io/colorization/">Colorful Image Colorization</a>. The code can be found in this <a href="https://github.com/richzhang/webpage-template">repository</a>.
+				<td><p style="text-align: justify;">
+					On top, predictions by RAFT-Stereo trained with our approach on user-collected images, without using any synthetic datasets, ground-truth depth or (even) real stereo pairs. At the bottom, a zoom-in over the Backpack disparity map, showing an unprecedented level of detail compared to existing strategies not using ground-truth trained with the same data.
+				</p>
 				</td>
 			</tr>
 		</table>
@@ -197,34 +428,27 @@
 
 	<hr>
 
-	<table align=center width=850px>
+	<table align=center width=1000px>
 		<center><h1>Abstract</h1></center>
 		<tr>
-			<td>
-				This is my abstract.
+			<td><p style="text-align: justify;">
+				We introduce a novel framework for training deep stereo networks effortlessly 
+				and without any ground-truth. By leveraging state-of-the-art neural rendering solutions, 
+				we generate stereo training data from image sequences collected with a single handheld camera. 
+				On top of them,  a NeRF-supervised training procedure is carried out, from which we exploit 
+				rendered stereo triplets to compensate for occlusions and depth maps as proxy labels. 
+				This results in stereo networks capable of predicting sharp and detailed disparity maps.
+				Experimental results show that models trained under this regime yield a 30-40% improvement 
+				over existing self-supervised methods on the challenging Middlebury dataset, filling the gap 
+				to supervised models and, most times, outperforming them at zero-shot generalization.</p>
 			</td>
 		</tr>
 	</table>
 	<br>
 
 	<hr>
-	<center><h1>Talk</h1></center>
-	<p align="center">
-		<iframe width="660" height="395" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="center"></iframe>
-	</p>
 
-	<table align=center width=800px>
-		<br>
-		<tr>
-			<center>
-				<span style="font-size:28px"><a href=''>[Slides]</a>
-				</span>
-			</center>
-		</tr>
-	</table>
-	<hr>
-
-	<center><h1>Code</h1></center>
+	<center><h1>Method</h1></center>
 
 	<table align=center width=420px>
 		<center>
@@ -234,71 +458,60 @@
 			</tr>
 		</center>
 	</table>
-	<table align=center width=400px>
+	<table align=center width=800px>
 		<tr>
-			<td align=center width=400px>
+			<td align=center width=800px>
 				<center>
-					<td><img class="round" style="width:450px" src="./resources/method_diagram.png"/></td>
+					<td><img class="round" style="width:1000px" src="./NS-DeepStereo/images/NS-method.png"/></td>
 				</center>
 			</td>
 		</tr>
 	</table>
-	<table align=center width=850px>
+	
+	<br>
+
+	<table align=center width=1000px>
 		<center>
 			<tr>
 				<td>
-					Short description if wanted
+					<h2> 1 - Training Data Generation</h2>
+					<ul>
+						<li><p style="text-align: justify;"><strong>Image Collection and COLMAP Pre-processing.</strong> Acquire a set of images from a single static scene and estimate intrinsic and extrinsic camera parameters using COLMAP, which is a standard procedure for preparing user-collected data to be used in Neural Radiance Fields (NeRF).</p></li>
+						<li><p style="text-align: justify;"><strong>NeRF Training.</strong> Train an independent NeRF for each scene by rendering color for a batch of rays from collected image positions and optimizing an L2 loss with respect to pixel colors in the collected frames.</p></li>
+						<li><p style="text-align: justify;"><strong>Stereo Pairs Rendering.</strong> Generate a virtual set of stereo extrinsic parameters, render two novel views (one from an arbitrary viewpoint and one from its corresponding virtual stereo camera viewpoint), and extract disparity from rendered depth to assist in training deep stereo networks.</p></li>
+					</ul>
+
+					<h2> 2 - NeRF-Supervised Stereo Regime</h2>
+					<p>Data generated so far is used to train stereo models. Given a rendered image triplet \((I_l, I_c, I_r)\), we estimate a disparity map by feeding the network with \((I_c, I_r)\) as the left and right views of a standard stereo pair. Then, we propose an NS loss with two terms:</p>
+					<ul>
+						<li><p style="text-align: justify;"><strong>Triplet Photometric Loss.</strong> We measure the photometric difference between the warped reference image (using both the left and right images of the triplet) and \( I_c\) by adopting the Structural Similarity Index Measure (SSIM) and absolute pixel difference.</p></li>
+						<li><p style="text-align: justify;"><strong>Rendered Disparity Loss.</strong> We further assist the photometric loss by exploiting an additional loss between the predictions and the rendered disparities by NeRF. A filtering mechanism is employed to retain only the most reliable pixels.</p></li>
+					</ul>
+
+					The two terms are summed with weights balancing the impact of photometric and disparity losses. This completes our <strong>NeRF-Supervised </strong> training regime.
 				</td>
 			</tr>
 		</center>
 	</table>
-	<table align=center width=800px>
-		<br>
-		<tr><center>
-			<span style="font-size:28px">&nbsp;<a href='https://github.com/richzhang/webpage-template'>[GitHub]</a>
-			</center>
-		</span>
-	</table>
-	<br>
-	<hr>
-	<table align=center width=450px>
-		<center><h1>Paper and Supplementary Material</h1></center>
-		<tr>
-			<td><a href=""><img class="layered-paper-big" style="height:175px" src="./resources/paper.png"/></a></td>
-			<td><span style="font-size:14pt">F. Author, S. Author, T. Author.<br>
-				<b>Creative and Descriptive Paper Title.</b><br>
-				In Conference, 20XX.<br>
-				(hosted on <a href="">ArXiv</a>)<br>
-				<!-- (<a href="./resources/camera-ready.pdf">camera ready</a>)<br> -->
-				<span style="font-size:4pt"><a href=""><br></a>
-				</span>
-			</td>
-		</tr>
-	</table>
 	<br>
 
-	<table align=center width=600px>
-		<tr>
-			<td><span style="font-size:14pt"><center>
-				<a href="./resources/bibtex.txt">[Bibtex]</a>
-			</center></td>
-		</tr>
-	</table>
+    <hr>
 
-	<hr>
-	<br>
 
-	<table align=center width=900px>
-		<tr>
-			<td width=400px>
-				<left>
-					<center><h1>Acknowledgements</h1></center>
-					This template was originally made by <a href="http://web.mit.edu/phillipi/">Phillip Isola</a> and <a href="http://richzhang.github.io/">Richard Zhang</a> for a <a href="http://richzhang.github.io/colorization/">colorful</a> ECCV project; the code can be found <a href="https://github.com/richzhang/webpage-template">here</a>.
-				</left>
-			</td>
-		</tr>
-	</table>
 
+
+	<div class="container is-max-desktop content" >
+		<h2 class="title">BibTeX</h2>
+		<pre   style="background-color: #f5f5f5; color: #4a4a4a; font-size: 1.5em; overflow-x: auto;"><code >@inproceedings{Peng2022OpenScene,
+		  author    = {Peng, Songyou and Genova, Kyle and Jiang, Chiyu "Max" and Tagliasacchi, Andrea and Pollefeys, Marc and Funkhouser, Thomas},
+		  title     = {OpenScene: 3D Scene Understanding with Open Vocabularies},
+		  booktitle = arXiv,
+		  year      = {2022}
+	  }</code></pre>
+	  </div>
+	
+
+	
 <br>
 </body>
 </html>
