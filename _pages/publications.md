@@ -1,25 +1,6 @@
 ---
-layout: archive
-title: "Publications"
-permalink: /publications/
-author_profile: true
-
----
-
-<div style="display:flex;">
-  <div style="width:80%;padding-right: 40px;">
-    <img src="../images/publications/smdnets.png" alt="SMD-Nets">
-  </div>
-  <div style="width:100%;">
-    <a href="https://autonomousvision.github.io/smdnets/"><strong>SMD-Nets: Stereo Mixture Density Networks</strong> </a><br> 
-    <strong>Fabio Tosi</strong> , <a href="https://yiyiliao.github.io/">Yiyi Liao </a>, Carolin Schmitt, <a href="https://www.cvlibs.net/">Andreas Geiger </a>   <br>
-    CVPR 2021 <br>
-    <a href="https://www.cvlibs.net/publications/Tosi2021CVPR.pdf">paper</a> | <a href="http://www.cvlibs.net/publications/Tosi2021CVPR_supplementary.pdf">supplement</a> | <a href="https://autonomousvision.github.io/smdnets/">blog</a> | <a href="https://github.com/fabiotosi92/SMD-Nets">code</a> | <a href="https://www.youtube.com/watch?v=tvVGuUSe2n8&t=148s">video</a>  | <a href="http://www.cvlibs.net/publications/Tosi2021CVPR_poster.pdf">poster</a> 
-
-  <br><br>
-
-  </div>
-
-</div>
-
+title: "NeRF-Supervised Deep Stereo"
+collection: nerfstereo
+permalink: /nerfstereo.html
+venue: 'CVPR 2023'
 ---
