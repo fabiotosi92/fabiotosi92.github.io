@@ -8,7 +8,6 @@
 		font-size: 1em;
 		font-weight: 400;
 		line-height: 1.5;
-		font-display: block;
 		margin-left: auto;
 		margin-right: auto;
 		width: 1100px;
@@ -16,11 +15,9 @@
 
 	.title {
 		color: #363636;
-		font-size: 3rem;
-		font-weight: 600;
+		font-size: 4rem;
 		line-height: 1.125;
-		font-weight: 600;
-		line-height: 1.125;
+		font-weight: 200;
 		font-family: 'Google Sans', sans-serif;
 	}
 
@@ -28,17 +25,39 @@
   		font-family: 'Google Sans', sans-serif;
 	}
 
+	h1 {
+		font-size:40px;
+		font-weight:500;
+	}
+
+	h2 {
+		font-size:35px;
+		font-weight:300;
+	}
+
+	h3 {
+		font-size:1px;
+		font-weight:300;
+	}
+
 	.subtitle, .title {
  	 word-break: break-word;
 	}
-
-	h1 {
-		font-size:32px;
-		font-weight:300;
-	}
 	
 	.title.is-2 {
-		font-size: 3rem;
+		font-size: 4rem;
+		font-weight:400;
+	}
+
+	.title.is-3 {
+		font-size: 2.5rem;
+		font-weight:400;
+	}
+
+	.content h2{
+		font-weight: 600;
+		font-family: 'Noto Sans', sans-serif;
+		line-height: 1.125;
 	}
 
 	.disclaimerbox {
@@ -283,7 +302,7 @@
 
 <html>
 <head>
-	<title>This is my paper title</title>
+	<title>NeRF-Supervised Deep Stereo</title>
 	<meta property="og:image" content="Path to my teaser.png"/> <!-- Facebook automatically scrapes this. Go to https://developers.facebook.com/tools/debug/ if you update and want to force Facebook to rescrape. -->
 	<meta property="og:title" content="Creative and Descriptive Paper Title." />
 	<meta property="og:description" content="Paper description." />
@@ -300,54 +319,56 @@
 	</script>
 </head>
 
-<body>
+<body >
 	<br>
 	<center>
 		<h1 class="title is-1 publication-title" style="margin-bottom: 0"><strong>NeRF-Supervised</strong></h1>
 		<h2 class="title is-2 publication-title" style="margin-top: 0; margin-bottom: 0">Deep Stereo </h2>
-
 		<br>
-		<table align=center width=900px>
-			<table align=center width=800px>
+		<h3 class="title is-3 publication-title" style="margin-top: 0; margin-bottom: 0">CVPR 2023 </h3>
+		<br>
+		<table align=center width=1100px>
+			<table align=center width=900px>
 				<tr>
 					<td align=center width=100px>
 						<center>
-							<span style="font-size:20px"><a href="https://fabiotosi92.github.io/">Fabio Tosi<sup>1</sup></a></span>
+							<span style="font-size:25px"><a href="https://fabiotosi92.github.io/">Fabio Tosi</a><sup>1</sup></span>
 						</center>
 					</td>
-					<td align=center width=100px>
+					<td align=center width=130px>
 						<center>
-							<span style="font-size:20px"><a href="https://alessiotonioni.github.io/">Alessio Tonioni<sup>2</sup></a></span>
+							<span style="font-size:25px"><a href="https://alessiotonioni.github.io/">Alessio Tonioni</a><sup>2</sup></span>
+						</center>
+					</td>
+					<td align=center width=200px>
+						<center>
+							<span style="font-size:25px"><a href="https://www.eyecan.ai/">Daniele De Gregorio</a><sup>3</sup></span>
 						</center>
 					</td>
 					<td align=center width=120px>
 						<center>
-							<span style="font-size:20px"><a href="https://www.eyecan.ai/">Daniele De Gregorio<sup>3</sup></a></span>
-						</center>
-					</td>
-					<td align=center width=100px>
-						<center>
-							<span style="font-size:20px"><a href="https://mattpoggi.github.io/">Matteo Poggi<sup>1</sup></a></span>
+							<span style="font-size:25px"><a href="https://mattpoggi.github.io/">Matteo Poggi</a><sup>1</sup></span>
 						</center>
 					</td>
 				</tr>
 			</table>
-			<table align=center width=600px>
-				<table align=center width=600px>
+			<br>
+			<table align=center width=750px>
+				<table align=center width=750px>
 					<tr>
-						<td align=center width=180px>
+						<td align=center width=230px>
 							<center>
-								<span style="font-size:20px">University of Bologna<sup>1</sup></span>
+								<span style="font-size:22px">University of Bologna<sup>1</sup></span>
 							</center>
 						</td>
-						<td align=center width=180px>
+						<td align=center width=220px>
 							<center>
-								<span style="font-size:20px">Google Switzerland<sup>2</sup></span>
+								<span style="font-size:22px">Google Switzerland<sup>2</sup></span>
 							</center>
 						</td>
-						<td align=center width=80px>
+						<td align=center width=100px>
 							<center>
-								<span style="font-size:20px">Eyecan.ai<sup>3</sup></span>
+								<span style="font-size:22px">Eyecan.ai<sup>3</sup></span>
 							</center>
 						</td>
 					</tr>
@@ -373,7 +394,7 @@
               </span>
 
 			  <span class="link-block">	
-				<a href="https://youtu.be/V5hYTz5os0M" class="external-link button is-normal is-rounded is-dark" style="background-color:#808080">
+				<a href="" class="external-link button is-normal is-rounded is-dark" style="background-color:#808080">
 					<span class="icon">
 						<svg class="svg-inline--fa fa-youtube fa-w-18" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg><!-- <i class="fab fa-youtube"></i> Font Awesome fontawesome.com -->
 					</span>
@@ -382,7 +403,7 @@
 			  </span>
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/autonomousvision/monosdf" class="external-link button is-normal is-rounded is-dark disabled" style="background-color:#808080">
+                <a href="https://github.com/fabiotosi92/NeRF-Supervised-Deep-Stereo" class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <svg class="svg-inline--fa fa-github fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg=""><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg><!-- <i class="fab fa-github"></i> Font Awesome fontawesome.com -->
                   </span>
@@ -405,9 +426,9 @@
             
 		</table>
 	</center>
-
+	<br>
 	<center>
-		<table align=center width=850px>
+		<table align=center width=850px >
 			<tr>
 				<td width=260px>
 					<center>
@@ -416,7 +437,7 @@
 				</td>
 			</tr>
 		</table>
-		<table align=center width=1000px>
+		<table align=center width=1000px style="font-family: 'Noto Sans', sans-serif; font-size: 1.1em ">
 			<tr>
 				<td><p style="text-align: justify;">
 					On top, predictions by RAFT-Stereo trained with our approach on user-collected images, without using any synthetic datasets, ground-truth depth or (even) real stereo pairs. At the bottom, a zoom-in over the Backpack disparity map, showing an unprecedented level of detail compared to existing strategies not using ground-truth trained with the same data.
@@ -426,9 +447,11 @@
 		</table>
 	</center>
 
+	<br>
+	<br>
 	<hr>
 
-	<table align=center width=1000px>
+	<table align=center width=1000px style="font-family: 'Noto Sans', sans-serif; font-size: 1.1em ">
 		<center><h1>Abstract</h1></center>
 		<tr>
 			<td><p style="text-align: justify;">
@@ -450,6 +473,15 @@
 
 	<center><h1>Method</h1></center>
 
+	<table align=center width=1000px style="font-family: 'Noto Sans', sans-serif; font-size: 1.1em ">
+		<tr>
+			<td><p style="text-align: justify;">
+				<p style="text-align: justify;"><strong>Key Idea:</strong> We propose a new approach to overcome the data limitations in depth from stereo by using neural rendering as data factories. We collect sparse sets of images in-the-wild with a single handheld camera and use Neural Radiance Fields to synthesize countless stereo pairs for self-supervised training. By rendering a third view to compensate for occlusions and using rendered depth for proxy-supervision, we can obtain state-of-the-art results without ground-truth labels or a real stereo camera. This approach allows for flexible and scalable training samples and democratizes training data for deep stereo networks.
+			</td>
+		</tr>
+	</table>
+	<br>
+
 	<table align=center width=420px>
 		<center>
 			<tr>
@@ -462,7 +494,7 @@
 		<tr>
 			<td align=center width=800px>
 				<center>
-					<td><img class="round" style="width:1000px" src="./NS-DeepStereo/images/NS-method.png"/></td>
+					<td><img class="round" style="width:1100px" src="./NS-DeepStereo/images/NS-method.png"/></td>
 				</center>
 			</td>
 		</tr>
@@ -470,7 +502,8 @@
 	
 	<br>
 
-	<table align=center width=1000px>
+
+	<table align=center width=1000px style="font-family: 'Noto Sans', sans-serif; font-size: 1.1em ">
 		<center>
 			<tr>
 				<td>
@@ -495,25 +528,18 @@
 	</table>
 	<br>
 
-    <hr>
-
-
-
-
+    
 	<div class="container is-max-desktop content" >
-		<h2 class="title">BibTeX</h2>
-		<pre   style="background-color: #f5f5f5; color: #4a4a4a; font-size: 1.5em; overflow-x: auto;"><code >@inproceedings{Peng2022OpenScene,
-		  author    = {Peng, Songyou and Genova, Kyle and Jiang, Chiyu "Max" and Tagliasacchi, Andrea and Pollefeys, Marc and Funkhouser, Thomas},
-		  title     = {OpenScene: 3D Scene Understanding with Open Vocabularies},
-		  booktitle = arXiv,
-		  year      = {2022}
+		<h2 class="bibtex" style="font-size:32px; font-weight:400;">BibTeX</h2>
+		<pre   style="background-color: #f5f5f5; color: #4a4a4a; font-size: 1.5em; overflow-x: auto;"><code >@inproceedings{Tosi2023CVPR,
+		  author    = {Tosi, Fabio and Tonioni, Alessio and De Gregorio, Daniele and Poggi, Matteo},
+		  title     = {NeRF-Supervised Deep Stereo},
+		  booktitle = {Conference on Computer Vision and Pattern Recognition (CVPR)},
+		  year      = {2023}
 	  }</code></pre>
 	  </div>
-	
-
-	
+	  <hr>
 <br>
 </body>
 </html>
-
 
