@@ -17,7 +17,7 @@ In 2020, I was a <a href="https://is.mpg.de/person/ftosi"> visiting PhD student 
 
 In 2022, I was awarded the <a href="https://www.cvpl.it/en/awards/#miglior_tesi_dottorato"> best PhD thesis </a> by the <a href="https://www.cvpl.it/"> Italian Association for Research in Computer Vision, Pattern Recognition and Machine Learning (CVPL)</a>.
 
-You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/files/Fabio_Tosi_s_CV.pdf)! (10/03/2023)
+You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/files/Fabio_Tosi_s_CV.pdf)! (16/03/2023)
 
 
 
@@ -112,8 +112,8 @@ Resolution Stereo" </strong>
     <img src="../images/publications/stereonerf.png" alt="stereonerf">
   </div>
   <div style="width:100%;">
-    <strong>NeRF-Supervised Deep Stereo</strong><br> 
-    <strong>Fabio Tosi</strong>, <a href="https://alessiotonioni.github.io/">Alessio Tonioni</a>, <a href="https://www.eyecan.ai/">Daniele De Gregorio </a> , <a href="https://mattpoggi.github.io/">Matteo Poggi</a>   <br>
+    <a href="https://nerfstereo.github.io/"><<strong>NeRF-Supervised Deep Stereo</strong></a><br> 
+    <strong>Fabio Tosi</strong>, <a href="https://alessiotonioni.github.io/">Alessio Tonioni</a>, <a href="https://www.eyecan.ai/">Daniele De Gregorio </a>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>   <br>
     CVPR 2023 <br>
     <p style="color:red;">COMING SOON!</p>
 
@@ -131,7 +131,7 @@ Resolution Stereo" </strong>
     <a href="https://cvlab-unibo.github.io/neural-disparity-refinement-web/"><strong>Neural Disparity Refinement for Arbitrary Resolution Stereo</strong> </a><br> 
     <p style="color:red;">(Best Paper Honorable Mention at 3DV 2021)</p> 
     <a href="https://filippoaleotti.github.io/website/">Filippo Aleotti*</a>, <strong>Fabio Tosi*</strong>, <a href="https://pierlui92.github.io/">Pierluigi Zama Ramirez*</a>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, <a href="https://www.unibo.it/sitoweb/samuele.salti">Samuele Salti</a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>, <a href="https://www.unibo.it/sitoweb/luigi.distefano">Luigi Di Stefano</a>  <br>
-    3DV 2022 <br>
+    3DV 2021 <br>
     <a href="https://cvlab-unibo.github.io/neural-disparity-refinement-web/">project page</a>  | <a href="https://arxiv.org/abs/2110.15367">paper & supplementary</a> | <a href="https://github.com/CVLAB-Unibo/neural-disparity-refinement">code</a> 
 
   <br><br>
