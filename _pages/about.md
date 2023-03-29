@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Short Bio"
+title: "Fabio Tosi"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -135,7 +135,7 @@ Resolution Stereo" </strong>
 
 ## Publications
 
-Full publication list on <a href="https://scholar.google.com/citations?user=5-UOaQkAAAAJ&hl=it"> Google Scholar</a>
+Full publication list on <a href="https://scholar.google.com/citations?user=5-UOaQkAAAAJ&hl=it"> Google Scholar</a> <br>
 *indicates joint first authorship
 
 <div style="display:flex;">
