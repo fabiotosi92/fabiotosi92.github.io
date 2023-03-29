@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Fabio Tosi"
+title: "Fabio Tosi, PhD"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
