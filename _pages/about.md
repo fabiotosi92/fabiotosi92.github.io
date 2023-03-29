@@ -147,7 +147,7 @@ Full publication list on <a href="https://scholar.google.com/citations?user=5-UO
     <a href="https://nerfstereo.github.io/"><papertitle>NeRF-Supervised Deep Stereo</papertitle></a><br> 
     <strong>Fabio Tosi</strong>, <a href="https://alessiotonioni.github.io/">Alessio Tonioni</a>, <a href="https://www.eyecan.ai/">Daniele De Gregorio</a>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>   <br>
     <i>Conference on Computer Vision and Pattern Recognition</i> (<strong>CVPR</strong>), 2023  <br>
-    <p style="color:red;">COMING SOON!</p>
+    <a href="https://nerfstereo.github.io/">project page</a>  | <a href="https://github.com/fabiotosi92/NeRF-Supervised-Deep-Stereo">code</a> 
 
 
   <br><br>
@@ -309,7 +309,7 @@ On the Synergies Between Machine Learning and Binocular Stereo for Depth Estimat
     <p style="color:red;">ORAL!</p>
     <a href="https://alessiotonioni.github.io/">Alessio Tonioni</a>, <strong>Fabio Tosi</strong>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a> <br>
     <i>Conference on Computer Vision and Pattern Recognition</i> (<strong>CVPR</strong>), 2019   <br>
-    <a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Tonioni_Real-Time_Self-Adaptive_Deep_Stereo_CVPR_2019_paper.pdf">paper</a> | | <a href="https://openaccess.thecvf.com/content_CVPR_2019/supplemental/Tonioni_Real-Time_Self-Adaptive_Deep_CVPR_2019_supplemental.pdf">supplementary</a> | <a href="https://github.com/CVLAB-Unibo/Real-time-self-adaptive-deep-stereo">code</a> | <a href="https://www.youtube.com/watch?v=7SjyzDxmCY4">video</a> | <a href="https://www.youtube.com/watch?v=4O-7OzVYAeU">live demo</a>
+    <a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Tonioni_Real-Time_Self-Adaptive_Deep_Stereo_CVPR_2019_paper.pdf">paper</a> | <a href="https://openaccess.thecvf.com/content_CVPR_2019/supplemental/Tonioni_Real-Time_Self-Adaptive_Deep_CVPR_2019_supplemental.pdf">supplementary</a> | <a href="https://github.com/CVLAB-Unibo/Real-time-self-adaptive-deep-stereo">code</a> | <a href="https://www.youtube.com/watch?v=7SjyzDxmCY4">video</a> | <a href="https://www.youtube.com/watch?v=4O-7OzVYAeU">live demo</a>
 
   <br><br>
 
