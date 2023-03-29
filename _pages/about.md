@@ -138,6 +138,7 @@ Resolution Stereo" </strong>
 Full publication list on <a href="https://scholar.google.com/citations?user=5-UOaQkAAAAJ&hl=it"> Google Scholar</a> <br>
 *indicates joint first authorship
 
+
 <div style="display:flex;">
   <div style="height:10%;width:60%;padding-right: 40px">
     <img src="../images/publications/stereonerf.png" alt="stereonerf">
