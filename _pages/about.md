@@ -155,7 +155,7 @@ Full publication list on <a href="https://scholar.google.com/citations?user=5-UO
 </div>
 
 <div style="display:flex;">
-  <div style="width:80%;padding-right: 40px;">
+  <div style="width:60%;padding-right: 40px;">
     <img src="../images/publications/3dv2021.png" alt="3DV2021">
   </div>
   <div style="width:100%;">
@@ -172,7 +172,7 @@ Full publication list on <a href="https://scholar.google.com/citations?user=5-UO
 
 
 <div style="display:flex;">
-  <div style="height:10%;width:80%;padding-right: 40px;">
+  <div style="height:10%;width:60%;padding-right: 40px;">
     <img src="../images/publications/monovit.png" alt="monovit">
   </div>
   <div style="width:100%;">
@@ -187,7 +187,7 @@ Full publication list on <a href="https://scholar.google.com/citations?user=5-UO
 </div>
 
 <div style="display:flex;">
-  <div style="width:80%;padding-right: 40px;">
+  <div style="width:60%;padding-right: 40px;">
     <img src="../images/publications/xnerf.png" alt="xnerf">
   </div>
   <div style="width:100%;">
@@ -205,7 +205,7 @@ Cross-Spectral Neural Radiance Fields</papertitle> </a><br>
 
 
 <div style="display:flex;">
-  <div style="width:80%;padding-right: 40px;">
+  <div style="width:60%;padding-right: 40px;">
     <img src="../images/publications/booster.png" alt="Booster">
   </div>
   <div style="width:100%;">
@@ -220,7 +220,7 @@ Open Challenges in Deep Stereo: the Booster Dataset</papertitle> </a><br>
 </div>
 
 <div style="display:flex;">
-  <div style="width:80%;padding-right: 40px;">
+  <div style="width:60%;padding-right: 40px;">
     <img src="../images/publications/rgb-ms.png" alt="rgb-ms">
   </div>
   <div style="width:100%;">
@@ -236,7 +236,7 @@ RGB-Multispectral Matching: Dataset, Learning Methodology, Evaluation</papertitl
 
 
 <div style="display:flex;">
-  <div style="width:80%;padding-right: 40px;">
+  <div style="width:60%;padding-right: 40px;">
     <img src="../images/publications/stereo_survey.png" alt="rgb-ms">
   </div>
   <div style="width:100%;">
@@ -253,7 +253,7 @@ On the Synergies Between Machine Learning and Binocular Stereo for Depth Estimat
 
 
 <div style="display:flex;">
-  <div style="height:10%;width:80%;padding-right: 40px;">
+  <div style="height:10%;width:60%;padding-right: 40px;">
     <img src="../images/publications/smdnets.png" alt="SMD-Nets">
   </div>
   <div style="width:100%;">
@@ -269,7 +269,7 @@ On the Synergies Between Machine Learning and Binocular Stereo for Depth Estimat
 
 
 <div style="display:flex;">
-  <div style="width:80%;padding-right: 40px;">
+  <div style="width:60%;padding-right: 40px;">
     <img src="../images/publications/omeganet.png" alt="omeganet">
   </div>
   <div style="width:100%;">
@@ -284,7 +284,7 @@ On the Synergies Between Machine Learning and Binocular Stereo for Depth Estimat
 </div>
 
 <div style="display:flex;">
-  <div style="width:80%;padding-right: 40px;">
+  <div style="width:60%;padding-right: 40px;">
     <img src="../images/publications/monoresmatch.png" alt="monoresmatch">
   </div>
   <div style="width:100%;">
@@ -300,7 +300,7 @@ On the Synergies Between Machine Learning and Binocular Stereo for Depth Estimat
 
 
 <div style="display:flex;">
-  <div style="width:80%;padding-right: 40px;">
+  <div style="width:60%;padding-right: 40px;">
     <img src="../images/publications/adaptation2019.png" alt="adaptation2019">
   </div>
   <div style="width:100%;">
@@ -317,7 +317,7 @@ On the Synergies Between Machine Learning and Binocular Stereo for Depth Estimat
 
 
 <div style="display:flex;">
-  <div style="width:80%;padding-right: 40px;">
+  <div style="width:60%;padding-right: 40px;">
     <img src="../images/publications/guided.png" alt="guided">
   </div>
   <div style="width:100%;">
@@ -332,7 +332,7 @@ On the Synergies Between Machine Learning and Binocular Stereo for Depth Estimat
 </div> 
 
 <div style="display:flex;">
-  <div style="width:80%;padding-right: 40px;">
+  <div style="width:60%;padding-right: 40px;">
     <img src="../images/publications/reversing.png" alt="reversing">
   </div>
   <div style="width:100%;">
