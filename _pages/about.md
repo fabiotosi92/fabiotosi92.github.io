@@ -25,7 +25,7 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
 
 <ul>
   <li>
-    <strong>02/2023</strong> 1 paper accepted at CVPR 2023 this year! 
+    <strong>02/2023</strong> Our paper <a href="https://nerfstereo.github.io/">NeRF-Supervised Deep Stereo</a> has been accepted at CVPR 2023! 
   </li>
   <li>
     <strong>02/2023</strong> I received my <a href="https://asn21.cineca.it/pubblico/miur/esito/09%252FH1/2/4">National Scientific Habilitation</a> (09/H1)
@@ -147,7 +147,7 @@ Full publication list on <a href="https://scholar.google.com/citations?user=5-UO
     <a href="https://nerfstereo.github.io/"><papertitle>NeRF-Supervised Deep Stereo</papertitle></a><br> 
     <strong>Fabio Tosi</strong>, <a href="https://alessiotonioni.github.io/">Alessio Tonioni</a>, <a href="https://www.eyecan.ai/">Daniele De Gregorio</a>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>   <br>
     <i>Conference on Computer Vision and Pattern Recognition</i> (<strong>CVPR</strong>), 2023  <br>
-    <a href="https://nerfstereo.github.io/">project page</a>  | <a href="https://github.com/fabiotosi92/NeRF-Supervised-Deep-Stereo">code</a> 
+    <a href="https://nerfstereo.github.io/">project page</a>  | <a href="https://arxiv.org/pdf/2303.17603.pdf">paper</a> | <a href="https://github.com/fabiotosi92/NeRF-Supervised-Deep-Stereo/raw/main/assets/Tosi_et_al_CVPR2023_supplementary.pdf">supplementary</a> | <a href="https://github.com/fabiotosi92/NeRF-Supervised-Deep-Stereo">code</a> |
 
 
   <br><br>
