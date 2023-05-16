@@ -25,6 +25,9 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
 
 <ul>
   <li>
+    <strong>05/2023</strong> It is with great pleasure that I announce my achievement as an <strong>Outstanding Reviewer</strong> at CVPR 2023!
+  </li>
+  <li>
     <strong>02/2023</strong> Our paper <a href="https://nerfstereo.github.io/">NeRF-Supervised Deep Stereo</a> has been accepted at CVPR 2023! 
   </li>
   <li>
