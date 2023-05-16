@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-Currently, I am a postdoctoral researcher at the Department of Computer Science and Engineering (DISI) at the <a href="https://www.unibo.it/it"> University of Bologna </a>. My research interests are in computer vision and machine learning, with a particular focus on 3D reconstruction from images.
+Currently, I am a postdoctoral researcher at the Department of Computer Science and Engineering (DISI) at the <a href="https://www.unibo.it/it"> University of Bologna</a>, and I also serve as an Adjunct Professor for the Fundamentals of Computer Science course at the Department of Electrical, Electronic, and Information Engineering "Guglielmo Marconi". My research interests are in computer vision and machine learning, with a particular focus on 3D reconstruction from images.
 
 In 2021, I received my PhD degree from the University of Bologna under the supervision of Professor <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html"> Stefano Mattoccia</a>. Previously, I received a Master's and Bachelor's degree in Computer Engineering in 2017 and 2014, respectively.
 
