@@ -20,16 +20,16 @@ In 2022, I was awarded the <a href="https://www.cvpl.it/en/awards/#miglior_tesi_
 You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/files/Fabio_Tosi_s_CV.pdf)! (05/06/2023)
 
 
-
 ## News!
 
 <ul>
   <li>
-    <strong>05/2023</strong> It is with great pleasure that I announce my achievement as an <strong>Outstanding Reviewer</strong> at CVPR 2023!
+    <strong>05/2023</strong> It is with great pleasure that I announce my achievement as an <strong>Outstanding Reviewer</strong> at CVPR 2023! (<a href='http://fabiotosi92.github.io/files/cvpr23_outstanding_certificate.pdf'>Award Certificate</a>)
   </li>
   <li>
-    <strong>02/2023</strong> Our paper <a href="https://nerfstereo.github.io/">NeRF-Supervised Deep Stereo</a> has been accepted at CVPR 2023! 
+    <strong>02/2023</strong> Our paper <a href='https://nerfstereo.github.io/'>NeRF-Supervised Deep Stereo</a> has been accepted at CVPR 2023! 
   </li>
+
   <li>
     <strong>02/2023</strong> I received my <a href="https://asn21.cineca.it/pubblico/miur/esito/09%252FH1/2/4">National Scientific Habilitation</a> (09/H1)
   </li>
