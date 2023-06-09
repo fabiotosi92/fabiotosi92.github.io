@@ -154,7 +154,7 @@ Full publication list on <a href="https://scholar.google.com/citations?user=5-UO
     <a href="https://nerfstereo.github.io/"><papertitle>NeRF-Supervised Deep Stereo</papertitle></a> - <reddish> NEW!</reddish> <br> 
     <strong>Fabio Tosi</strong>, <a href="https://alessiotonioni.github.io/">Alessio Tonioni</a>, <a href="https://www.eyecan.ai/">Daniele De Gregorio</a>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>   <br>
     <i>Conference on Computer Vision and Pattern Recognition</i> (<strong>CVPR</strong>), 2023  <br>
-    <a href="https://nerfstereo.github.io/">project page</a>  | <a href="https://arxiv.org/pdf/2303.17603.pdf">paper</a> | <a href="https://github.com/fabiotosi92/NeRF-Supervised-Deep-Stereo/raw/main/assets/Tosi_et_al_CVPR2023_supplementary.pdf">supplementary</a> | <a href="https://github.com/fabiotosi92/NeRF-Supervised-Deep-Stereo">code</a> 
+    <a href="https://nerfstereo.github.io/">project page</a>  | <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Tosi_NeRF-Supervised_Deep_Stereo_CVPR_2023_paper.pdf">paper</a> | <a href="https://github.com/fabiotosi92/NeRF-Supervised-Deep-Stereo/raw/main/assets/Tosi_et_al_CVPR2023_supplementary.pdf">supplementary</a> | <a href="https://github.com/fabiotosi92/NeRF-Supervised-Deep-Stereo">code</a> | <a href="https://amsacta.unibo.it/id/eprint/7218/">dataset</a> | <a href="https://www.youtube.com/watch?v=m7dqHkxb4yg&feature=youtu.be">video</a>
 
 
   <br><br>
