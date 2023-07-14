@@ -24,6 +24,9 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
 
 <ul>
   <li>
+    <strong>07/2023</strong>  Our team rocks! 4 ICCV papers accepted at ICCV 2023! &#128640 &#128640 &#128640 &#128640
+  </li>
+  <li>
     <strong>05/2023</strong> It is with great pleasure that I announce my achievement as an <strong>Outstanding Reviewer</strong> at CVPR 2023! (<a href='http://fabiotosi92.github.io/files/cvpr23_outstanding_certificate.pdf'>Award Certificate</a>)
   </li>
   <li>
@@ -34,7 +37,7 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
     <strong>02/2023</strong> I received my <a href="https://asn21.cineca.it/pubblico/miur/esito/09%252FH1/2/4">National Scientific Habilitation</a> (09/H1)
   </li>
   <li>
-    <strong>11/2022</strong> <a href="https://www.cvpl.it/en/awards/#miglior_tesi_dottorato">Best PhD Thesis Award</a>, Italian Association for Computer Vision Research (CVPL 2022)
+    <strong>11/2022</strong> 🏆 Celebrating the recognition of the <a href="https://www.cvpl.it/en/awards/#miglior_tesi_dottorato">Best PhD Thesis Award</a> from the Italian Association for Computer Vision Research (CVPL 2022)
   </li>
   <li>
     <strong>02/2022</strong> 2 papers accepted at 3DV 2022. 
