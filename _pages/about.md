@@ -24,7 +24,7 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
 
 <ul>
   <li>
-    <strong>07/2023</strong>  Our team rocks! 4 ICCV papers accepted at ICCV 2023! &#128640; &#128640; &#128640; &#128640;
+    <strong>07/2023</strong>  Our team rocks! 4 papers accepted at ICCV 2023! &#128640; &#128640; &#128640; &#128640;
   </li>
   <li>
     <strong>05/2023</strong> It is with great pleasure that I announce my achievement as an <strong>Outstanding Reviewer</strong> at CVPR 2023! (<a href='http://fabiotosi92.github.io/files/cvpr23_outstanding_certificate.pdf'>Award Certificate</a>)
