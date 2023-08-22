@@ -24,6 +24,9 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
 
 <ul>
   <li>
+    <strong>08/2023</strong>  2 papers accepted at BMVC 2023!
+  </li>
+  <li>
     <strong>07/2023</strong>  Our team rocks! 4 papers accepted at ICCV 2023! &#128640; &#128640; &#128640; &#128640;
   </li>
   <li>
