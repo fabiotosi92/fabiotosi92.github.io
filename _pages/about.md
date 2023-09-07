@@ -151,17 +151,32 @@ Resolution Stereo" </strong>
 Full publication list on <a href="https://scholar.google.com/citations?user=5-UOaQkAAAAJ&hl=it"> Google Scholar</a> <br>
 *indicates joint first authorship
 
+<div style="display:flex;">
+  <div style="height:10%;width:60%;padding-right: 40px">
+    <img src="../images/publications/goslam.png" alt="stereonerf">
+  </div>
+  <div style="width:100%;">
+    <a href="https://youmi-zym.github.io/projects/GO-SLAM/"><papertitle>GO-SLAM        
+Global Optimization for Consistent 3D Instant Reconstruction</papertitle></a> - <reddish> NEW!</reddish> <br> 
+    <a href="https://youmi-zym.github.io/">Youmin Zhang</a>, <strong>Fabio Tosi</strong>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>   <br>
+    <i>International Conference on Computer Vision</i> (<strong>ICCV</strong>), 2023  <br>
+    <a href="https://youmi-zym.github.io/projects/GO-SLAM/">project page</a>  | <a href="https://arxiv.org/pdf/2309.02436.pdf">paper</a> | <a href="https://github.com/youmi-zym/GO-SLAM">code</a> 
+
+  <br><br>
+
+  </div>
+</div>
+
 
 <div style="display:flex;">
   <div style="height:10%;width:60%;padding-right: 40px">
     <img src="../images/publications/stereonerf.png" alt="stereonerf">
   </div>
   <div style="width:100%;">
-    <a href="https://nerfstereo.github.io/"><papertitle>NeRF-Supervised Deep Stereo</papertitle></a> - <reddish> NEW!</reddish> <br> 
+    <a href="https://nerfstereo.github.io/"><papertitle>NeRF-Supervised Deep Stereo</papertitle></a> <br> 
     <strong>Fabio Tosi</strong>, <a href="https://alessiotonioni.github.io/">Alessio Tonioni</a>, <a href="https://www.eyecan.ai/">Daniele De Gregorio</a>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>   <br>
     <i>Conference on Computer Vision and Pattern Recognition</i> (<strong>CVPR</strong>), 2023  <br>
     <a href="https://nerfstereo.github.io/">project page</a>  | <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Tosi_NeRF-Supervised_Deep_Stereo_CVPR_2023_paper.pdf">paper</a> | <a href="https://github.com/fabiotosi92/NeRF-Supervised-Deep-Stereo/raw/main/assets/Tosi_et_al_CVPR2023_supplementary.pdf">supplementary</a> | <a href="https://github.com/fabiotosi92/NeRF-Supervised-Deep-Stereo">code</a> | <a href="https://amsacta.unibo.it/id/eprint/7218/">dataset</a> | <a href="https://www.youtube.com/watch?v=m7dqHkxb4yg&feature=youtu.be">video</a>
-
 
   <br><br>
 
