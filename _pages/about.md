@@ -170,6 +170,21 @@ Global Optimization for Consistent 3D Instant Reconstruction</papertitle></a> - 
 
 <div style="display:flex;">
   <div style="height:10%;width:60%;padding-right: 40px">
+    <img src="../images/publications/vpp.png" alt="vpp">
+  </div>
+  <div style="width:100%;">
+    <a href="https://youmi-zym.github.io/projects/GO-SLAM/"><papertitle>Active Stereo Without Pattern Projector</papertitle></a> - <reddish> NEW!</reddish> <br> 
+    <a href="https://bartn8.github.io/">Luca Bartolomei</a>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, <strong>Fabio Tosi</strong>, <a href="https://andreaconti.github.io//">Andrea Conti</a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>  <br>
+    <i>International Conference on Computer Vision</i> (<strong>ICCV</strong>), 2023  <br>
+    <a href="https://vppstereo.github.io/">project page</a>  | <a href="">paper</a> | <a href="https://github.com/bartn8/vppstereo">code</a> 
+
+  <br><br>
+
+  </div>
+</div>
+
+<div style="display:flex;">
+  <div style="height:10%;width:60%;padding-right: 40px">
     <img src="../images/publications/stereonerf.png" alt="stereonerf">
   </div>
   <div style="width:100%;">
