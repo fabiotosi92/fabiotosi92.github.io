@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-Currently, I am a postdoctoral researcher at the Department of Computer Science and Engineering (DISI) at the <a href="https://www.unibo.it/it"> University of Bologna</a>, and I also serve as an Adjunct Professor for the Fundamentals of Computer Science course at the Department of Electrical, Electronic, and Information Engineering "Guglielmo Marconi". My research interests are in computer vision and machine learning, with a particular focus on 3D reconstruction from images.
+Currently, I am a Junior Assistant Professor (RTDA) at the Department of Computer Science and Engineering (DISI) at the <a href="https://www.unibo.it/it"> University of Bologna</a>, and I also serve as an Adjunct Professor for the Fundamentals of Computer Science course at the Department of Electrical, Electronic, and Information Engineering "Guglielmo Marconi". My research interests are in computer vision and machine learning, with a particular focus on 3D reconstruction from images.
 
 In 2021, I received my PhD degree from the University of Bologna under the supervision of Professor <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html"> Stefano Mattoccia</a>. Previously, I received a Master's and Bachelor's degree in Computer Engineering in 2017 and 2014, respectively.
 
@@ -24,7 +24,13 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
 
 <ul>
   <li>
-    <strong>08/2023</strong>  2 papers accepted at BMVC 2023!
+    <strong>10/2023</strong> I am proud to announce my new role as a <strong>Junior Assistant Professor (RTDA)</strong> at the Department of Computer Science and Engineering (DISI)!
+  </li>
+  <li>
+    <strong>10/2023</strong> 1 TPAMI paper accepted!
+  </li>
+  <li>
+    <strong>08/2023</strong>  2 papers accepted at BMVC 2023! (1 Oral)
   </li>
   <li>
     <strong>07/2023</strong>  Our team rocks! 4 papers accepted at ICCV 2023! &#128640; &#128640; &#128640; &#128640;
