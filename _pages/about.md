@@ -27,7 +27,13 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
     <strong>10/2023</strong> I am proud to announce my new role as a <strong>Junior Assistant Professor (RTDA)</strong> at the Department of Computer Science and Engineering (DISI)!
   </li>
   <li>
-    <strong>10/2023</strong> 1 TPAMI paper accepted!
+    <strong>10/2023</strong> We are excited to announce that our extended version of <a href='https://cvlab-unibo.github.io/booster-web/'>Booster</a> has been officially accepted for publication in the TPAMI journal!
+  </li>
+  <li>
+     	<strong>10/2023</strong> 1 paper accepted to 3DV 2024! 
+  </li>
+  <li>
+     	<strong>10/2023</strong> 2 papers accepted to NN and CVIU journals! 
   </li>
   <li>
     <strong>08/2023</strong>  2 papers accepted at BMVC 2023! (1 Oral)
