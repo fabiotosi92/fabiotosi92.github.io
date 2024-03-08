@@ -42,15 +42,6 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
     <strong>10/2023</strong> We are excited to announce that our extended version of <a href='https://cvlab-unibo.github.io/booster-web/'>Booster</a> has been officially accepted for publication in the TPAMI journal!
   </li>
   <li>
-     	<strong>10/2023</strong> 1 paper accepted to 3DV 2024! 
-  </li>
-  <li>
-     	<strong>10/2023</strong> 2 papers accepted to NN and CVIU journals! 
-  </li>
-  <li>
-    <strong>08/2023</strong>  2 papers accepted at BMVC 2023! (1 Oral)
-  </li>
-  <li>
     <strong>07/2023</strong>  Our team rocks! 4 papers accepted at ICCV 2023! &#128640; &#128640; &#128640; &#128640;
   </li>
   <li>
@@ -65,12 +56,6 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
   </li>
   <li>
     <strong>11/2022</strong> 🏆 Celebrating the recognition of the <a href="https://www.cvpl.it/en/awards/#miglior_tesi_dottorato">Best PhD Thesis Award</a> from the Italian Association for Computer Vision Research (CVPL 2022)
-  </li>
-  <li>
-    <strong>02/2022</strong> 2 papers accepted at 3DV 2022. 
-  </li>
-  <li>
-    <strong>02/2022</strong> 2 papers accepted at CVPR 2022 this year!
   </li>
   <li>
     <strong>11/2021</strong> Proof of Concept d’Ateneo, PoC UNIBO 3rd edition (Principal Investigator, PI)
