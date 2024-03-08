@@ -165,7 +165,7 @@ Full publication list on <a href="https://scholar.google.com/citations?user=5-UO
     <img src="../images/publications/slam_survey.png" alt="slam_survey">
   </div>
   <div style="width:100%;">
-    <a href="Martin R. Oswald"><papertitle>How NeRFs and 3D Gaussian Splatting are
+    <a href="https://arxiv.org/pdf/2402.13255.pdf"><papertitle>How NeRFs and 3D Gaussian Splatting are
 Reshaping SLAM: a Survey</papertitle></a> - <reddish> NEW!</reddish> <br> 
     <strong>Fabio Tosi</strong>, <a href="https://youmi-zym.github.io/">Youmin Zhang</a>, <a href="https://zorangong.github.io/"> Ziren Gong</a>, Erik Sandström,  <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>, <a href="https://cvg.ethz.ch/team/Dr-Martin-R-Oswald"> Martin R. Oswald</a>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>   <br>
     <a href="https://arxiv.org/pdf/2402.13255.pdf">paper</a> (arXiv - Pre-print, 2024)
