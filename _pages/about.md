@@ -30,7 +30,10 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
       <strong>02/2024</strong> Our paper, <a href='https://arxiv.org/pdf/2402.13255'>"How NeRFs and 3D Gaussian Splatting are Reshaping SLAM: a Survey"</a> is now available! Check it out on arXiv!
   </li>
   <li>
-      <strong>01/2024</strong> &#128226;&#128226;&#128226; Our workshop, <a href='https://jspenmar.github.io/MDEC/'>"MDEC - (3rd) Monocular Depth Estimation Challenge"</a>  is officially part of CVPR 2024! 
+      <strong>01/2024</strong> &#128226;&#128226;&#128226; Our workshop, <a href='https://jspenmar.github.io/MDEC/'>"MDEC - (3rd) Monocular Depth Estimation Challenge"</a>  is officially part of CVPR 2024! Check the <a href='https://codalab.lisn.upsaclay.fr/competitions/17161'>challenge!</a>
+  </li>
+  <li>
+      <strong>02/2024</strong> &#128680;&#128680;&#128680; The <a href='https://cvlab-unibo.github.io/booster-web/ntire24.html'>2nd NTIRE challenge</a> (CVPR 2024)  is now live! 
   </li>
   <li>
     <strong>10/2023</strong> I am proud to announce my new role as a <strong>Junior Assistant Professor (RTDA)</strong> at the Department of Computer Science and Engineering (DISI)!
