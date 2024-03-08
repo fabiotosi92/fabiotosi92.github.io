@@ -17,7 +17,7 @@ In 2020, I was a <a href="https://is.mpg.de/person/ftosi"> visiting PhD student 
 
 In 2022, I was awarded the <a href="https://www.cvpl.it/en/awards/#miglior_tesi_dottorato"> best PhD thesis </a> by the <a href="https://www.cvpl.it/"> Italian Association for Research in Computer Vision, Pattern Recognition and Machine Learning (CVPL)</a>.
 
-You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/files/Fabio_Tosi_s_CV.pdf)! (29/11/2023)
+You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/files/Fabio_Tosi_s_CV.pdf)! (08/03/2023)
 
 
 ## News!
@@ -174,11 +174,26 @@ Full publication list on <a href="https://scholar.google.com/citations?user=5-UO
 
 <div style="display:flex;">
   <div style="height:10%;width:60%;padding-right: 40px">
+    <img src="../images/publications/slam_survey.png" alt="slam_survey">
+  </div>
+  <div style="width:100%;">
+    <a href="Martin R. Oswald"><papertitle>How NeRFs and 3D Gaussian Splatting are
+Reshaping SLAM: a Survey</papertitle></a> - <reddish> NEW!</reddish> <br> 
+    <strong>Fabio Tosi</strong>, <a href="https://youmi-zym.github.io/">Youmin Zhang</a>, <a href="https://zorangong.github.io/"> Ziren Gong</a>, Erik Sandström,  <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>, <a href="https://cvg.ethz.ch/team/Dr-Martin-R-Oswald"> Martin R. Oswald</a>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>   <br>
+    <a href="https://arxiv.org/pdf/2402.13255.pdf">paper</a> (arXiv - Pre-print</i>, 2024)
+
+  <br><br>
+
+  </div>
+</div>
+
+<div style="display:flex;">
+  <div style="height:10%;width:60%;padding-right: 40px">
     <img src="../images/publications/goslam.png" alt="stereonerf">
   </div>
   <div style="width:100%;">
     <a href="https://youmi-zym.github.io/projects/GO-SLAM/"><papertitle>GO-SLAM        
-Global Optimization for Consistent 3D Instant Reconstruction</papertitle></a> - <reddish> NEW!</reddish> <br> 
+Global Optimization for Consistent 3D Instant Reconstruction</papertitle></a> <br> 
     <a href="https://youmi-zym.github.io/">Youmin Zhang</a>, <strong>Fabio Tosi</strong>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>   <br>
     <i>International Conference on Computer Vision</i> (<strong>ICCV</strong>), 2023  <br>
     <a href="https://youmi-zym.github.io/projects/GO-SLAM/">project page</a>  | <a href="https://arxiv.org/pdf/2309.02436.pdf">paper</a> | <a href="https://github.com/youmi-zym/GO-SLAM">code</a> 
