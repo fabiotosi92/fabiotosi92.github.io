@@ -24,6 +24,12 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
 
 <ul>
   <li>
+      <strong>04/2024</strong>   The <a href='https://arxiv.org/pdf/2402.13255'>"Awesome-Deep-Stereo-Matching"</a> repository is live! &#128640; 
+  </li>
+    <li>
+      <strong>04/2024</strong>   3 workshops accepted for ECCV 2024! Stay tuned!
+  </li>
+  <li>
       <strong>02/2024</strong> 1 paper accepted to CVPR 2024!
   </li>
   <li>
