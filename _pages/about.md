@@ -24,6 +24,9 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
 
 <ul>
   <li>
+    <strong>05/2024</strong> Honored to be recognized as a <strong>Outstanding Reviewer</strong> at CVPR 2024!
+  </li>
+  <li>
       <strong>04/2024</strong>   The <a href='https://github.com/fabiotosi92/Awesome-Deep-Stereo-Matching'>"Awesome-Deep-Stereo-Matching"</a> repository is live! &#128640; 
   </li>
     <li>
