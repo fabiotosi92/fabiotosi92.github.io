@@ -24,6 +24,9 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
 
 <ul>
   <li>
+    <strong>06/2024</strong> Our extended version of <a href='https://github.com/CVLAB-Unibo/neural-disparity-refinement'>Neural Disparity Refinement</a> has been accepted for publication in the TPAMI journal!
+  </li>
+  <li>
     <strong>05/2024</strong> Honored to be recognized as a <strong>Outstanding Reviewer</strong> at CVPR 2024!
   </li>
   <li>
