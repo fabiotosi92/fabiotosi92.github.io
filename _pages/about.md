@@ -24,7 +24,7 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
 
 <ul>
   <li>
-    <strong>06/2024</strong> : Our <strong>CVPR tutorial</strong> on deep stereo matching is now available! Get all the insights <a href='https://sites.google.com/view/stereo-twenties'>here</a>!
+    <strong>06/2024</strong> Our <strong>CVPR tutorial</strong> on deep stereo matching is now available! Get all the insights <a href='https://sites.google.com/view/stereo-twenties'>here</a>!
   </li>
   <li>
     <strong>06/2024</strong> Our extended version of <a href='https://github.com/CVLAB-Unibo/neural-disparity-refinement'>Neural Disparity Refinement</a> has been accepted for publication in the TPAMI journal!
