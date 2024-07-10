@@ -24,6 +24,9 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
 
 <ul>
   <li>
+      <strong>07/2024</strong> 1 paper accepted to ECCV 2024!
+  </li>
+  <li>
     <strong>06/2024</strong> Our <strong>CVPR tutorial</strong> on deep stereo matching is now available! Get all the insights <a href='https://sites.google.com/view/stereo-twenties'>here</a>!
   </li>
   <li>
@@ -45,16 +48,10 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
       <strong>02/2024</strong> Our paper, <a href='http://fabiotosi92.github.io/files/survey-slam.pdf'>"How NeRFs and 3D Gaussian Splatting are Reshaping SLAM: a Survey"</a> is now available! Check it out on arXiv!
   </li>
   <li>
-      <strong>01/2024</strong> &#128226;&#128226;&#128226; Our workshop, <a href='https://jspenmar.github.io/MDEC/'>"MDEC - (3rd) Monocular Depth Estimation Challenge"</a>  is officially part of CVPR 2024! Check the <a href='https://codalab.lisn.upsaclay.fr/competitions/17161'>challenge!</a>
-  </li>
-  <li>
-      <strong>02/2024</strong> &#128680;&#128680;&#128680; The <a href='https://cvlab-unibo.github.io/booster-web/ntire24.html'>2nd NTIRE challenge</a> (CVPR 2024)  is now live! 
-  </li>
-  <li>
     <strong>10/2023</strong> I am proud to announce my new role as a <strong>Junior Assistant Professor (RTDA)</strong> at the Department of Computer Science and Engineering (DISI)!
   </li>
   <li>
-    <strong>10/2023</strong> We are excited to announce that our extended version of <a href='https://cvlab-unibo.github.io/booster-web/'>Booster</a> has been officially accepted for publication in the TPAMI journal!
+    <strong>10/2023</strong> Our extended version of <a href='https://cvlab-unibo.github.io/booster-web/'>Booster</a> has been officially accepted for publication in the TPAMI journal!
   </li>
   <li>
     <strong>07/2023</strong>  Our team rocks! 4 papers accepted at ICCV 2023! &#128640; &#128640; &#128640; &#128640;
@@ -63,17 +60,10 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
     <strong>05/2023</strong> It is with great pleasure that I announce my achievement as an <strong>Outstanding Reviewer</strong> at CVPR 2023! (<a href='http://fabiotosi92.github.io/files/cvpr23_outstanding_certificate.pdf'>Award Certificate</a>)
   </li>
   <li>
-    <strong>02/2023</strong> Our paper <a href='https://nerfstereo.github.io/'>NeRF-Supervised Deep Stereo</a> has been accepted at CVPR 2023! 
-  </li>
-
-  <li>
     <strong>02/2023</strong> I received my <a href="https://asn21.cineca.it/pubblico/miur/esito/09%252FH1/2/4">National Scientific Habilitation</a> (09/H1)
   </li>
   <li>
     <strong>11/2022</strong> 🏆 Celebrating the recognition of the <a href="https://www.cvpl.it/en/awards/#miglior_tesi_dottorato">Best PhD Thesis Award</a> from the Italian Association for Computer Vision Research (CVPL 2022)
-  </li>
-  <li>
-    <strong>11/2021</strong> Proof of Concept d’Ateneo, PoC UNIBO 3rd edition (Principal Investigator, PI)
   </li>
   <li>
     <strong>09/2021</strong> <a href="https://3dv2021.surrey.ac.uk/prizes/">Best Paper Honorable Mention</a> to our work <strong>“Neural Disparity Refinement for Arbitrary
