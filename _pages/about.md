@@ -24,6 +24,9 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
 
 <ul>
   <li>
+      <strong>07/2024</strong>  Our latest paper, <a href='https://arxiv.org/pdf/2407.07816'>"A Survey on Deep Stereo Matching in the Twenties"</a>,  is up on arXiv!
+  </li>
+  <li>
       <strong>07/2024</strong> 1 paper accepted to ECCV 2024!
   </li>
   <li>
