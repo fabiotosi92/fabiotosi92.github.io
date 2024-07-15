@@ -24,7 +24,7 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
 
 <ul>
   <li>
-      <strong>07/2024</strong>  Our latest paper, <a href='https://arxiv.org/pdf/2407.07816'>"A Survey on Deep Stereo Matching in the Twenties"</a>,  is up on arXiv!
+      <strong>07/2024</strong>  Our latest paper, <a href='https://fabiotosi92.github.io/files/survey-stereo.pdf'>"A Survey on Deep Stereo Matching in the Twenties"</a>,  is up on arXiv!
   </li>
   <li>
       <strong>07/2024</strong> 1 paper accepted to ECCV 2024!
@@ -39,7 +39,7 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
     <strong>05/2024</strong> Honored to be recognized as a <strong>Outstanding Reviewer</strong> at CVPR 2024!
   </li>
   <li>
-      <strong>04/2024</strong>   The <a href='http://fabiotosi92.github.io/files/survey-stereo.pdf'>"Awesome-Deep-Stereo-Matching"</a> repository is live! &#128640; 
+      <strong>04/2024</strong>   The <a href='https://github.com/fabiotosi92/Awesome-Deep-Stereo-Matching'>"Awesome-Deep-Stereo-Matching"</a> repository is live! &#128640; 
   </li>
     <li>
       <strong>04/2024</strong>   3 workshops accepted for ECCV 2024! Stay tuned!
