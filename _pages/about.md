@@ -24,10 +24,15 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
 
 <ul>
   <li>
-      <strong>07/2024</strong>  Our latest paper, <a href='https://fabiotosi92.github.io/files/survey-stereo.pdf'>"A Survey on Deep Stereo Matching in the Twenties"</a>,  is up on arXiv!
+      <strong>07/2024</strong> Our paper <a href='https://diffusion4robustdepth.github.io/'>"Diffusion Models for Monocular Depth
+Estimation"</a> has been accepted at ECCV 2024!
   </li>
   <li>
-      <strong>07/2024</strong> 1 paper accepted to ECCV 2024!
+      <strong>07/2024</strong>  Our latest paper, <a href='https://fabiotosi92.github.io/files/survey-stereo.pdf'>"A Survey on Deep Stereo Matching in the Twenties"</a>,  is up on arXiv!
+  </li>
+
+  <li>
+      <strong>07/2024</strong>  1 accepted to BMVC 2024!
   </li>
   <li>
     <strong>06/2024</strong> Our <strong>CVPR tutorial</strong> on deep stereo matching is now available! Get all the insights <a href='https://sites.google.com/view/stereo-twenties'>here</a>!
@@ -170,11 +175,43 @@ Full publication list on <a href="https://scholar.google.com/citations?user=5-UO
 
 <div style="display:flex;">
   <div style="height:10%;width:60%;padding-right: 40px">
+    <img src="../images/publications/overcoming_challenging.png" alt="slam_survey">
+  </div>
+  <div style="width:100%;">
+    <a href="https://raw.githubusercontent.com/fabiotosi92/Diffusion4RobustDepth/main/assets/main.pdf"><papertitle>Diffusion Models for Monocular Depth
+Estimation: Overcoming Challenging Conditions</papertitle></a> - <reddish> NEW!</reddish> <br> 
+    <strong>Fabio Tosi</strong>, <a href="https://pierlui92.github.io//">Pierluigi Zama Ramirez</a>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>   <br>
+    <a href="https://diffusion4robustdepth.github.io/">project page</a>  | <a href="https://raw.githubusercontent.com/fabiotosi92/Diffusion4RobustDepth/main/assets/main.pdf">paper</a> | <a href="https://github.com/fabiotosi92/Diffusion4RobustDepth">code</a> 
+
+  <br><br>
+
+  </div>
+</div>
+
+
+<div style="display:flex;">
+  <div style="height:10%;width:60%;padding-right: 40px">
+    <img src="../images/publications/federated.png" alt="slam_survey">
+  </div>
+  <div style="width:100%;">
+    <a href="https://mattpoggi.github.io/assets/papers/poggi2024cvpr.pdf"><papertitle>Federated Online Adaptation
+for Deep Stereo </papertitle></a>  <br> 
+    <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, <strong>Fabio Tosi</strong>   <br>
+    <a href="https://fedstereo.github.io/">project page</a>  | <a href="https://mattpoggi.github.io/assets/papers/poggi2024cvpr.pdf">paper</a> | <a href="https://github.com/mattpoggi/fedstereo">code</a> 
+
+  <br><br>
+
+  </div>
+</div>
+
+
+<div style="display:flex;">
+  <div style="height:10%;width:60%;padding-right: 40px">
     <img src="../images/publications/slam_survey.png" alt="slam_survey">
   </div>
   <div style="width:100%;">
     <a href="https://arxiv.org/pdf/2402.13255.pdf"><papertitle>How NeRFs and 3D Gaussian Splatting are
-Reshaping SLAM: a Survey</papertitle></a> - <reddish> NEW!</reddish> <br> 
+Reshaping SLAM: a Survey</papertitle></a> <br> 
     <strong>Fabio Tosi</strong>, <a href="https://youmi-zym.github.io/">Youmin Zhang</a>, <a href="https://zorangong.github.io/"> Ziren Gong</a>, Erik Sandström,  <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>, <a href="https://cvg.ethz.ch/team/Dr-Martin-R-Oswald"> Martin R. Oswald</a>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>   <br>
     <a href="https://arxiv.org/pdf/2402.13255.pdf">paper</a> (arXiv - Pre-print, 2024)
 
