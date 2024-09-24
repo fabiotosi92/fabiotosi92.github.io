@@ -24,6 +24,9 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
 
 <ul>
   <li>
+    <strong>09/2024</strong> Honored to be recognized as a <strong>Outstanding Reviewer</strong> at ECCV 2024!
+  </li>
+  <li>
       <strong>07/2024</strong> Our paper <a href='https://diffusion4robustdepth.github.io/'>"Diffusion Models for Monocular Depth
 Estimation"</a> has been accepted at ECCV 2024!
   </li>
