@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-Currently, I am a Junior Assistant Professor (RTDA) at the Department of Computer Science and Engineering (DISI) at the <a href="https://www.unibo.it/it"> University of Bologna</a>. As part of my role, I teach Module 2 of the Digital Systems M course in Computer Engineering at the University of Bologna. I also serve as an Adjunct Professor for the Fundamentals of Computer Science course at the Department of Electrical, Electronic, and Information Engineering "Guglielmo Marconi". My research interests are in computer vision and machine learning, with a particular focus on 3D reconstruction from images.
+Currently, I am a Junior Assistant Professor (RTDA) at the Department of Computer Science and Engineering (DISI) at the <a href="https://www.unibo.it/it"> University of Bologna</a>. As part of my role, I teach Module 2 of the Digital Systems M course in Computer Engineering at the University of Bologna, where I cover CUDA programming. I also serve as an Adjunct Professor for the Fundamentals of Computer Science course at the Department of Electrical, Electronic, and Information Engineering "Guglielmo Marconi". My research interests are in computer vision and machine learning, with a particular focus on 3D reconstruction from images.
 
 In 2021, I received my PhD degree from the University of Bologna under the supervision of Professor <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html"> Stefano Mattoccia</a>. Previously, I received a Master's and Bachelor's degree in Computer Engineering in 2017 and 2014, respectively.
 
@@ -24,6 +24,9 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
 
 <ul>
   <li>
+      <strong>07/2024</strong>  1 paper accepted to WACV 2025!
+  </li>
+  <li>
     <strong>09/2024</strong> Grateful for the <strong>Outstanding Reviewer</strong> recognition at ECCV 2024!
   </li>
   <li>
@@ -35,7 +38,7 @@ Estimation"</a> has been accepted at ECCV 2024!
   </li>
 
   <li>
-      <strong>07/2024</strong>  1 accepted to BMVC 2024!
+      <strong>07/2024</strong>  1 paper accepted to BMVC 2024!
   </li>
   <li>
     <strong>06/2024</strong> Our <strong>CVPR tutorial</strong> on deep stereo matching is now available! Get all the insights <a href='https://sites.google.com/view/stereo-twenties'>here</a>!
