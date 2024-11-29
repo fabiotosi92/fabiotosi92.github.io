@@ -24,6 +24,9 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
 
 <ul>
   <li>
+  <strong>11/2024</strong> Our research with <a href='https://sadrasafa.github.io/'>Sadra</a> and <a href='https://mysite.ku.edu.tr/fguney/'>Fatma</a> received best poster at BMVC 2024!
+  </li>
+  <li>
       <strong>07/2024</strong>  1 paper accepted to WACV 2025!
   </li>
   <li>
