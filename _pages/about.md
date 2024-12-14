@@ -24,7 +24,6 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
 
 <ul>
   <li>
-  <li>
   <strong>07/2024</strong> Our survey paper, <a href="https://fabiotosi92.github.io/files/survey-stereo.pdf">"A Survey on Deep Stereo Matching in the Twenties"</a>, has been accepted at the IJCV journal!
   </li>
   <strong>11/2024</strong> Our research with <a href='https://sadrasafa.github.io/'>Sadra</a> and <a href='https://mysite.ku.edu.tr/fguney/'>Fatma</a> received the <strong>Best Poster Award</strong> at BMVC 2024!
