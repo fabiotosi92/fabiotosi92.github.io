@@ -184,7 +184,7 @@ Full publication list on <a href="https://scholar.google.com/citations?user=5-UO
   <div style="width:100%;">
     <a href="https://arxiv.org/pdf/2412.04472"><papertitle>Stereo Anywhere: Robust Zero-Shot Deep Stereo Matching Even Where Either Stereo or Mono Fail</papertitle></a> - <reddish> NEW!</reddish> <br> 
     <a href="https://bartn8.github.io/">Luca Bartolomei</a>, <strong>Fabio Tosi</strong>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>  <br>
-    (arXiv - Pre-print, 2024) <br>
+    <i>Conference on Computer Vision and Pattern Recognition</i> (<strong>CVPR</strong>), 2025  <br>
     <a href="https://stereoanywhere.github.io/">project page</a>  | <a href="https://arxiv.org/pdf/2412.04472">paper</a> | <a href="https://github.com/bartn8/stereoanywhere/">code</a> <br>
 
 
