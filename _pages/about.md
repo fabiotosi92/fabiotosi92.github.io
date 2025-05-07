@@ -24,6 +24,9 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
 
 <ul>
   <li>
+    <strong>05/2025</strong> Grateful for the recognition as an <strong>Outstanding Reviewer</strong> at CVPR 2025!
+  </li>
+  <li>
       <strong>02/2025</strong> Our paper <a href='https://stereoanywhere.github.io/'>"Stereo Anywhere: Robust Zero-Shot Deep Stereo Matching Even Where Either Stereo or Mono Fail"</a> has been accepted at CVPR 2025!
   </li>
   <li>
