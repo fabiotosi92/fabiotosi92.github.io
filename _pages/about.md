@@ -9,15 +9,13 @@ redirect_from:
 ---
 
 
-I am currently a Junior Assistant Professor (RTDA) at the Department of Computer Science and Engineering (DISI) at the <a href="https://www.unibo.it/it">University of Bologna</a>. I teach the Master's course "Accelerated Computing Systems" (formerly "Digital Systems M – Module 2") in the Computer Engineering program, focusing on CUDA programming.
+I am currently a Junior Assistant Professor (RTDA) at the Department of Computer Science and Engineering (DISI) at the <a href="https://www.unibo.it/it">University of Bologna</a>. I teach the Master's course "Accelerated Computing Systems" (formerly "Digital Systems M – Module 2") in the Computer Engineering program, focusing on CUDA programming. Previously, I was an Adjunct Professor for the course "Fundamentals of Computer Science" in the Mechatronics program at the Department of Electrical, Electronic, and Information Engineering "Guglielmo Marconi".
 
 My research interests include computer vision and machine learning, with a particular emphasis on 3D reconstruction from images.
 
 Since 2024, I serve as Associate Editor for the journal <a href="https://www.sciencedirect.com/journal/pattern-recognition/about/editorial-board">Pattern Recognition (Elsevier)</a>, and I am also involved in major conferences such as IROS 2025 (Associate Editor) and ICIAP 2025 (Area Chair).
 
-Previously, I was an Adjunct Professor for the course "Fundamentals of Computer Science" in the Mechatronics program at the Department of Electrical, Electronic, and Information Engineering "Guglielmo Marconi".
-
-In 2021, I obtained my PhD from the University of Bologna under the supervision of Professor <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>. I previously received both my Master’s (2017) and Bachelor’s (2014) degrees in Computer Engineering from the same university.
+In 2021, I obtained my PhD from the University of Bologna under the supervision of Professor <a href="https://stefanomattoccia.github.io/">Stefano Mattoccia</a>. I previously received both my Master’s (2017) and Bachelor’s (2014) degrees in Computer Engineering from the same university.
 
 In 2020, I was a <a href="https://is.mpg.de/person/ftosi">visiting PhD student</a> in the <a href="https://avg.is.mpg.de/">Autonomous Vision Group (AVG)</a> led by Professor <a href="https://www.cvlibs.net/">Andreas Geiger</a> at the <a href="https://is.mpg.de/">Max Planck Institute for Intelligent Systems and the University of Tübingen</a>.
 
