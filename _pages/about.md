@@ -21,12 +21,15 @@ In 2020, I was a <a href="https://is.mpg.de/person/ftosi">visiting PhD student</
 
 In 2022, I was awarded the <a href="https://www.cvpl.it/en/awards/#miglior_tesi_dottorato">Best PhD Thesis Award</a> by the <a href="https://www.cvpl.it/">Italian Association for Research in Computer Vision, Pattern Recognition and Machine Learning (CVPL)</a>.
 
-You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/files/Fabio_Tosi_s_CV.pdf)! (09/05/2025)
+You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/files/Fabio_Tosi_s_CV.pdf)! (26/06/2025)
 
 
 ## News!
 
 <ul>
+  <li>
+      <strong>06/2025</strong>  2 paper accepted to ICCV 2025!
+  </li>
   <li>
     <strong>06/2025</strong> One paper is set for IROS 2025, and another for IJCV!
   </li>
@@ -166,7 +169,7 @@ Resolution Stereo" </strong>
 
 <div style="display: flex;">
   <div style="margin-right: 20px;">
-    <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">
+    <a href="https://stefanomattoccia.github.io/">
       <img src="../images/stefano.jpg" style="border-radius: 50%; width: 120px; height: 120px;">
     </a>
     <p style="text-align: center; margin-top: 0px;">Stefano Mattoccia</p>
