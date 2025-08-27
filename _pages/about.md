@@ -13,7 +13,7 @@ I am currently a Junior Assistant Professor (RTDA) at the Department of Computer
 
 My research interests include computer vision and machine learning, with a particular emphasis on 3D reconstruction from images.
 
-Since 2024, I serve as Associate Editor for the journal <a href="https://www.sciencedirect.com/journal/pattern-recognition/about/editorial-board">Pattern Recognition (Elsevier)</a>, and I am also involved in major conferences such as IROS 2025 (Associate Editor) and ICIAP 2025 (Area Chair).
+Since 2024, I serve as Associate Editor for the journal <a href="https://www.sciencedirect.com/journal/pattern-recognition/about/editorial-board">Pattern Recognition (Elsevier)</a>, and I am also involved in major conferences such as CVPR 2026 (Area Chair), IROS 2025 (Associate Editor) and ICIAP 2025 (Area Chair).
 
 In 2021, I obtained my PhD from the University of Bologna under the supervision of Professor <a href="https://stefanomattoccia.github.io/">Stefano Mattoccia</a>. I previously received both my Master’s (2017) and Bachelor’s (2014) degrees in Computer Engineering from the same university.
 
@@ -24,9 +24,13 @@ In 2022, I was awarded the <a href="https://www.cvpl.it/en/awards/#miglior_tesi_
 You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/files/Fabio_Tosi_s_CV.pdf)! (21/07/2025)
 
 
+
 ## News!
 
 <ul>
+  <li>
+      <strong>10/2025</strong> I will serve as an <strong>Area Chair</strong> for CVPR 2026!
+  </li>
   <li>
       <strong>06/2025</strong>  2 paper accepted to ICCV 2025!
   </li>
