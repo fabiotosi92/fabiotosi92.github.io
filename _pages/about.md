@@ -29,6 +29,9 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
 
 <ul>
   <li>
+      <strong>09/2025</strong>  1 paper accepted to NIPS 2025!
+  </li>
+  <li>
       <strong>10/2025</strong> I will serve as an <strong>Area Chair</strong> for CVPR 2026!
   </li>
   <li>
