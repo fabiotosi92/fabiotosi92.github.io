@@ -29,6 +29,9 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
 
 <ul>
   <li>
+    <strong>09/2024</strong> Grateful for the <strong>Outstanding Reviewer</strong> recognition at ICCV 2025!
+  </li>
+  <li>
       <strong>09/2025</strong>  1 paper accepted to NIPS 2025!
   </li>
   <li>
