@@ -32,7 +32,7 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
     <strong>09/2024</strong> Grateful for the <strong>Outstanding Reviewer</strong> recognition at ICCV 2025!
   </li>
   <li>
-      <strong>09/2025</strong>  1 paper accepted to NIPS 2025!
+      <strong>09/2025</strong>  1 paper accepted with <a href="Whttps://youmi-zym.github.io/">Rawmantic AI</a> to NIPS 2025!
   </li>
   <li>
       <strong>10/2025</strong> I will serve as an <strong>Area Chair</strong> for CVPR 2026!
