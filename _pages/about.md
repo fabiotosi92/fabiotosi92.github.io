@@ -29,8 +29,9 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
 
 <ul>
   <li>
-    <strong>12/2025</strong> 2 paper accepted to WACV 2025 and AAAI 2025!
+      <strong>12/2025</strong> 2 paper accepted to WACV 2025 and AAAI 2025<span style="color:red;"><strong>(Oral)</strong></span>!
   </li>
+
   <li>
     <strong>09/2024</strong> Grateful for the <strong>Outstanding Reviewer</strong> recognition at ICCV 2025!
   </li>
