@@ -29,7 +29,7 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
 
 <ul>
   <li>
-      <strong>12/2025</strong> 2 paper accepted to WACV 2025 and AAAI 2025<span style="color:red;"><strong>(Oral)</strong></span>!
+      <strong>12/2025</strong> 2 paper accepted to WACV 2025 and AAAI 2025 <span style="color:red;"><strong>(Oral)</strong></span>!
   </li>
 
   <li>
