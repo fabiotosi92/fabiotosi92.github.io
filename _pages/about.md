@@ -63,7 +63,7 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
 
   </li>
   <li>
-      <strong>07/2024</strong>  1 paper accepted to WACV 2025!
+      <strong>07/2024</strong>  1 paper accepted to WACV 2024!
   </li>
   <li>
     <strong>09/2024</strong> Grateful for the <strong>Outstanding Reviewer</strong> recognition at ECCV 2024!
