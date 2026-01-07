@@ -29,6 +29,9 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
 
 <ul>
   <li>
+      <strong>01/2026</strong> I will serve as an <strong>Area Chair</strong> for ECCV 2026!
+  </li>
+  <li>
       <strong>12/2025</strong> 2 paper accepted to WACV 2025 and AAAI 2025 <span style="color:red;"><strong>(Oral)</strong></span>!
   </li>
 
@@ -203,6 +206,8 @@ Full publication list on <a href="https://scholar.google.com/citations?user=5-UO
 *indicates joint first authorship
 
 
+
+
 <div style="display:flex;">
   <div style="height:10%;width:60%;padding-right: 40px">
     <img src="../images/publications/eve3d.png" alt="eve3d">
@@ -212,6 +217,22 @@ Full publication list on <a href="https://scholar.google.com/citations?user=5-UO
     <a href="https://github.com/JiaweiZhang-THU">Jiawei Zhang</a>, <a href="https://youmi-zym.github.io/">Youmin Zhang</a>, <strong>Fabio Tosi</strong>, Meiying Gu, Jiahe Li, Xiaohan Yu, Jin Zheng, Xiao Bai, <a href="https://mattpoggi.github.io/">Matteo Poggi</a> <br>
     <i>Conference on Neural Information Processing Systems</i> (<strong>NeurIPS</strong>), 2025  <br>
     <a href="../files/14521_Eve3D_Elevating_Vision_M-main.pdf">paper</a> | <a href="../files/14521_Eve3D_Elevating_Vision_M-appendix.pdf">supplementary</a> <br>
+
+  <br><br>
+
+  </div>
+</div>
+
+<div style="display:flex;">
+  <div style="height:10%;width:60%;padding-right: 40px">
+    <img src="../images/publications/foundationslam.png" alt="foundationslam">
+  </div>
+  <div style="width:100%;">
+    <a href="https://arxiv.org/pdf/2512.25008"><papertitle>FoundationSLAM: Unleashing the Power of Depth Foundation Models for End-to-End Dense Visual SLAM</papertitle></a> - <reddish> NEW!</reddish> <br> 
+    <p style="color:red;">(ORAL)</p>
+    Yuchen Wu, Jiahe Li, <strong>Fabio Tosi</strong>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, Jin Zheng, Xiao Bai <br>
+    <i>AAAI Conference on Artificial Intelligence</i> (<strong>AAAI</strong>), 2026  <br>
+    <a href="https://arxiv.org/pdf/2512.25008">paper</a> <br>
 
   <br><br>
 
