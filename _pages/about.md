@@ -239,6 +239,20 @@ Full publication list on <a href="https://scholar.google.com/citations?user=5-UO
   </div>
 </div>
 
+<div style="display:flex;">
+  <div style="height:10%;width:60%;padding-right: 40px">
+    <img src="../images/publications/warprf.png" alt="warprf">
+  </div>
+  <div style="width:100%;">
+    <a href="https://kuis-ai.github.io/WarpRF/"><papertitle>WarpRF: Multi-View Consistency for Training-Free Uncertainty Quantification and Applications in Radiance Fields</papertitle></a> - <reddish> NEW!</reddish> <br> 
+    <a href="https://sadrasafa.github.io/">Sadra Safadoust</a>, <strong>Fabio Tosi</strong>, <a href="https://mysite.ku.edu.tr/fguney/">Fatma Güney</a>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a> <br>
+    <i>IEEE/CVF Winter Conference on Applications of Computer Vision</i> (<strong>WACV</strong>), 2026  <br>
+    <a href="https://kuis-ai.github.io/WarpRF/">project page</a>  | <a href="https://arxiv.org/pdf/2506.22433.pdf">paper</a> <br>
+
+  <br><br>
+
+  </div>
+</div>
 
 <div style="display:flex;">
   <div style="height:10%;width:60%;padding-right: 40px">
