@@ -292,7 +292,7 @@ Full publication list on <a href="https://scholar.google.com/citations?user=5-UO
     <img src="../images/publications/stereogs.png" alt="stereogs">
   </div>
   <div style="width:100%;">
-    <a href="https://arxiv.org/pdf/2409.07456"><papertitle>Self-Evolving Depth-Supervised 3D Gaussian Splatting from Rendered Stereo Pairs</papertitle></a> - <reddish> NEW!</reddish> <br> 
+    <a href="https://arxiv.org/pdf/2409.07456"><papertitle>Self-Evolving Depth-Supervised 3D Gaussian Splatting from Rendered Stereo Pairs</papertitle></a> <br> 
     <p style="color:red;">(Best Poster Award at BMVC 2024)</p> 
     <a href="https://sadrasafa.github.io/">Sadra Safadoust</a>, <strong>Fabio Tosi</strong>, <a href="https://mysite.ku.edu.tr/fguney/">Fatma Güney</a>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a> <br>
     British Machine Vision Conference (<strong>BMVC</strong>), 2024 <br>  
@@ -309,7 +309,7 @@ Full publication list on <a href="https://scholar.google.com/citations?user=5-UO
   </div>
   <div style="width:100%;">
     <a href="https://raw.githubusercontent.com/fabiotosi92/Diffusion4RobustDepth/main/assets/main.pdf"><papertitle>Diffusion Models for Monocular Depth
-Estimation: Overcoming Challenging Conditions</papertitle></a> - <reddish> NEW!</reddish> <br> 
+Estimation: Overcoming Challenging Conditions</papertitle></a> -  <br> 
     <strong>Fabio Tosi</strong>, <a href="https://pierlui92.github.io//">Pierluigi Zama Ramirez</a>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>   <br>
       <i>European Conference on Computer Vision</i> (<strong>ECCV</strong>), 2024  <br>
     <a href="https://diffusion4robustdepth.github.io/">project page</a>  | <a href="https://raw.githubusercontent.com/fabiotosi92/Diffusion4RobustDepth/main/assets/main.pdf">paper</a> | <a href="https://github.com/fabiotosi92/Diffusion4RobustDepth">code</a>  <br>
@@ -375,7 +375,7 @@ Global Optimization for Consistent 3D Instant Reconstruction</papertitle></a> <b
     <img src="../images/publications/vpp.png" alt="vpp">
   </div>
   <div style="width:100%;">
-    <a href="https://youmi-zym.github.io/projects/GO-SLAM/"><papertitle>Active Stereo Without Pattern Projector</papertitle></a> - <reddish> NEW!</reddish> <br> 
+    <a href="https://youmi-zym.github.io/projects/GO-SLAM/"><papertitle>Active Stereo Without Pattern Projector</papertitle></a> <br> 
     <a href="https://bartn8.github.io/">Luca Bartolomei</a>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, <strong>Fabio Tosi</strong>, <a href="https://andreaconti.github.io//">Andrea Conti</a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>  <br>
     <i>International Conference on Computer Vision</i> (<strong>ICCV</strong>), 2023  <br>
     <a href="https://vppstereo.github.io/">project page</a>  | <a href="">paper</a> | <a href="https://github.com/bartn8/vppstereo">code</a> 
