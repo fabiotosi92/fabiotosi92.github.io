@@ -202,6 +202,23 @@ Resolution Stereo" </strong>
 Full publication list on <a href="https://scholar.google.com/citations?user=5-UOaQkAAAAJ&hl=it"> Google Scholar</a> <br>
 *indicates joint first authorship
 
+
+<div style="display:flex;">
+  <div style="height:10%;width:60%;padding-right: 40px">
+    <img src="../images/publications/eve3d.png" alt="eve3d">
+  </div>
+  <div style="width:100%;">
+    <a href="../files/14521_Eve3D_Elevating_Vision_M-main.pdf"><papertitle>Eve3D: Elevating Vision Models for Enhanced 3D Surface Reconstruction via Gaussian Splatting</papertitle></a> - <reddish> NEW!</reddish> <br> 
+    <a href="https://github.com/JiaweiZhang-THU">Jiawei Zhang</a>, <a href="https://youmi-zym.github.io/">Youmin Zhang</a>, <strong>Fabio Tosi</strong>, Meiying Gu, Jiahe Li, Xiaohan Yu, Jin Zheng, Xiao Bai, <a href="https://mattpoggi.github.io/">Matteo Poggi</a> <br>
+    <i>Conference on Neural Information Processing Systems</i> (<strong>NeurIPS</strong>), 2025  <br>
+    <a href="../files/14521_Eve3D_Elevating_Vision_M-main.pdf">paper</a> | <a href="../files/14521_Eve3D_Elevating_Vision_M-appendix.pdf">supplementary</a> <br>
+
+  <br><br>
+
+  </div>
+</div>
+
+
 <div style="display:flex;">
   <div style="height:10%;width:60%;padding-right: 40px">
     <img src="../images/publications/flowseek.png" alt="flowseek">
