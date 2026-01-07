@@ -202,7 +202,20 @@ Resolution Stereo" </strong>
 Full publication list on <a href="https://scholar.google.com/citations?user=5-UOaQkAAAAJ&hl=it"> Google Scholar</a> <br>
 *indicates joint first authorship
 
+<div style="display:flex;">
+  <div style="height:10%;width:60%;padding-right: 40px">
+    <img src="../images/publications/flowseek.png" alt="flowseek">
+  </div>
+  <div style="width:100%;">
+    <a href="https://arxiv.org/abs/2509.05297"><papertitle>FlowSeek: Optical Flow Made Easier with Depth Foundation Models and Motion Bases</papertitle></a> - <reddish> NEW!</reddish> <br> 
+    <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, <strong>Fabio Tosi</strong> <br>
+    <i>International Conference on Computer Vision</i> (<strong>ICCV</strong>), 2025  <br>
+    <a href="https://flowseek25.github.io/">project page</a>  | <a href="https://arxiv.org/abs/2509.05297">paper</a> | <a href="https://github.com/mattpoggi/flowseek">code</a> | <a href="https://iccv.thecvf.com/media/PosterPDFs/ICCV%202025/1668.png?t=1756118189.8297398">poster</a> <br>
 
+  <br><br>
+
+  </div>
+</div>
 
 
 <div style="display:flex;">
@@ -210,7 +223,7 @@ Full publication list on <a href="https://scholar.google.com/citations?user=5-UO
     <img src="../images/publications/stereoanywhere.png" alt="stereoanywhere">
   </div>
   <div style="width:100%;">
-    <a href="https://arxiv.org/pdf/2412.04472"><papertitle>Stereo Anywhere: Robust Zero-Shot Deep Stereo Matching Even Where Either Stereo or Mono Fail</papertitle></a> - <reddish> NEW!</reddish> <br> 
+    <a href="https://arxiv.org/pdf/2412.04472"><papertitle>Stereo Anywhere: Robust Zero-Shot Deep Stereo Matching Even Where Either Stereo or Mono Fail</papertitle></a> <br> 
     <a href="https://bartn8.github.io/">Luca Bartolomei</a>, <strong>Fabio Tosi</strong>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>  <br>
     <i>Conference on Computer Vision and Pattern Recognition</i> (<strong>CVPR</strong>), 2025  <br>
     <a href="https://stereoanywhere.github.io/">project page</a>  | <a href="https://arxiv.org/pdf/2412.04472">paper</a> | <a href="https://github.com/bartn8/stereoanywhere/">code</a> <br>
