@@ -29,7 +29,13 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
 
 <ul>
   <li>
-      <strong>01/2026</strong> I will serve as an <strong>Area Chair</strong> for ECCV 2026!
+      <strong>02/2026</strong> 3 papers at CVPR 2026, 1 at CVPR Findings 2026!
+  </li>
+  <li>
+      <strong>02/2026</strong> Our survey on NeRF & 3DGS-based SLAM accepted to T-RO!
+  </li>
+  <li>
+      <strong>01/2026</strong> I will serve as an <strong>Area Chair</strong> for ECCV 2026 and IROS 2026!
   </li>
   <li>
       <strong>12/2025</strong> 2 paper accepted to WACV 2025 and AAAI 2025 <span style="color:red;"><strong>(Oral)</strong></span>!
