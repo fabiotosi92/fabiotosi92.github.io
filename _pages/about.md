@@ -29,6 +29,13 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
 
 <ul>
   <li>
+      <strong>05/2026</strong> Honored to be recognized as an <strong>Outstanding Area Chair</strong> at CVPR 2026!
+  </li>
+
+  <li>
+      <strong>05/2026</strong> I will serve as an <strong>Area Chair</strong> for ACCV 2026!
+  </li>
+  <li>
       <strong>02/2026</strong> 3 papers at CVPR 2026, 1 at CVPR Findings 2026!
   </li>
   <li>
