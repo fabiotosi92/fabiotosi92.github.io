@@ -218,6 +218,12 @@ By the end of the course, students will be able to:
 - Integrate a custom CUDA kernel into a PyTorch model when no built-in
   operator is sufficient.
 
+## <i class="fas fa-clipboard-check"></i> Final Verification
+
+The course concludes with a short hands-on verification, designed to confirm
+that the main concepts can be applied in practice. The exact format is
+currently being defined and will be announced before the first lecture.
+
 ## <i class="fas fa-file-alt"></i> Materials
 
 Slides and code examples will be distributed to enrolled students before
