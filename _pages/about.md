@@ -30,20 +30,18 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
 
 <ul>
   <li>
-      <strong>05/2026</strong> Honored to be recognized as an <strong>Outstanding Area Chair</strong> at CVPR 2026!
+      <strong>06/2026</strong> 3 papers accepted to ECCV 2026, 1 paper accepted to IROS 2026!
   </li>
 
   <li>
-      <strong>05/2026</strong> I will serve as an <strong>Area Chair</strong> for ACCV 2026!
+      <strong>05/2026</strong> Honored to be recognized as an <strong>Outstanding Area Chair</strong> at CVPR 2026!
   </li>
+
   <li>
       <strong>02/2026</strong> 3 papers at CVPR 2026, 1 at CVPR Findings 2026!
   </li>
   <li>
       <strong>02/2026</strong> Our survey on NeRF & 3DGS-based SLAM accepted to T-RO!
-  </li>
-  <li>
-      <strong>01/2026</strong> I will serve as an <strong>Area Chair</strong> for ECCV 2026 and IROS 2026!
   </li>
   <li>
       <strong>12/2025</strong> 2 paper accepted to WACV 2025 and AAAI 2025 <span style="color:red;"><strong>(Oral)</strong></span>!
@@ -54,9 +52,6 @@ You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/fi
   </li>
   <li>
       <strong>09/2025</strong>  1 paper accepted with <a href="Whttps://youmi-zym.github.io/">Rawmantic AI</a> to NIPS 2025!
-  </li>
-  <li>
-      <strong>10/2025</strong> I will serve as an <strong>Area Chair</strong> for CVPR 2026!
   </li>
   <li>
       <strong>06/2025</strong>  2 paper accepted to ICCV 2025!
@@ -100,13 +95,6 @@ Estimation"</a> has been accepted at ECCV 2024!
     <strong>05/2024</strong> Honored to be recognized as a <strong>Outstanding Reviewer</strong> at CVPR 2024!
   </li>
   <li>
-      <strong>04/2024</strong>   The <a href='https://github.com/fabiotosi92/Awesome-Deep-Stereo-Matching'>"Awesome-Deep-Stereo-Matching"</a> repository is live! &#128640; 
-  </li>
-
-  <li>
-      <strong>02/2024</strong> Our paper, <a href='http://fabiotosi92.github.io/files/survey-slam.pdf'>"How NeRFs and 3D Gaussian Splatting are Reshaping SLAM: a Survey"</a> is now available! Check it out on arXiv!
-  </li>
-  <li>
     <strong>10/2023</strong> I am proud to announce my new role as a <strong>Junior Assistant Professor (RTDA)</strong> at the Department of Computer Science and Engineering (DISI)!
   </li>
 
@@ -129,6 +117,7 @@ Resolution Stereo" </strong>
 </ul>
 
 ## My Research Team
+*CVLab – University of Bologna*
 
 <style>
   .container {
@@ -199,18 +188,42 @@ Resolution Stereo" </strong>
 </style>
 
 
-<div style="display: flex;">
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
   <div style="margin-right: 20px;">
     <a href="https://stefanomattoccia.github.io/">
       <img src="../images/stefano.jpg" style="border-radius: 50%; width: 120px; height: 120px;">
     </a>
-    <p style="text-align: center; margin-top: 0px;">Stefano Mattoccia</p>
+    <p style="text-align: center; margin-top: 0px;">Stefano Mattoccia<br><span style="font-size: 12px; color: #888;">Full Professor</span></p>
   </div>
-  <div>
+  <div style="margin-right: 20px;">
     <a href="https://mattpoggi.github.io/">
       <img src="../images/mpoggi.jpeg" style="border-radius: 50%; width: 120px; height: 120px;">
     </a>
-    <p style="text-align: center; margin-top: 0px;">Matteo Poggi</p>
+    <p style="text-align: center; margin-top: 0px;">Matteo Poggi<br><span style="font-size: 12px; color: #888;">Associate Professor</span></p>
+  </div>
+  <div style="margin-right: 20px;">
+    <a href="https://bartn8.github.io/">
+      <img src="../images/lbartolomei.jpg" style="border-radius: 50%; width: 120px; height: 120px;">
+    </a>
+    <p style="text-align: center; margin-top: 0px;">Luca Bartolomei<br><span style="font-size: 12px; color: #888;">Post-doc</span></p>
+  </div>
+  <div style="margin-right: 20px;">
+    <a href="https://zorangong.github.io/">
+      <img src="../images/zgong.jpg" style="border-radius: 50%; width: 120px; height: 120px; object-fit: cover;">
+    </a>
+    <p style="text-align: center; margin-top: 0px;">Ziren Gong<br><span style="font-size: 12px; color: #888;">PhD Student</span></p>
+  </div>
+  <div style="margin-right: 20px;">
+    <a href="https://www.ugoleonecavalcanti.com/">
+      <img src="../images/ulcavalcanti.jpg" style="border-radius: 50%; width: 120px; height: 120px;">
+    </a>
+    <p style="text-align: center; margin-top: 0px;">Ugo Leone Cavalcanti<br><span style="font-size: 12px; color: #888;">PhD Student</span></p>
+  </div>
+  <div style="margin-right: 20px;">
+    <a href="https://www.unibo.it/sitoweb/enrico.mannocci3/en">
+      <img src="../images/emannocci.jpg" style="border-radius: 50%; width: 120px; height: 120px;">
+    </a>
+    <p style="text-align: center; margin-top: 0px;">Enrico Mannocci<br><span style="font-size: 12px; color: #888;">PhD Student</span></p>
   </div>
 </div>
 
@@ -221,6 +234,66 @@ Full publication list on <a href="https://scholar.google.com/citations?user=5-UO
 
 
 
+
+<div style="display:flex;">
+  <div style="height:10%;width:60%;padding-right: 40px">
+    <img src="../images/publications/bicmpstereo.png" alt="bicmpstereo">
+  </div>
+  <div style="width:100%;">
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Xu_Bidirectional_Cross-Modal_Prompting_for_Event-Frame_Asymmetric_Stereo_CVPR_2026_paper.pdf"><papertitle>Bidirectional Cross-Modal Prompting for Event-Frame Asymmetric Stereo</papertitle></a> - <reddish> NEW!</reddish> <br>
+    Ninghui Xu, <strong>Fabio Tosi</strong>, Lihui Wang, Jiawei Han, <a href="https://bartn8.github.io/">Luca Bartolomei</a>, Zhiting Yao, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a> <br>
+    <i>Conference on Computer Vision and Pattern Recognition</i> (<strong>CVPR</strong>), 2026 <br>
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Xu_Bidirectional_Cross-Modal_Prompting_for_Event-Frame_Asymmetric_Stereo_CVPR_2026_paper.pdf">paper</a> | <a href="https://github.com/xnh97/Bi-CMPStereo">code</a> <br>
+
+  <br><br>
+
+  </div>
+</div>
+
+<div style="display:flex;">
+  <div style="height:10%;width:60%;padding-right: 40px">
+    <img src="../images/publications/eventhub.png" alt="eventhub">
+  </div>
+  <div style="width:100%;">
+    <a href="https://bartn8.github.io/eventhub/"><papertitle>EventHub: Data Factory for Generalizable Event-Based Stereo Networks without Active Sensors</papertitle></a> - <reddish> NEW!</reddish> <br>
+    <a href="https://bartn8.github.io/">Luca Bartolomei</a>, <strong>Fabio Tosi</strong>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>, Guillermo Gallego <br>
+    <i>Conference on Computer Vision and Pattern Recognition</i> (<strong>CVPR</strong>), 2026 <br>
+    <a href="https://bartn8.github.io/eventhub/">project page</a> | <a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Bartolomei_EventHub_Data_Factory_for_Generalizable_Event-Based_Stereo_Networks_without_Active_CVPR_2026_paper.pdf">paper</a> | <a href="https://arxiv.org/abs/2604.02331">arXiv</a> | <a href="https://bartn8.github.io/eventhub/assets/poster_cvpr2026.pdf">poster</a> | <a href="https://github.com/bartn8/eventhub">code</a> <br>
+
+  <br><br>
+
+  </div>
+</div>
+
+<div style="display:flex;">
+  <div style="height:10%;width:60%;padding-right: 40px">
+    <img src="../images/publications/stereospace.png" alt="stereospace">
+  </div>
+  <div style="width:100%;">
+    <a href="https://arxiv.org/abs/2512.10959"><papertitle>StereoSpace: Depth-Free Synthesis of Stereo Geometry via End-to-End Diffusion in a Canonical Space</papertitle></a> - <reddish> NEW!</reddish> <br>
+    Tjark Behrens, Anton Obukhov, Bingxin Ke, <strong>Fabio Tosi</strong>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, Konrad Schindler <br>
+    <i>Conference on Computer Vision and Pattern Recognition – Findings</i> (<strong>CVPR Findings</strong>), 2026 <br>
+    <a href="https://arxiv.org/abs/2512.10959">arXiv</a> | <a href="https://openaccess.thecvf.com/content/CVPR2026F/papers/Behrens_StereoSpace_Depth-Free_Synthesis_of_Stereo_Geometry_via_End-to-End_Diffusion_in_CVPRF_2026_paper.pdf">paper</a> | <a href="https://github.com/prs-eth/stereospace">code</a> | <a href="https://huggingface.co/spaces/prs-eth/stereospace">demo</a> <br>
+
+  <br><br>
+
+  </div>
+</div>
+
+<div style="display:flex;">
+  <div style="height:10%;width:60%;padding-right: 40px">
+    <img src="../images/publications/ov3r.png" alt="ov3r">
+  </div>
+  <div style="width:100%;">
+    <a href="https://zorangong.github.io/Ov3R_page/"><papertitle>Ov3R: Open-Vocabulary Semantic 3D Reconstruction from RGB Videos</papertitle></a> - <reddish> NEW!</reddish> <br>
+    <a href="https://zorangong.github.io/">Ziren Gong</a>, Xiaohan Li, <strong>Fabio Tosi</strong>, Jiawei Han, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>, Jianfei Cai, <a href="https://mattpoggi.github.io/">Matteo Poggi</a> <br>
+    <i>Conference on Computer Vision and Pattern Recognition</i> (<strong>CVPR</strong>), 2026 <br>
+    <a href="https://zorangong.github.io/Ov3R_page/">project page</a> | <a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Gong_Ov3R_Open-Vocabulary_Semantic_3D_Reconstruction_from_RGB_Videos_CVPR_2026_paper.pdf">paper</a> <br>
+
+  <br><br>
+
+  </div>
+</div>
 
 <div style="display:flex;">
   <div style="height:10%;width:60%;padding-right: 40px">
@@ -309,7 +382,7 @@ Full publication list on <a href="https://scholar.google.com/citations?user=5-UO
     <a href="https://arxiv.org/pdf/2409.07456"><papertitle>Self-Evolving Depth-Supervised 3D Gaussian Splatting from Rendered Stereo Pairs</papertitle></a> <br> 
     <p style="color:red;">(Best Poster Award at BMVC 2024)</p> 
     <a href="https://sadrasafa.github.io/">Sadra Safadoust</a>, <strong>Fabio Tosi</strong>, <a href="https://mysite.ku.edu.tr/fguney/">Fatma Güney</a>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a> <br>
-    British Machine Vision Conference (<strong>BMVC</strong>), 2024 <br>  
+    <i>British Machine Vision Conference</i> (<strong>BMVC</strong>), 2024 <br>  
     <a href="https://kuis-ai.github.io/StereoGS/">project page</a>  | <a href="https://arxiv.org/pdf/2409.07456">paper</a> | <a href="https://github.com/sadrasafa/StereoGS/">code</a> <br>
 
   <br><br>
@@ -322,8 +395,7 @@ Full publication list on <a href="https://scholar.google.com/citations?user=5-UO
     <img src="../images/publications/overcoming_challenging.png" alt="overcoming_challenging">
   </div>
   <div style="width:100%;">
-    <a href="https://raw.githubusercontent.com/fabiotosi92/Diffusion4RobustDepth/main/assets/main.pdf"><papertitle>Diffusion Models for Monocular Depth
-Estimation: Overcoming Challenging Conditions</papertitle></a> -  <br> 
+    <a href="https://raw.githubusercontent.com/fabiotosi92/Diffusion4RobustDepth/main/assets/main.pdf"><papertitle>Diffusion Models for Monocular Depth Estimation: Overcoming Challenging Conditions</papertitle></a> <br> 
     <strong>Fabio Tosi</strong>, <a href="https://pierlui92.github.io//">Pierluigi Zama Ramirez</a>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>   <br>
       <i>European Conference on Computer Vision</i> (<strong>ECCV</strong>), 2024  <br>
     <a href="https://diffusion4robustdepth.github.io/">project page</a>  | <a href="https://raw.githubusercontent.com/fabiotosi92/Diffusion4RobustDepth/main/assets/main.pdf">paper</a> | <a href="https://github.com/fabiotosi92/Diffusion4RobustDepth">code</a>  <br>
@@ -340,8 +412,7 @@ Estimation: Overcoming Challenging Conditions</papertitle></a> -  <br>
     <img src="../images/publications/federated.png" alt="federated">
   </div>
   <div style="width:100%;">
-    <a href="https://mattpoggi.github.io/assets/papers/poggi2024cvpr.pdf"><papertitle>Federated Online Adaptation
-for Deep Stereo </papertitle></a>  <br> 
+    <a href="https://mattpoggi.github.io/assets/papers/poggi2024cvpr.pdf"><papertitle>Federated Online Adaptation for Deep Stereo</papertitle></a> <br> 
     <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, <strong>Fabio Tosi</strong>   <br>
     <i>Conference on Computer Vision and Pattern Recognition</i> (<strong>CVPR</strong>), 2024  <br>
     <a href="https://fedstereo.github.io/">project page</a>  | <a href="https://mattpoggi.github.io/assets/papers/poggi2024cvpr.pdf">paper</a> | <a href="https://github.com/mattpoggi/fedstereo">code</a> 
@@ -372,8 +443,7 @@ Reshaping SLAM: a Survey</papertitle></a> <br>
     <img src="../images/publications/goslam.png" alt="goslam">
   </div>
   <div style="width:100%;">
-    <a href="https://youmi-zym.github.io/projects/GO-SLAM/"><papertitle>GO-SLAM        
-Global Optimization for Consistent 3D Instant Reconstruction</papertitle></a> <br> 
+    <a href="https://youmi-zym.github.io/projects/GO-SLAM/"><papertitle>GO-SLAM: Global Optimization for Consistent 3D Instant Reconstruction</papertitle></a> <br> 
     <a href="https://youmi-zym.github.io/">Youmin Zhang</a>, <strong>Fabio Tosi</strong>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>   <br>
     <i>International Conference on Computer Vision</i> (<strong>ICCV</strong>), 2023  <br>
     <a href="https://youmi-zym.github.io/projects/GO-SLAM/">project page</a>  | <a href="https://arxiv.org/pdf/2309.02436.pdf">paper</a> | <a href="https://github.com/youmi-zym/GO-SLAM">code</a> 
@@ -389,10 +459,10 @@ Global Optimization for Consistent 3D Instant Reconstruction</papertitle></a> <b
     <img src="../images/publications/vpp.png" alt="vpp">
   </div>
   <div style="width:100%;">
-    <a href="https://youmi-zym.github.io/projects/GO-SLAM/"><papertitle>Active Stereo Without Pattern Projector</papertitle></a> <br> 
+    <a href="https://vppstereo.github.io/"><papertitle>Active Stereo Without Pattern Projector</papertitle></a> <br> 
     <a href="https://bartn8.github.io/">Luca Bartolomei</a>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, <strong>Fabio Tosi</strong>, <a href="https://andreaconti.github.io//">Andrea Conti</a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>  <br>
     <i>International Conference on Computer Vision</i> (<strong>ICCV</strong>), 2023  <br>
-    <a href="https://vppstereo.github.io/">project page</a>  | <a href="">paper</a> | <a href="https://github.com/bartn8/vppstereo">code</a> 
+    <a href="https://vppstereo.github.io/">project page</a>  | <a href="https://github.com/bartn8/vppstereo">code</a> 
 
   <br><br>
 
@@ -437,7 +507,7 @@ Global Optimization for Consistent 3D Instant Reconstruction</papertitle></a> <b
   </div>
   <div style="width:100%;">
     <a href="https://github.com/zxcqlf/MonoViT"><papertitle>Monovit: Self-supervised monocular depth estimation with a vision transformer</papertitle> </a><br> 
-    <a href="https://zxcqlf.github.io/">Chaoqiang Zhao</a>, <a href="https://youmi-zym.github.io/">Youmin Zhang</a>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, <strong>Fabio Tosi,</strong>, Xianda Guo, Zheng Zhu, Guan Huang, Yang Tang, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>  <br>
+    <a href="https://zxcqlf.github.io/">Chaoqiang Zhao</a>, <a href="https://youmi-zym.github.io/">Youmin Zhang</a>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, <strong>Fabio Tosi</strong>, Xianda Guo, Zheng Zhu, Guan Huang, Yang Tang, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>  <br>
     <i>International Conference on 3D Vision </i> (<strong>3DV</strong>), 2022 <br>
     <a href="https://arxiv.org/abs/2208.03543">paper</a> | <a href="https://github.com/zxcqlf/MonoViT">code</a>
 
@@ -471,7 +541,8 @@ Cross-Spectral Neural Radiance Fields</papertitle> </a><br>
   <div style="width:100%;">
     <a href="https://cvlab-unibo.github.io/booster-web/"><papertitle>
 Open Challenges in Deep Stereo: the Booster Dataset</papertitle> </a><br> 
-    <a href="https://pierlui92.github.io/">Pierluigi Zama Ramirez*</a>, <strong>Fabio Tosi*</strong>, <a href="https://mattpoggi.github.io/">Matteo Poggi*</a>, <a href="https://www.unibo.it/sitoweb/samuele.salti">Samuele Salti</a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>, <a href="https://www.unibo.it/sitoweb/luigi.distefano">Luigi Di Stefano</a>      <i>Conference on Computer Vision and Pattern Recognition</i> (<strong>CVPR</strong>), 2022  <br>
+    <a href="https://pierlui92.github.io/">Pierluigi Zama Ramirez*</a>, <strong>Fabio Tosi*</strong>, <a href="https://mattpoggi.github.io/">Matteo Poggi*</a>, <a href="https://www.unibo.it/sitoweb/samuele.salti">Samuele Salti</a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>, <a href="https://www.unibo.it/sitoweb/luigi.distefano">Luigi Di Stefano</a> <br>
+    <i>Conference on Computer Vision and Pattern Recognition</i> (<strong>CVPR</strong>), 2022  <br>
     <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Ramirez_Open_Challenges_in_Deep_Stereo_The_Booster_Dataset_CVPR_2022_paper.pdf">paper</a> | <a href="https://openaccess.thecvf.com/content/CVPR2022/supplemental/Ramirez_Open_Challenges_in_CVPR_2022_supplemental.pdf">supplementary</a> | <a href="http://amsacta.unibo.it/6876/">dataset</a>  | <a href="https://cvlab-unibo.github.io/booster-web/benchmark.html">benchmark</a> | <a href="https://youtu.be/EEg3z9b_Bt4">video</a>
 
   <br><br>
@@ -486,7 +557,8 @@ Open Challenges in Deep Stereo: the Booster Dataset</papertitle> </a><br>
   <div style="width:100%;">
     <a href="https://cvlab-unibo.github.io/rgb-ms-web/"><papertitle>
 RGB-Multispectral Matching: Dataset, Learning Methodology, Evaluation</papertitle> </a><br> 
-    <strong>Fabio Tosi*</strong>, <a href="https://pierlui92.github.io/">Pierluigi Zama Ramirez*</a>, <a href="https://mattpoggi.github.io/">Matteo Poggi*</a>, <a href="https://www.unibo.it/sitoweb/samuele.salti">Samuele Salti</a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>, <a href="https://www.unibo.it/sitoweb/luigi.distefano">Luigi Di Stefano</a>      <i>Conference on Computer Vision and Pattern Recognition</i> (<strong>CVPR</strong>), 2022  <br>
+    <strong>Fabio Tosi*</strong>, <a href="https://pierlui92.github.io/">Pierluigi Zama Ramirez*</a>, <a href="https://mattpoggi.github.io/">Matteo Poggi*</a>, <a href="https://www.unibo.it/sitoweb/samuele.salti">Samuele Salti</a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>, <a href="https://www.unibo.it/sitoweb/luigi.distefano">Luigi Di Stefano</a> <br>
+    <i>Conference on Computer Vision and Pattern Recognition</i> (<strong>CVPR</strong>), 2022  <br>
     <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Tosi_RGB-Multispectral_Matching_Dataset_Learning_Methodology_Evaluation_CVPR_2022_paper.pdf">paper</a> | <a href="https://openaccess.thecvf.com/content/CVPR2022/supplemental/Tosi_RGB-Multispectral_Matching_Dataset_CVPR_2022_supplemental.pdf">supplementary</a> | <a href="http://amsacta.unibo.it/6877/">dataset</a>  | <a href="https://youtu.be/dmN23_rnmjQ">video</a>
 
   <br><br>
@@ -551,7 +623,7 @@ On the Synergies Between Machine Learning and Binocular Stereo for Depth Estimat
     <papertitle>Learning monocular depth estimation infusing traditional stereo knowledge</papertitle> <br>
     <strong>Fabio Tosi</strong>, <a href="https://filippoaleotti.github.io/website/">Filippo Aleotti</a>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a> <br>
     <i>Conference on Computer Vision and Pattern Recognition</i> (<strong>CVPR</strong>), 2019   <br>
-    <a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Tosi_Learning_Monocular_Depth_Estimation_Infusing_Traditional_Stereo_Knowledge_CVPR_2019_paper.pdf">paper</a> | | <a href="https://openaccess.thecvf.com/content_CVPR_2020/supplemental/Tosi_Distilled_Semantics_for_CVPR_2020_supplemental.pdf">supplementary</a> | <a href="https://github.com/fabiotosi92/monoResMatch-Tensorflow">code</a> | <a href="https://vision.disi.unibo.it/~ftosi/papers/monoResMatch_poster.pdf">poster</a> | <a href="https://www.youtube.com/watch?v=h6Wo5MqbCY0&t=2s">video</a>
+    <a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Tosi_Learning_Monocular_Depth_Estimation_Infusing_Traditional_Stereo_Knowledge_CVPR_2019_paper.pdf">paper</a> | <a href="https://openaccess.thecvf.com/content_CVPR_2019/supplemental/Tosi_Learning_Monocular_Depth_CVPR_2019_supplemental.pdf">supplementary</a> | <a href="https://github.com/fabiotosi92/monoResMatch-Tensorflow">code</a> | <a href="https://vision.disi.unibo.it/~ftosi/papers/monoResMatch_poster.pdf">poster</a> | <a href="https://www.youtube.com/watch?v=h6Wo5MqbCY0&t=2s">video</a>
 
   <br><br>
 
@@ -565,7 +637,7 @@ On the Synergies Between Machine Learning and Binocular Stereo for Depth Estimat
   </div>
   <div style="width:100%;">
     <papertitle>Real-time self-adaptive deep stereo</papertitle> <br> 
-    <p style="color:red;">ORAL!</p>
+    <p style="color:red;">(ORAL)</p>
     <a href="https://alessiotonioni.github.io/">Alessio Tonioni</a>, <strong>Fabio Tosi</strong>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a> <br>
     <i>Conference on Computer Vision and Pattern Recognition</i> (<strong>CVPR</strong>), 2019   <br>
     <a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Tonioni_Real-Time_Self-Adaptive_Deep_Stereo_CVPR_2019_paper.pdf">paper</a> | <a href="https://openaccess.thecvf.com/content_CVPR_2019/supplemental/Tonioni_Real-Time_Self-Adaptive_Deep_CVPR_2019_supplemental.pdf">supplementary</a> | <a href="https://github.com/CVLAB-Unibo/Real-time-self-adaptive-deep-stereo">code</a> | <a href="https://www.youtube.com/watch?v=7SjyzDxmCY4">video</a> | <a href="https://www.youtube.com/watch?v=4O-7OzVYAeU">live demo</a>
