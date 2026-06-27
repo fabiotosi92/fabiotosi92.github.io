@@ -9,20 +9,15 @@ redirect_from:
 ---
 
 
-I am currently a Junior Assistant Professor (RTDA) at the Department of Computer Science and Engineering (DISI) at the <a href="https://www.unibo.it/it">University of Bologna</a>. I teach the Master's course "Accelerated Computing Systems" (formerly "Digital Systems M – Module 2") in the Computer Engineering program, where I focus on CUDA C programming, GPU architectures, and high-performance computing. At the PhD level, I teach GPU-accelerated computing for AI, covering PyTorch profiling and model optimization.
-Alongside this, I teach "Fundamentals of Computer Science" in the Mechatronics program at the Department of Electrical, Electronic, and Information Engineering "Guglielmo Marconi", focusing on logic networks and computer architectures — a role I previously held as Adjunct Professor.
+I am a Junior Assistant Professor (RTDA) at the Department of Computer Science and Engineering (DISI), <a href="https://www.unibo.it/it">University of Bologna</a>. My research lies at the intersection of computer vision and deep learning, with a focus on 3D scene understanding — including stereo matching, monocular depth estimation, neural rendering, and SLAM. I am also interested in efficient deep learning for resource-constrained devices.
 
-My research interests lie at the intersection of computer vision and deep learning, with a particular focus on 3D reconstruction from images — including stereo, monocular depth estimation, neural rendering, and SLAM. I am also passionate about bringing deep learning to resource-constrained devices.
+**Background.** I received my PhD in 2021 from the University of Bologna, supervised by Professor <a href="https://stefanomattoccia.github.io/">Stefano Mattoccia</a>, and my Master’s (2017) and Bachelor’s (2014) degrees in Computer Engineering from the same university. In 2020, I was a <a href="https://is.mpg.de/person/ftosi">visiting PhD student</a> in the <a href="https://avg.is.mpg.de/">Autonomous Vision Group (AVG)</a> led by Professor <a href="https://www.cvlibs.net/">Andreas Geiger</a> at the <a href="https://is.mpg.de/">Max Planck Institute for Intelligent Systems</a> and the University of Tübingen. In 2022, I received the <a href="https://www.cvpl.it/en/awards/#miglior_tesi_dottorato">Best PhD Thesis Award</a> from the <a href="https://www.cvpl.it/">Italian Association for Research in Computer Vision, Pattern Recognition and Machine Learning (CVPL)</a>.
 
-Since 2024, I serve as Associate Editor for the journal <a href="https://www.sciencedirect.com/journal/pattern-recognition/about/editorial-board">Pattern Recognition (Elsevier)</a>, and I am also involved in major conferences such as CVPR 2026 (Area Chair), ECCV 2026 (Area Chair), ACCV 2026 (Area Chair), IROS 2025 (Associate Editor) and ICIAP 2025 (Area Chair).
+**Service.** Since 2024, I serve as Associate Editor for <a href="https://www.sciencedirect.com/journal/pattern-recognition/about/editorial-board">Pattern Recognition (Elsevier)</a>. I have also served as Area Chair at CVPR 2026, ECCV 2026, ACCV 2026, and ICIAP 2025, and as Associate Editor at IROS 2025.
 
-In 2021, I obtained my PhD from the University of Bologna under the supervision of Professor <a href="https://stefanomattoccia.github.io/">Stefano Mattoccia</a>. I previously received both my Master’s (2017) and Bachelor’s (2014) degrees in Computer Engineering from the same university.
+**Teaching.** I teach "Accelerated Computing Systems" (CUDA C, GPU architectures, high-performance computing) in the Master’s program in Computer Engineering, and GPU-accelerated computing for AI at the PhD level. I also teach "Fundamentals of Computer Science" (logic networks, computer architectures) in the Mechatronics program.
 
-In 2020, I was a <a href="https://is.mpg.de/person/ftosi">visiting PhD student</a> in the <a href="https://avg.is.mpg.de/">Autonomous Vision Group (AVG)</a> led by Professor <a href="https://www.cvlibs.net/">Andreas Geiger</a> at the <a href="https://is.mpg.de/">Max Planck Institute for Intelligent Systems and the University of Tübingen</a>.
-
-In 2022, I was awarded the <a href="https://www.cvpl.it/en/awards/#miglior_tesi_dottorato">Best PhD Thesis Award</a> by the <a href="https://www.cvpl.it/">Italian Association for Research in Computer Vision, Pattern Recognition and Machine Learning (CVPL)</a>.
-
-You can download my full Curriculum Vitae [here](http://fabiotosi92.github.io/files/Fabio_Tosi_s_CV.pdf)! (20/04/2026)
+<p><a href="http://fabiotosi92.github.io/files/Fabio_Tosi_s_CV.pdf" style="font-weight: bold;">📄 Download my CV</a> <span style="color: #888; font-size: 13px;">(updated 20/04/2026)</span></p>
 
 
 
