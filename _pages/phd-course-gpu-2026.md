@@ -220,9 +220,33 @@ By the end of the course, students will be able to:
 
 ## <i class="fas fa-clipboard-check"></i> Final Verification
 
-The course concludes with a short hands-on verification, designed to confirm
-that the main concepts can be applied in practice. The exact format is
-currently being defined and will be announced before the first lecture.
+### A Hands-On Optimization Project
+
+The course concludes with a small hands-on
+optimization project. The objective is to apply the complete optimization
+workflow presented throughout the course to a parallel workload of your
+choice.
+
+This can be a neural network, an image-processing pipeline, a handwritten
+CUDA C kernel, or—ideally—a workload from your own research. You will profile
+it, identify the performance bottleneck, implement an optimization, verify
+correctness, and submit a short report describing the process and the
+performance improvement achieved.
+
+### The Workflow
+
+1. **Measure** – Run the baseline implementation with a profiler.
+2. **Diagnose** – Determine whether the workload is compute- or memory-bound,
+   and justify your conclusion with quantitative evidence.
+3. **Optimize** – Apply the optimization suggested by your analysis.
+4. **Verify** – Confirm that the optimized implementation still produces
+   correct results.
+5. **Measure Again** – Profile the optimized version and report the actual
+   speedup.
+
+The goal is not simply to optimize a single program, but to demonstrate that
+you can apply a systematic performance-engineering workflow to any GPU
+workload—including your own research code.
 
 ## <i class="fas fa-file-alt"></i> Materials
 
