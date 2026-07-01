@@ -70,8 +70,9 @@ excerpt: "PhD Course — 41st cycle, University of Bologna — July 2026"
   <li><strong>Instructor:</strong> <a href="https://fabiotosi92.github.io/">Fabio Tosi</a> — Junior Assistant Professor (RTDA), DISI, University of Bologna</li>
   <li><strong>Total hours:</strong> 14 hours (4 lectures × 3.5 hours)</li>
   <li><strong>Format:</strong> Blended — in person + Microsoft Teams streaming</li>
-  <li><strong>Venue:</strong> Viale Risorgimento 2, Bologna — Room 1.4</li>
+  <li><strong>Venue:</strong> Viale Risorgimento 2, Bologna (room varies by date, see schedule below)</li>
   <li><strong>Dates:</strong> 3, 6, 8, 10 July 2026</li>
+  <li><strong>Teams link (all sessions):</strong> <a href="https://teams.microsoft.com/meet/387486588252201?p=35aJtaQ3w5KjolSVEc">Join Microsoft Teams Meeting</a></li>
   <li><strong>PhD Cycle:</strong> 41st</li>
 </ul>
 </div>
@@ -89,8 +90,14 @@ of their research code.
 
 ## <i class="fas fa-calendar-alt"></i> Schedule
 
-All lectures will be held at **Viale Risorgimento 2, Bologna — Room 1.4**,
-and streamed live on **Microsoft Teams**:
+All lectures will be held at **Viale Risorgimento 2, Bologna** (room varies by
+date — see table below), and streamed live on **Microsoft Teams** using the
+same link for all four sessions:
+[Join Microsoft Teams Meeting](https://teams.microsoft.com/meet/387486588252201?p=35aJtaQ3w5KjolSVEc)
+
+> **Update (July 1, 2026):** room assignments have been revised due to lack
+> of air conditioning in the originally assigned room. The schedule below
+> reflects the current, correct rooms.
 
 <table class="schedule-table">
   <thead>
@@ -104,28 +111,25 @@ and streamed live on **Microsoft Teams**:
     <tr>
       <td>Friday, 3 July 2026</td>
       <td>9:00 – 12:30</td>
-      <td>Room 1.4 + Teams</td>
+      <td>Room 5.5 + Teams</td>
     </tr>
     <tr>
       <td>Monday, 6 July 2026</td>
       <td>9:00 – 12:30</td>
-      <td>Room 1.4 + Teams</td>
+      <td>Room 5.2 + Teams</td>
     </tr>
     <tr>
       <td>Wednesday, 8 July 2026</td>
       <td>9:00 – 12:30</td>
-      <td>Room 1.4 + Teams</td>
+      <td>Room 1.5 + Teams</td>
     </tr>
     <tr>
       <td>Friday, 10 July 2026</td>
       <td>9:00 – 12:30</td>
-      <td>Room 1.4 + Teams</td>
+      <td>Room 0.8 + Teams</td>
     </tr>
   </tbody>
 </table>
-
-The Microsoft Teams link will be shared with registered students before the
-first lecture.
 
 ## <i class="fas fa-check-square"></i> Prerequisites
 
@@ -250,9 +254,8 @@ workload—including your own research code.
 
 ## <i class="fas fa-file-alt"></i> Materials
 
-Slides and code examples will be distributed to enrolled students before
-each lecture. All examples will be reproducible on a standard NVIDIA GPU
-(Ampere or newer recommended).
+Slides and code examples will be distributed to enrolled students after
+each lecture. All examples will be reproducible on a standard NVIDIA GPU.
 
 ## <i class="fas fa-user-plus"></i> Registration
 
