@@ -17,7 +17,7 @@ I am a Junior Assistant Professor (RTDA) at the Department of Computer Science a
 
 **Teaching.** I teach "Accelerated Computing Systems" (CUDA C, GPU architectures, high-performance computing) in the Master’s program in Computer Engineering, and GPU-accelerated computing for AI at the PhD level. I also teach "Fundamentals of Computer Science" (logic networks, computer architectures) in the Mechatronics program.
 
-<p><a href="http://fabiotosi92.github.io/files/Fabio_Tosi_s_CV.pdf" style="font-weight: bold;">📄 Download my CV</a> <span style="color: #888; font-size: 13px;">(updated 20/04/2026)</span></p>
+<p><a href="http://fabiotosi92.github.io/files/Fabio_Tosi_s_CV.pdf" style="font-weight: bold;">📄 Download my CV</a> <span style="color: #888; font-size: 13px;">(updated 02/07/2026)</span></p>
 
 
 
