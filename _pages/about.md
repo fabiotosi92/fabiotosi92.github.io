@@ -232,6 +232,21 @@ Full publication list on <a href="https://scholar.google.com/citations?user=5-UO
 
 <div style="display:flex;">
   <div style="height:10%;width:60%;padding-right: 40px">
+    <img src="../images/publications/zipdepth.png" alt="zipdepth">
+  </div>
+  <div style="width:100%;">
+    <a href="https://zipdepth.github.io/"><papertitle>ZipDepth: Bringing Lightweight Zero-Shot Monocular Depth Anywhere, on Any Device</papertitle></a> - <reddish> NEW!</reddish> <br>
+    <strong>Fabio Tosi</strong>, <a href="https://bartn8.github.io/">Luca Bartolomei</a>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a> <br>
+    <i>European Conference on Computer Vision</i> (<strong>ECCV</strong>), 2026 <br>
+    <a href="https://zipdepth.github.io/">project page</a> | <a href="https://arxiv.org/abs/2607.08771">arXiv</a> | <a href="https://zipdepth.github.io/static/pdfs/zipdepth_supplementary.pdf">supplementary</a> | <a href="https://github.com/fabiotosi92/ZipDepth">code</a> | <a href="https://fabiotosi92.github.io/depth.zip/">demo</a> <br>
+
+  <br><br>
+
+  </div>
+</div>
+
+<div style="display:flex;">
+  <div style="height:10%;width:60%;padding-right: 40px">
     <img src="../images/publications/bicmpstereo.png" alt="bicmpstereo">
   </div>
   <div style="width:100%;">
