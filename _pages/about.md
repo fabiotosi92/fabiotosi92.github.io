@@ -247,6 +247,36 @@ Full publication list on <a href="https://scholar.google.com/citations?user=5-UO
 
 <div style="display:flex;">
   <div style="height:10%;width:60%;padding-right: 40px">
+    <img src="../images/publications/dinoslam.png" alt="dinoslam">
+  </div>
+  <div style="width:100%;">
+    <a href="https://zorangong.github.io/DINO-SLAM/"><papertitle>DINO-SLAM: DINO-informed RGB-D SLAM for Neural Implicit and Explicit Representations</papertitle></a> - <reddish> NEW!</reddish> <br>
+    <a href="https://zorangong.github.io/">Ziren Gong</a>, Xiaohan Li, <strong>Fabio Tosi</strong>, <a href="https://youmi-zym.github.io/">Youmin Zhang</a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>, Jiawei Wu, <a href="https://mattpoggi.github.io/">Matteo Poggi</a> <br>
+    <i>European Conference on Computer Vision</i> (<strong>ECCV</strong>), 2026 <br>
+    <a href="https://zorangong.github.io/DINO-SLAM/">project page</a> | <a href="https://arxiv.org/abs/2507.19474">arXiv</a> <br>
+
+  <br><br>
+
+  </div>
+</div>
+
+<div style="display:flex;">
+  <div style="height:10%;width:60%;padding-right: 40px">
+    <img src="../images/publications/magist3r.png" alt="magist3r">
+  </div>
+  <div style="width:100%;">
+    <a href="https://zorangong.github.io/magist3r_page/"><papertitle>MAGiSt3R: Multi-Agent Feed-forward 3D Reconstruction from Monocular RGB Videos</papertitle></a> - <reddish> NEW!</reddish> <br>
+    <a href="https://zorangong.github.io/">Ziren Gong</a>, Xiaohan Li, <strong>Fabio Tosi</strong>, Ninghui Xu, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>, Jianfei Cai, <a href="https://mattpoggi.github.io/">Matteo Poggi</a> <br>
+    <i>European Conference on Computer Vision</i> (<strong>ECCV</strong>), 2026 <br>
+    <a href="https://zorangong.github.io/magist3r_page/">project page</a> | <a href="https://arxiv.org/abs/2607.15211">arXiv</a> <br>
+
+  <br><br>
+
+  </div>
+</div>
+
+<div style="display:flex;">
+  <div style="height:10%;width:60%;padding-right: 40px">
     <img src="../images/publications/bicmpstereo.png" alt="bicmpstereo">
   </div>
   <div style="width:100%;">
