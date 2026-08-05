@@ -280,7 +280,7 @@ Full publication list on <a href="https://scholar.google.com/citations?user=5-UO
     <img src="../images/publications/bicmpstereo.png" alt="bicmpstereo">
   </div>
   <div style="width:100%;">
-    <a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Xu_Bidirectional_Cross-Modal_Prompting_for_Event-Frame_Asymmetric_Stereo_CVPR_2026_paper.pdf"><papertitle>Bidirectional Cross-Modal Prompting for Event-Frame Asymmetric Stereo</papertitle></a> - <reddish> NEW!</reddish> <br>
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Xu_Bidirectional_Cross-Modal_Prompting_for_Event-Frame_Asymmetric_Stereo_CVPR_2026_paper.pdf"><papertitle>Bidirectional Cross-Modal Prompting for Event-Frame Asymmetric Stereo</papertitle></a> <br>
     Ninghui Xu, <strong>Fabio Tosi</strong>, Lihui Wang, Jiawei Han, <a href="https://bartn8.github.io/">Luca Bartolomei</a>, Zhiting Yao, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a> <br>
     <i>Conference on Computer Vision and Pattern Recognition</i> (<strong>CVPR</strong>), 2026 <br>
     <a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Xu_Bidirectional_Cross-Modal_Prompting_for_Event-Frame_Asymmetric_Stereo_CVPR_2026_paper.pdf">paper</a> | <a href="https://github.com/xnh97/Bi-CMPStereo">code</a> <br>
@@ -295,7 +295,7 @@ Full publication list on <a href="https://scholar.google.com/citations?user=5-UO
     <img src="../images/publications/eventhub.png" alt="eventhub">
   </div>
   <div style="width:100%;">
-    <a href="https://bartn8.github.io/eventhub/"><papertitle>EventHub: Data Factory for Generalizable Event-Based Stereo Networks without Active Sensors</papertitle></a> - <reddish> NEW!</reddish> <br>
+    <a href="https://bartn8.github.io/eventhub/"><papertitle>EventHub: Data Factory for Generalizable Event-Based Stereo Networks without Active Sensors</papertitle></a> <br>
     <a href="https://bartn8.github.io/">Luca Bartolomei</a>, <strong>Fabio Tosi</strong>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>, Guillermo Gallego <br>
     <i>Conference on Computer Vision and Pattern Recognition</i> (<strong>CVPR</strong>), 2026 <br>
     <a href="https://bartn8.github.io/eventhub/">project page</a> | <a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Bartolomei_EventHub_Data_Factory_for_Generalizable_Event-Based_Stereo_Networks_without_Active_CVPR_2026_paper.pdf">paper</a> | <a href="https://arxiv.org/abs/2604.02331">arXiv</a> | <a href="https://bartn8.github.io/eventhub/assets/poster_cvpr2026.pdf">poster</a> | <a href="https://github.com/bartn8/eventhub">code</a> <br>
@@ -310,7 +310,7 @@ Full publication list on <a href="https://scholar.google.com/citations?user=5-UO
     <img src="../images/publications/stereospace.png" alt="stereospace">
   </div>
   <div style="width:100%;">
-    <a href="https://arxiv.org/abs/2512.10959"><papertitle>StereoSpace: Depth-Free Synthesis of Stereo Geometry via End-to-End Diffusion in a Canonical Space</papertitle></a> - <reddish> NEW!</reddish> <br>
+    <a href="https://arxiv.org/abs/2512.10959"><papertitle>StereoSpace: Depth-Free Synthesis of Stereo Geometry via End-to-End Diffusion in a Canonical Space</papertitle></a> <br>
     Tjark Behrens, Anton Obukhov, Bingxin Ke, <strong>Fabio Tosi</strong>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, Konrad Schindler <br>
     <i>Conference on Computer Vision and Pattern Recognition – Findings</i> (<strong>CVPR Findings</strong>), 2026 <br>
     <a href="https://arxiv.org/abs/2512.10959">arXiv</a> | <a href="https://openaccess.thecvf.com/content/CVPR2026F/papers/Behrens_StereoSpace_Depth-Free_Synthesis_of_Stereo_Geometry_via_End-to-End_Diffusion_in_CVPRF_2026_paper.pdf">paper</a> | <a href="https://github.com/prs-eth/stereospace">code</a> | <a href="https://huggingface.co/spaces/prs-eth/stereospace">demo</a> <br>
@@ -325,7 +325,7 @@ Full publication list on <a href="https://scholar.google.com/citations?user=5-UO
     <img src="../images/publications/ov3r.png" alt="ov3r">
   </div>
   <div style="width:100%;">
-    <a href="https://zorangong.github.io/Ov3R_page/"><papertitle>Ov3R: Open-Vocabulary Semantic 3D Reconstruction from RGB Videos</papertitle></a> - <reddish> NEW!</reddish> <br>
+    <a href="https://zorangong.github.io/Ov3R_page/"><papertitle>Ov3R: Open-Vocabulary Semantic 3D Reconstruction from RGB Videos</papertitle></a> <br>
     <a href="https://zorangong.github.io/">Ziren Gong</a>, Xiaohan Li, <strong>Fabio Tosi</strong>, Jiawei Han, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>, Jianfei Cai, <a href="https://mattpoggi.github.io/">Matteo Poggi</a> <br>
     <i>Conference on Computer Vision and Pattern Recognition</i> (<strong>CVPR</strong>), 2026 <br>
     <a href="https://zorangong.github.io/Ov3R_page/">project page</a> | <a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Gong_Ov3R_Open-Vocabulary_Semantic_3D_Reconstruction_from_RGB_Videos_CVPR_2026_paper.pdf">paper</a> <br>
@@ -340,7 +340,7 @@ Full publication list on <a href="https://scholar.google.com/citations?user=5-UO
     <img src="../images/publications/eve3d.png" alt="eve3d">
   </div>
   <div style="width:100%;">
-    <a href="../files/14521_Eve3D_Elevating_Vision_M-main.pdf"><papertitle>Eve3D: Elevating Vision Models for Enhanced 3D Surface Reconstruction via Gaussian Splatting</papertitle></a> - <reddish> NEW!</reddish> <br> 
+    <a href="../files/14521_Eve3D_Elevating_Vision_M-main.pdf"><papertitle>Eve3D: Elevating Vision Models for Enhanced 3D Surface Reconstruction via Gaussian Splatting</papertitle></a> <br> 
     <a href="https://github.com/JiaweiZhang-THU">Jiawei Zhang</a>, <a href="https://youmi-zym.github.io/">Youmin Zhang</a>, <strong>Fabio Tosi</strong>, Meiying Gu, Jiahe Li, Xiaohan Yu, Jin Zheng, Xiao Bai, <a href="https://mattpoggi.github.io/">Matteo Poggi</a> <br>
     <i>Conference on Neural Information Processing Systems</i> (<strong>NeurIPS</strong>), 2025  <br>
     <a href="../files/14521_Eve3D_Elevating_Vision_M-main.pdf">paper</a> | <a href="../files/14521_Eve3D_Elevating_Vision_M-appendix.pdf">supplementary</a> <br>
@@ -355,7 +355,7 @@ Full publication list on <a href="https://scholar.google.com/citations?user=5-UO
     <img src="../images/publications/foundationslam.png" alt="foundationslam">
   </div>
   <div style="width:100%;">
-    <a href="https://arxiv.org/pdf/2512.25008"><papertitle>FoundationSLAM: Unleashing the Power of Depth Foundation Models for End-to-End Dense Visual SLAM</papertitle></a> - <reddish> NEW!</reddish> <br> 
+    <a href="https://arxiv.org/pdf/2512.25008"><papertitle>FoundationSLAM: Unleashing the Power of Depth Foundation Models for End-to-End Dense Visual SLAM</papertitle></a> <br> 
     <p style="color:red;">(ORAL)</p>
     Yuchen Wu, Jiahe Li, <strong>Fabio Tosi</strong>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, Jin Zheng, Xiao Bai <br>
     <i>AAAI Conference on Artificial Intelligence</i> (<strong>AAAI</strong>), 2026  <br>
@@ -371,7 +371,7 @@ Full publication list on <a href="https://scholar.google.com/citations?user=5-UO
     <img src="../images/publications/warprf.png" alt="warprf">
   </div>
   <div style="width:100%;">
-    <a href="https://kuis-ai.github.io/WarpRF/"><papertitle>WarpRF: Multi-View Consistency for Training-Free Uncertainty Quantification and Applications in Radiance Fields</papertitle></a> - <reddish> NEW!</reddish> <br> 
+    <a href="https://kuis-ai.github.io/WarpRF/"><papertitle>WarpRF: Multi-View Consistency for Training-Free Uncertainty Quantification and Applications in Radiance Fields</papertitle></a> <br> 
     <a href="https://sadrasafa.github.io/">Sadra Safadoust</a>, <strong>Fabio Tosi</strong>, <a href="https://mysite.ku.edu.tr/fguney/">Fatma Güney</a>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a> <br>
     <i>IEEE/CVF Winter Conference on Applications of Computer Vision</i> (<strong>WACV</strong>), 2026  <br>
     <a href="https://kuis-ai.github.io/WarpRF/">project page</a>  | <a href="https://arxiv.org/pdf/2506.22433.pdf">paper</a> <br>
@@ -386,7 +386,7 @@ Full publication list on <a href="https://scholar.google.com/citations?user=5-UO
     <img src="../images/publications/flowseek.png" alt="flowseek">
   </div>
   <div style="width:100%;">
-    <a href="https://arxiv.org/abs/2509.05297"><papertitle>FlowSeek: Optical Flow Made Easier with Depth Foundation Models and Motion Bases</papertitle></a> - <reddish> NEW!</reddish> <br> 
+    <a href="https://arxiv.org/abs/2509.05297"><papertitle>FlowSeek: Optical Flow Made Easier with Depth Foundation Models and Motion Bases</papertitle></a> <br> 
     <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, <strong>Fabio Tosi</strong> <br>
     <i>International Conference on Computer Vision</i> (<strong>ICCV</strong>), 2025  <br>
     <a href="https://flowseek25.github.io/">project page</a>  | <a href="https://arxiv.org/abs/2509.05297">paper</a> | <a href="https://github.com/mattpoggi/flowseek">code</a> | <a href="https://iccv.thecvf.com/media/PosterPDFs/ICCV%202025/1668.png?t=1756118189.8297398">poster</a> <br>
