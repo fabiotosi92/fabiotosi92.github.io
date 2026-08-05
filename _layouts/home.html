@@ -1,0 +1,76 @@
+---
+layout: compress
+---
+
+{% include base_path %}<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}">
+  <head>
+    <meta charset="utf-8">
+    {% include seo.html %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ base_path }}/assets/css/home.css">
+
+    <script>
+      /* Set the theme before first paint so there is no flash. */
+      (function () {
+        var stored = null;
+        try { stored = localStorage.getItem("theme"); } catch (e) {}
+        var dark = stored
+          ? stored === "dark"
+          : window.matchMedia("(prefers-color-scheme: dark)").matches;
+        document.documentElement.setAttribute("data-theme", dark ? "dark" : "light");
+        document.documentElement.classList.add("js");
+      })();
+    </script>
+  </head>
+
+  <body class="home">
+
+    <header class="topbar">
+      <div class="wrap topbar-inner">
+        <a class="brand" href="{{ base_path }}/">Fabio Tosi</a>
+        <nav class="navlinks">
+          <a href="#about">About</a>
+          <a href="#news">News</a>
+          <a href="#team">Team</a>
+          <a href="#publications">Publications</a>
+          <a href="{{ base_path }}/files/Fabio_Tosi_s_CV.pdf">CV</a>
+        </nav>
+        <button type="button" class="theme-toggle" data-theme-toggle aria-pressed="false" aria-label="Switch to dark theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+            <circle cx="12" cy="12" r="4.2"/>
+            <path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M18.7 5.3l-1.6 1.6M6.9 17.1l-1.6 1.6"/>
+          </svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20.5 14.6A8.6 8.6 0 1 1 9.4 3.5a6.9 6.9 0 0 0 11.1 11.1Z"/>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer class="foot">
+      <div class="wrap foot-inner">
+        <div>© {{ site.time | date: "%Y" }} Fabio Tosi · Department of Computer Science and Engineering (DISI), University of Bologna</div>
+        <div class="foot-links">
+          <a href="mailto:{{ site.author.email }}">Email</a>
+          <a href="{{ site.author.googlescholar }}">Scholar</a>
+          <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+          <a href="{{ site.author.orcid }}">ORCID</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="{{ base_path }}/assets/js/home.js" defer></script>
+    {% include analytics.html %}
+  </body>
+</html>
