@@ -95,6 +95,10 @@ redirect_from:
         <span><span class="mark">Upcoming:</span> I am co-organizing the <a href="https://sites.google.com/view/neuslam"><strong>3rd Workshop on Neural SLAM (NeuSLAM)</strong></a>, held in conjunction with ECCV 2026 in Malmö, Sweden — September 8, afternoon.</span>
       </li>
       <li>
+        <span class="news-date">08/2026</span>
+        <span>1 paper accepted to BMVC 2026!</span>
+      </li>
+      <li>
         <span class="news-date">06/2026</span>
         <span>3 papers accepted to ECCV 2026, 1 paper accepted to IROS 2026!</span>
       </li>
@@ -302,6 +306,19 @@ redirect_from:
           <p class="pub-venue"><span class="venue">ECCV</span><span class="dot">|</span><span class="rank" data-scale="GGS">A++</span><span class="dot">|</span><span class="venue-full">European Conference on Computer Vision</span></p>
           <p class="pub-links">
             <a href="https://zorangong.github.io/magist3r_page/">project page</a><a href="https://arxiv.org/abs/2607.15211">arXiv</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="pub reveal" data-topic="flow">
+        <div class="pub-year">2026</div>
+        <div class="pub-thumb"><img src="/images/publications/flowit.png" loading="lazy" decoding="async" alt="FlowIt"></div>
+        <div>
+          <h3 class="pub-title"><a href="https://github.com/sadrasafa/FlowIt">FlowIt: Global Matching via Hierarchical Transformers and Optimal Transport for Optical Flow</a></h3>
+          <p class="pub-authors"><a href="https://sadrasafa.github.io/">Sadra Safadoust</a>, <strong>Fabio Tosi</strong>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, <a href="https://mysite.ku.edu.tr/fguney/">Fatma Güney</a></p>
+          <p class="pub-venue"><span class="venue">BMVC</span><span class="dot">|</span><span class="rank" data-scale="GGS">A</span><span class="dot">|</span><span class="venue-full">British Machine Vision Conference</span></p>
+          <p class="pub-links">
+            <a href="https://github.com/sadrasafa/FlowIt">code</a><a href="https://arxiv.org/abs/2603.28759">arXiv</a>
           </p>
         </div>
       </div>
