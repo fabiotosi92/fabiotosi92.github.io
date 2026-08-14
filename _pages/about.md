@@ -314,7 +314,7 @@ redirect_from:
         <div class="pub-year">2026</div>
         <div class="pub-thumb"><img src="/images/publications/flowit.png" loading="lazy" decoding="async" alt="FlowIt"></div>
         <div>
-          <h3 class="pub-title"><a href="https://github.com/sadrasafa/FlowIt">FlowIt: Global Matching via Hierarchical Transformers and Optimal Transport for Optical Flow</a></h3>
+          <h3 class="pub-title"><a href="https://github.com/sadrasafa/FlowIt">FlowIt: Global Matching via Hierarchical Transformers and Optimal Transport for Optical Flow</a> <span class="badge badge-new">New</span></h3>
           <p class="pub-authors"><a href="https://sadrasafa.github.io/">Sadra Safadoust</a>, <strong>Fabio Tosi</strong>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, <a href="https://mysite.ku.edu.tr/fguney/">Fatma Güney</a></p>
           <p class="pub-venue"><span class="venue">BMVC</span><span class="dot">|</span><span class="rank" data-scale="GGS">A</span><span class="dot">|</span><span class="venue-full">British Machine Vision Conference</span></p>
           <p class="pub-links">
