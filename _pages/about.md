@@ -27,7 +27,7 @@ redirect_from:
         <a class="btn" href="https://scholar.google.com/citations?user=5-UOaQkAAAAJ&hl=it">Google Scholar</a>
         <a class="btn" href="https://github.com/fabiotosi92">GitHub</a>
         <a class="btn" href="mailto:fabio.tosi5@unibo.it">Email</a>
-        <span class="actions-note">CV updated 02/07/2026</span>
+        <span class="actions-note">CV updated 24/08/2026</span>
       </div>
     </div>
 
@@ -279,7 +279,7 @@ redirect_from:
           <p class="pub-authors"><strong>Fabio Tosi</strong>, <a href="https://bartn8.github.io/">Luca Bartolomei</a>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a></p>
           <p class="pub-venue"><span class="venue">ECCV</span><span class="dot">|</span><span class="rank" data-scale="GGS">A++</span><span class="dot">|</span><span class="venue-full">European Conference on Computer Vision</span></p>
           <p class="pub-links">
-            <a href="https://zipdepth.github.io/">project page</a><a href="https://arxiv.org/abs/2607.08771">arXiv</a><a href="https://zipdepth.github.io/static/pdfs/zipdepth_supplementary.pdf">supplementary</a><a href="https://github.com/fabiotosi92/ZipDepth">code</a><a href="https://fabiotosi92.github.io/depth.zip/">demo</a>
+            <a href="https://zipdepth.github.io/">project page</a><a href="https://arxiv.org/abs/2607.08771">arXiv</a><a href="https://zipdepth.github.io/static/pdfs/zipdepth_supplementary.pdf">supplementary</a><a href="https://github.com/fabiotosi92/ZipDepth">code</a><a href="https://fabiotosi92.github.io/depth.zip/">demo</a><a href="https://www.youtube.com/watch?v=Rmlk2TsIl6k">video</a>
           </p>
         </div>
       </div>
