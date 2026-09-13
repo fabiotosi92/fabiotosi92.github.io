@@ -250,9 +250,10 @@ body.home a:hover { color: var(--accent); border-bottom-color: var(--accent); }
 /* Photo */
 .portrait { position: relative; }
 .portrait-media { position: relative; z-index: 0; }
-.portrait-media img {
+.portrait-media > img {
   display: block;
   width: 100%;
+  height: auto;            /* the width/height attributes would stretch it */
   border-radius: 4px;
   filter: saturate(.96);
 }
@@ -669,4 +670,214 @@ details.more .news { border-top: 0; margin-top: 1.2rem; }
   body.home a { color: #000; border: 0; }
   details.more[open], details.more { display: block; }
   html.js .reveal { opacity: 1 !important; transform: none !important; }
+}
+
+/* ---------- Thesis & internships ---------- */
+.join-lead {
+  font-size: 1.02rem;
+  line-height: 1.7;
+  color: var(--ink-2);
+  max-width: 46em;
+  margin: 0 0 2.2rem;
+  text-wrap: pretty;
+}
+
+/* Independent cards rather than a seamless grid: an odd number of topics
+   would otherwise leave empty cells showing through as broken tiles. */
+.topics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+.topic {
+  background: var(--bg);
+  border: 1px solid var(--line-soft);
+  border-radius: 6px;
+  padding: 1.4rem 1.5rem;
+  transition: background-color .18s ease, border-color .18s ease;
+}
+.topic:hover { background: var(--bg-warm); border-color: var(--line); }
+.topic h3 {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 1.25;
+  letter-spacing: -.01em;
+  color: var(--ink);
+  margin: 0 0 .5rem;
+}
+.topic p {
+  margin: 0;
+  font-size: .88rem;
+  line-height: 1.6;
+  color: var(--ink-3);
+}
+.topic-tag {
+  display: inline-block;
+  margin-left: .5rem;
+  font-family: var(--sans);
+  font-size: .62rem;
+  font-weight: 600;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-bg);
+  border: 1px solid rgba(184, 83, 44, .28);
+  border-radius: 3px;
+  padding: .16rem .4rem;
+  vertical-align: 3px;
+}
+
+.join-note {
+  margin: 1.6rem 0 0;
+  padding: 1.2rem 1.4rem;
+  background: var(--bg-warm);
+  border-radius: 6px;
+  font-size: .92rem;
+  line-height: 1.65;
+  color: var(--ink-2);
+}
+.join-note strong { color: var(--ink); font-weight: 600; }
+
+.join-cta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem 1.6rem;
+  margin-top: 2.2rem;
+}
+.join-cta p {
+  margin: 0;
+  font-size: .94rem;
+  line-height: 1.65;
+  color: var(--ink-2);
+  max-width: 38em;
+}
+
+@media (max-width: 720px) {
+  .topics { grid-template-columns: minmax(0, 1fr); }
+  .topic { padding: 1.2rem 1.2rem; }
+}
+
+/* ---------- Portrait compare (RGB / depth / normals) ----------
+   Progressive enhancement: --pos stays at 0 and the controls stay
+   hidden until home.js marks the widget ready, so with JS off the
+   portrait is just the photo. */
+.portrait-media { --pos: 0%; }
+
+.compare-overlay {
+  position: absolute;
+  inset: 0;
+  border-radius: 4px;
+  overflow: hidden;
+  clip-path: inset(0 calc(100% - var(--pos)) 0 0);
+}
+.compare-overlay img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0;
+  opacity: 0;
+  transition: opacity .32s ease;
+}
+.compare-overlay img.is-active { opacity: 1; }
+
+.portrait-media.is-intro .compare-overlay {
+  transition: clip-path .95s cubic-bezier(.22, .61, .36, 1);
+}
+
+.compare-ui { display: none; }
+.portrait-media.is-ready .compare-ui { display: block; }
+
+.compare-line {
+  position: absolute;
+  top: 0; bottom: 0;
+  left: var(--pos);
+  width: 2px;
+  margin-left: -1px;
+  background: rgba(255, 255, 255, .92);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, .18);
+  pointer-events: none;
+}
+.compare-grip {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 32px; height: 32px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, .95);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .3);
+}
+.compare-grip::before,
+.compare-grip::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 0; height: 0;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  transform: translateY(-50%);
+}
+.compare-grip::before { left: 7px;  border-right: 5px solid #191917; }
+.compare-grip::after  { right: 7px; border-left:  5px solid #191917; }
+
+.compare-range {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: 0;
+  opacity: 0;
+  cursor: ew-resize;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.compare-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 40px;
+  height: 200px;
+}
+.compare-range::-moz-range-thumb {
+  width: 40px;
+  height: 200px;
+  border: 0;
+  border-radius: 0;
+}
+.portrait-media.is-ready:focus-within .compare-grip {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.compare-modes {
+  display: none;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .4rem;
+  margin-top: 1.1rem;
+  font-size: .74rem;
+}
+.compare-modes.is-ready { display: flex; }
+.compare-modes-label { color: var(--ink-3); margin-right: .15rem; }
+.compare-mode {
+  font-family: inherit;
+  font-size: .74rem;
+  color: var(--ink-2);
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: .22rem .7rem;
+  cursor: pointer;
+  transition: all .16s ease;
+}
+.compare-mode:hover { color: var(--accent); border-color: var(--accent); }
+.compare-mode.is-active {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--bg);
 }

@@ -27,6 +27,67 @@
     apply(document.documentElement.getAttribute("data-theme") || "light");
   }
 
+  /* ---------- Portrait compare slider --------------------------------
+     Wipes the estimated depth / normal maps over the photo. The photo
+     alone is what shows if this never runs. */
+  var compare = document.querySelector("[data-compare]");
+  var modeBar = document.querySelector("[data-compare-modes]");
+
+  if (compare && compare.querySelector(".compare-range")) {
+    var range = compare.querySelector(".compare-range");
+    var maps = Array.prototype.slice.call(compare.querySelectorAll(".compare-map"));
+
+    var setPos = function (value) {
+      compare.style.setProperty("--pos", value + "%");
+    };
+
+    compare.classList.add("is-ready");
+    if (modeBar) modeBar.classList.add("is-ready");
+
+    if (reduced) {
+      setPos(range.value);
+    } else {
+      /* wipe open once on load, so the slider is noticed */
+      setPos(0);
+      compare.classList.add("is-intro");
+      window.setTimeout(function () { setPos(range.value); }, 450);
+      window.setTimeout(function () { compare.classList.remove("is-intro"); }, 1500);
+    }
+
+    range.addEventListener("input", function () {
+      compare.classList.remove("is-intro");
+      setPos(range.value);
+    });
+
+    if (modeBar) {
+      var buttons = Array.prototype.slice.call(modeBar.querySelectorAll(".compare-mode"));
+      buttons.forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          var wanted = btn.getAttribute("data-map");
+          buttons.forEach(function (b) {
+            var on = b === btn;
+            b.classList.toggle("is-active", on);
+            b.setAttribute("aria-pressed", on ? "true" : "false");
+          });
+          maps.forEach(function (m) {
+            m.classList.toggle("is-active", m.getAttribute("data-map") === wanted);
+          });
+          range.setAttribute(
+            "aria-label",
+            "Reveal the estimated " +
+              (wanted === "normals" ? "surface normals" : "depth map") +
+              " over the photo"
+          );
+          /* nudge the wipe open if it was parked at an edge */
+          if (Number(range.value) < 8) {
+            range.value = 55;
+            setPos(55);
+          }
+        });
+      });
+    }
+  }
+
   /* ---------- Publication filters ------------------------------------ */
   var bar = document.querySelector("[data-filters]");
   var pubs = Array.prototype.slice.call(document.querySelectorAll(".pub"));

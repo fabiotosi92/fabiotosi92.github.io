@@ -32,7 +32,22 @@ redirect_from:
     </div>
 
     <div class="portrait">
-      <div class="portrait-media"><img src="/images/me.jpg" alt="Fabio Tosi"></div>
+      <div class="portrait-media" data-compare>
+        <img src="/images/me.jpg" width="1077" height="992" alt="Fabio Tosi">
+        <div class="compare-overlay" aria-hidden="true">
+          <img class="compare-map is-active" data-map="depth" src="/images/me-depth.jpg" width="1077" height="992" alt="">
+          <img class="compare-map" data-map="normals" src="/images/me-normals.jpg" width="1077" height="992" alt="">
+        </div>
+        <div class="compare-ui">
+          <div class="compare-line"><span class="compare-grip"></span></div>
+          <input class="compare-range" type="range" min="0" max="100" step="0.1" value="55" aria-label="Reveal the estimated depth map over the photo">
+        </div>
+      </div>
+      <div class="compare-modes" data-compare-modes>
+        <span class="compare-modes-label">Drag to compare:</span>
+        <button type="button" class="compare-mode is-active" data-map="depth" aria-pressed="true">Depth</button>
+        <button type="button" class="compare-mode" data-map="normals" aria-pressed="false">Normals</button>
+      </div>
       <p class="portrait-caption">Bologna, Italy · <a href="mailto:fabio.tosi5@unibo.it">fabio.tosi5@unibo.it</a></p>
     </div>
   </div>
@@ -254,6 +269,55 @@ redirect_from:
   </div>
 </section>
 
+<section class="section" id="join">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Thesis &amp; internships</h2>
+      <p>For MSc students in Computer Engineering and Artificial Intelligence at the University of Bologna</p>
+    </div>
+
+    <p class="join-lead">
+      If you are looking for a thesis that is an open research problem rather than a closed exercise, get in touch. You would work inside <a href="#team">our group at CVLab</a>, with our GPUs, our codebases and regular supervision, on a topic close to what we publish — and the strongest projects can grow into a paper.
+    </p>
+
+    <div class="topics">
+      <div class="topic">
+        <h3>Monocular depth estimation</h3>
+        <p>Depth foundation models: sharper boundaries, robustness to hard conditions, and making them small and fast enough to run on a phone or an embedded board.</p>
+      </div>
+      <div class="topic">
+        <h3>Stereo matching</h3>
+        <p>Zero-shot generalization, transparent and reflective surfaces, event cameras, and stereo networks that adapt on the fly to the scene in front of them.</p>
+      </div>
+      <div class="topic">
+        <h3>Multi-view stereo &amp; 3D reconstruction</h3>
+        <p>Feed-forward reconstruction from casual video, neural rendering and 3D Gaussian Splatting, dense SLAM built on depth foundation models.</p>
+      </div>
+      <div class="topic">
+        <h3>Vision-Language Models <span class="topic-tag">New</span></h3>
+        <p>Grounding 3D perception in language: what a VLM can and cannot say about geometry, and how spatial understanding can be taught to one.</p>
+      </div>
+      <div class="topic">
+        <h3>Vision-Language-Action <span class="topic-tag">New</span></h3>
+        <p>From perception to action: how far accurate 3D perception takes a VLA policy, and where robot manipulation still breaks.</p>
+      </div>
+      <div class="topic">
+        <h3>Your own idea</h3>
+        <p>If you have a proposal that overlaps with what we do, bring it. The topics above are where we are strongest, not a closed list.</p>
+      </div>
+    </div>
+
+    <p class="join-note">
+      <strong>A period abroad.</strong> We collaborate with universities and companies worldwide, and students from the group have already spent research periods abroad. For students who are doing well, we can explore a visit or an internship with one of our partners — it is not guaranteed, but it is worth asking about early.
+    </p>
+
+    <div class="join-cta">
+      <p>Write to me with your CV, your transcript, and a few lines about what you find interesting and what you would like to learn. Telling me which of the topics above caught your eye helps more than a generic message.</p>
+      <a class="btn btn-solid" href="mailto:fabio.tosi5@unibo.it?subject=Thesis%20%2F%20internship%20enquiry">Get in touch</a>
+    </div>
+  </div>
+</section>
+
 <section class="section" id="publications">
   <div class="wrap">
     <div class="section-head">
@@ -387,7 +451,7 @@ redirect_from:
           <p class="pub-authors"><a href="https://zorangong.github.io/">Ziren Gong</a>, Xiaohan Li, <strong>Fabio Tosi</strong>, Jiawei Han, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>, Jianfei Cai, <a href="https://mattpoggi.github.io/">Matteo Poggi</a></p>
           <p class="pub-venue"><span class="venue">CVPR</span><span class="dot">|</span><span class="rank" data-scale="GGS">A++</span><span class="dot">|</span><span class="venue-full">Conference on Computer Vision and Pattern Recognition</span></p>
           <p class="pub-links">
-            <a href="https://zorangong.github.io/Ov3R_page/">project page</a><a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Gong_Ov3R_Open-Vocabulary_Semantic_3D_Reconstruction_from_RGB_Videos_CVPR_2026_paper.pdf">paper</a>
+            <a href="https://zorangong.github.io/Ov3R_page/">project page</a><a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Gong_Ov3R_Open-Vocabulary_Semantic_3D_Reconstruction_from_RGB_Videos_CVPR_2026_paper.pdf">paper</a><a href="https://github.com/ZoranGong/Ov3R">code</a>
           </p>
         </div>
       </div>
