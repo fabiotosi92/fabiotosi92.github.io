@@ -92,7 +92,11 @@ redirect_from:
     <ul class="news">
       <li>
         <span class="news-date">09/2026</span>
-        <span><span class="mark">Upcoming:</span> I am co-organizing the <a href="https://sites.google.com/view/neuslam"><strong>3rd Workshop on Neural SLAM (NeuSLAM)</strong></a>, held in conjunction with ECCV 2026 in Malmö, Sweden — September 8, afternoon.</span>
+        <span>Our paper <a href="https://huggingface.co/spaces/huawei-bayerlab/marigold-v2-web">“Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation”</a> has been accepted at <strong>SIGGRAPH Asia 2026</strong> (ACM Transactions on Graphics)!</span>
+      </li>
+      <li>
+        <span class="news-date">09/2026</span>
+        <span>The <a href="https://sites.google.com/view/neuslam"><strong>3rd Workshop on Neural SLAM (NeuSLAM)</strong></a> I co-organized took place at ECCV 2026 in Malmö, Sweden. Thanks to all the speakers and everyone who joined!</span>
       </li>
       <li>
         <span class="news-date">08/2026</span>
@@ -270,6 +274,19 @@ redirect_from:
     </div>
 
     <div class="pubs">
+
+      <div class="pub reveal" data-topic="depth">
+        <div class="pub-year">2026</div>
+        <div class="pub-thumb"><img src="/images/publications/marigoldv2.png" width="1600" height="493" loading="lazy" decoding="async" alt="Marigold V2"></div>
+        <div>
+          <h3 class="pub-title"><a href="https://huggingface.co/spaces/huawei-bayerlab/marigold-v2-web">Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation</a> <span class="badge badge-new">New</span></h3>
+          <p class="pub-authors">Igor Pavlovic*, Thiemo Wandel*, Anton Obukhov, <a href="https://bartn8.github.io/">Luca Bartolomei</a>, Andrey Davydov, <strong>Fabio Tosi</strong>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, Sabine Süsstrunk, Dengxin Dai</p>
+          <p class="pub-venue"><span class="venue">SIGGRAPH Asia</span><span class="dot">|</span><span class="venue-full">ACM Transactions on Graphics</span><span class="dot">|</span><span class="venue-detail">vol. 45, no. 6, art. 204</span></p>
+          <p class="pub-links">
+            <a href="https://huggingface.co/spaces/huawei-bayerlab/marigold-v2-web">project page</a><a href="https://arxiv.org/abs/2609.08084">arXiv</a><a href="https://github.com/huawei-bayerlab/marigold-v2">code</a><a href="https://huggingface.co/huawei-bayerlab/marigold-v2-0">weights</a><a href="https://huggingface.co/spaces/toshas/Marigold-V2">demo</a>
+          </p>
+        </div>
+      </div>
 
       <div class="pub reveal" data-topic="depth">
         <div class="pub-year">2026</div>
