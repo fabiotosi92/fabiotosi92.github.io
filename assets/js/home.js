@@ -36,6 +36,8 @@
   if (compare && compare.querySelector(".compare-range")) {
     var range = compare.querySelector(".compare-range");
     var maps = Array.prototype.slice.call(compare.querySelectorAll(".compare-map"));
+    /* the markup value is chosen so the face stays on the photo side */
+    var restPos = range.value;
 
     var setPos = function (value) {
       compare.style.setProperty("--pos", value + "%");
@@ -80,8 +82,8 @@
           );
           /* nudge the wipe open if it was parked at an edge */
           if (Number(range.value) < 8) {
-            range.value = 55;
-            setPos(55);
+            range.value = restPos;
+            setPos(restPos);
           }
         });
       });

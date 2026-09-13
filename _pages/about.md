@@ -40,7 +40,7 @@ redirect_from:
         </div>
         <div class="compare-ui">
           <div class="compare-line"><span class="compare-grip"></span></div>
-          <input class="compare-range" type="range" min="0" max="100" step="0.1" value="55" aria-label="Reveal the estimated depth map over the photo">
+          <input class="compare-range" type="range" min="0" max="100" step="0.1" value="30" aria-label="Reveal the estimated depth map over the photo">
         </div>
       </div>
       <div class="compare-modes" data-compare-modes>
