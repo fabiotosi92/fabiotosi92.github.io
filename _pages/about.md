@@ -48,7 +48,7 @@ redirect_from:
         <button type="button" class="compare-mode is-active" data-map="depth" aria-pressed="true">Depth</button>
         <button type="button" class="compare-mode" data-map="normals" aria-pressed="false">Normals</button>
       </div>
-      <p class="portrait-caption">Bologna, Italy · <a href="mailto:fabio.tosi5@unibo.it">fabio.tosi5@unibo.it</a></p>
+      <p class="portrait-caption"><span class="compare-credit">Depth and normals estimated with <a href="https://huggingface.co/spaces/toshas/Marigold-V2">Marigold V2</a><br></span>Bologna, Italy · <a href="mailto:fabio.tosi5@unibo.it">fabio.tosi5@unibo.it</a></p>
     </div>
   </div>
 </section>

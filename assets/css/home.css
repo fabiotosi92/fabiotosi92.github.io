@@ -881,3 +881,7 @@ details.more .news { border-top: 0; margin-top: 1.2rem; }
   border-color: var(--ink);
   color: var(--bg);
 }
+
+/* Credit for the maps — only meaningful once the compare widget is live */
+.compare-credit { display: none; }
+.portrait-media.is-ready ~ .portrait-caption .compare-credit { display: inline; }
