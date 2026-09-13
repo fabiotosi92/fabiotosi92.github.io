@@ -280,7 +280,7 @@ redirect_from:
         <div class="pub-thumb"><img src="/images/publications/marigoldv2.png" width="1600" height="493" loading="lazy" decoding="async" alt="Marigold V2"></div>
         <div>
           <h3 class="pub-title"><a href="https://huggingface.co/spaces/huawei-bayerlab/marigold-v2-web">Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation</a> <span class="badge badge-new">New</span></h3>
-          <p class="pub-authors">Igor Pavlovic*, Thiemo Wandel*, Anton Obukhov, <a href="https://bartn8.github.io/">Luca Bartolomei</a>, Andrey Davydov, <strong>Fabio Tosi</strong>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, Sabine Süsstrunk, Dengxin Dai</p>
+          <p class="pub-authors"><a href="https://www.linkedin.com/in/igor-pavlovic-328979221/">Igor Pavlovic*</a>, <a href="https://www.linkedin.com/in/thiemo-wandel/">Thiemo Wandel*</a>, <a href="https://www.obukhov.ai/">Anton Obukhov</a>, <a href="https://bartn8.github.io/">Luca Bartolomei</a>, <a href="https://www.linkedin.com/in/andrey-davydov1/">Andrey Davydov</a>, <strong>Fabio Tosi</strong>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, Sabine Süsstrunk, Dengxin Dai</p>
           <p class="pub-venue"><span class="venue">SIGGRAPH Asia</span><span class="dot">|</span><span class="venue-full">ACM Transactions on Graphics</span><span class="dot">|</span><span class="venue-detail">vol. 45, no. 6, art. 204</span></p>
           <p class="pub-links">
             <a href="https://huggingface.co/spaces/huawei-bayerlab/marigold-v2-web">project page</a><a href="https://arxiv.org/abs/2609.08084">arXiv</a><a href="https://github.com/huawei-bayerlab/marigold-v2">code</a><a href="https://huggingface.co/huawei-bayerlab/marigold-v2-0">weights</a><a href="https://huggingface.co/spaces/toshas/Marigold-V2">demo</a>
@@ -371,7 +371,7 @@ redirect_from:
         <div class="pub-thumb"><img src="/images/publications/stereospace.png" width="1150" height="699" loading="lazy" decoding="async" alt="StereoSpace"></div>
         <div>
           <h3 class="pub-title"><a href="https://arxiv.org/abs/2512.10959">StereoSpace: Depth-Free Synthesis of Stereo Geometry via End-to-End Diffusion in a Canonical Space</a></h3>
-          <p class="pub-authors">Tjark Behrens, Anton Obukhov, Bingxin Ke, <strong>Fabio Tosi</strong>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, Konrad Schindler</p>
+          <p class="pub-authors">Tjark Behrens, <a href="https://www.obukhov.ai/">Anton Obukhov</a>, Bingxin Ke, <strong>Fabio Tosi</strong>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, Konrad Schindler</p>
           <p class="pub-venue"><span class="venue">CVPR Findings</span><span class="dot">|</span><span class="venue-full">Conference on Computer Vision and Pattern Recognition – Findings</span></p>
           <p class="pub-links">
             <a href="https://arxiv.org/abs/2512.10959">arXiv</a><a href="https://openaccess.thecvf.com/content/CVPR2026F/papers/Behrens_StereoSpace_Depth-Free_Synthesis_of_Stereo_Geometry_via_End-to-End_Diffusion_in_CVPRF_2026_paper.pdf">paper</a><a href="https://github.com/prs-eth/stereospace">code</a><a href="https://huggingface.co/spaces/prs-eth/stereospace">demo</a>
