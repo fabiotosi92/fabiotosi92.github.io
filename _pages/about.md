@@ -88,12 +88,6 @@ redirect_from:
         </div>
       </div>
 
-      <div class="row">
-        <div class="row-label">Teaching</div>
-        <div class="row-body">
-          <p>I teach <strong>Accelerated Computing Systems</strong> (CUDA C, GPU architectures, high-performance computing) in the Master’s program in Computer Engineering, and GPU-accelerated computing for AI at the PhD level. I also teach <strong>Fundamentals of Computer Science</strong> (logic networks, computer architectures) in the Mechatronics program.</p>
-        </div>
-      </div>
     </div>
   </div>
 </section>
@@ -105,6 +99,10 @@ redirect_from:
     </div>
 
     <ul class="news">
+      <li>
+        <span class="news-date">09/2026</span>
+        <span>Honored to serve again as <strong>Area Chair</strong> at CVPR 2027!</span>
+      </li>
       <li>
         <span class="news-date">09/2026</span>
         <span>Our paper <a href="https://huggingface.co/spaces/huawei-bayerlab/marigold-v2-web">“Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation”</a> has been accepted at <strong>SIGGRAPH Asia 2026</strong> (ACM Transactions on Graphics)!</span>
@@ -133,36 +131,35 @@ redirect_from:
         <span class="news-date">02/2026</span>
         <span>Our survey on NeRF &amp; 3DGS-based SLAM accepted to T-RO!</span>
       </li>
-      <li>
-        <span class="news-date">12/2025</span>
-        <span>2 paper accepted to WACV 2025 and AAAI 2025 <span class="mark">(Oral)</span>!</span>
-      </li>
-      <li>
-        <span class="news-date">09/2024</span>
-        <span>Grateful for the <strong>Outstanding Reviewer</strong> recognition at ICCV 2025!</span>
-      </li>
-      <li>
-        <span class="news-date">09/2025</span>
-        <span>1 paper accepted with <a href="https://youmi-zym.github.io/">Rawmantic AI</a> to NIPS 2025!</span>
-      </li>
-      <li>
-        <span class="news-date">06/2025</span>
-        <span>2 paper accepted to ICCV 2025!</span>
-      </li>
-      <li>
-        <span class="news-date">06/2025</span>
-        <span>One paper is set for IROS 2025, and another for IJCV!</span>
-      </li>
-      <li>
-        <span class="news-date">05/2025</span>
-        <span>Grateful for the recognition as an <strong>Outstanding Reviewer</strong> at CVPR 2025!</span>
-      </li>
     </ul>
 
     <details class="more">
       <summary><span class="closed">Earlier news</span><span class="open">Hide earlier news</span></summary>
       <ul class="news">
         <li>
+          <span class="news-date">12/2025</span>
+          <span>2 paper accepted to WACV 2025 and AAAI 2025 <span class="mark">(Oral)</span>!</span>
+        </li>
+        <li>
+          <span class="news-date">09/2024</span>
+          <span>Grateful for the <strong>Outstanding Reviewer</strong> recognition at ICCV 2025!</span>
+        </li>
+        <li>
+          <span class="news-date">09/2025</span>
+          <span>1 paper accepted with <a href="https://youmi-zym.github.io/">Rawmantic AI</a> to NIPS 2025!</span>
+        </li>
+        <li>
+          <span class="news-date">06/2025</span>
+          <span>2 paper accepted to ICCV 2025!</span>
+        </li>
+        <li>
+          <span class="news-date">06/2025</span>
+          <span>One paper is set for IROS 2025, and another for IJCV!</span>
+        </li>
+        <li>
+          <span class="news-date">05/2025</span>
+          <span>Grateful for the recognition as an <strong>Outstanding Reviewer</strong> at CVPR 2025!</span>
+        </li><li>
           <span class="news-date">02/2025</span>
           <span>Our paper <a href="https://stereoanywhere.github.io/">“Stereo Anywhere: Robust Zero-Shot Deep Stereo Matching Even Where Either Stereo or Mono Fail”</a> has been accepted at CVPR 2025!</span>
         </li>
@@ -269,6 +266,51 @@ redirect_from:
   </div>
 </section>
 
+<section class="section" id="teaching">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Teaching</h2>
+      <p>University of Bologna</p>
+    </div>
+
+    <ul class="courses">
+      <li class="course">
+        <div>
+          <h3><a href="https://www.unibo.it/it/studiare/insegnamenti-competenze-trasversali-moocs/insegnamenti/insegnamento/2026/543027">Accelerated Computing Systems</a></h3>
+          <p class="course-orig">Sistemi di Elaborazione Accelerata M</p>
+          <p>CUDA and the GPU software stack, GPU architectures and high-performance computing: how to write code that actually keeps a modern GPU busy. Module 2, alongside <a href="https://stefanomattoccia.github.io/">Stefano Mattoccia</a>.</p>
+        </div>
+        <div class="course-meta">
+          <span class="course-level">MSc</span>
+          Computer Engineering (cod. 6719)
+          <span class="course-code">B8563 · 8 CFU · taught in Italian</span>
+        </div>
+      </li>
+      <li class="course">
+        <div>
+          <h3><a href="https://www.unibo.it/it/studiare/insegnamenti-competenze-trasversali-moocs/insegnamenti/insegnamento/2026/498955">Fundamentals of Computer Science</a></h3>
+          <p>Logic networks and computer architectures — how a machine gets from gates to instructions.</p>
+        </div>
+        <div class="course-meta">
+          <span class="course-level">BSc</span>
+          Mechatronics (cod. 6009)
+          <span class="course-code">B0041 · 3 CFU · taught in Italian</span>
+        </div>
+      </li>
+      <li class="course">
+        <div>
+          <h3>GPU-accelerated Computing for AI</h3>
+          <p>The same machinery seen from the side of deep learning: where the time really goes when a model trains, and what can be done about it.</p>
+        </div>
+        <div class="course-meta">
+          <span class="course-level">PhD</span>
+          Doctoral courses
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
 <section class="section" id="join">
   <div class="wrap">
     <div class="section-head">
@@ -312,7 +354,7 @@ redirect_from:
     </p>
 
     <div class="join-cta">
-      <p>Write to me with your CV, your transcript, and a few lines about what you find interesting and what you would like to learn. Telling me which of the topics above caught your eye helps more than a generic message.</p>
+      <p>Write to me with your CV, your transcript, and a few lines about what you find interesting and what you would like to learn.</p>
       <a class="btn btn-solid" href="mailto:fabio.tosi5@unibo.it?subject=Thesis%20%2F%20internship%20enquiry">Get in touch</a>
     </div>
   </div>
