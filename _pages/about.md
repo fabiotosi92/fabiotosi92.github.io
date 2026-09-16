@@ -299,12 +299,13 @@ redirect_from:
       </li>
       <li class="course">
         <div>
-          <h3>GPU-accelerated Computing for AI</h3>
+          <h3><a href="https://fabiotosi92.github.io/phd-course-gpu-2026/">GPU-accelerated Computing for AI</a></h3>
           <p>The same machinery seen from the side of deep learning: where the time really goes when a model trains, and what can be done about it.</p>
         </div>
         <div class="course-meta">
           <span class="course-level">PhD</span>
           Doctoral courses
+          <span class="course-code">taught in English</span>
         </div>
       </li>
     </ul>
