@@ -131,6 +131,19 @@
     setCount(pubs.length);
   }
 
+  /* ---------- Work strip: jump to the matching publication filter ----- */
+  var tiles = Array.prototype.slice.call(document.querySelectorAll("[data-jump]"));
+  tiles.forEach(function (tile) {
+    tile.addEventListener("click", function () {
+      var chip = document.querySelector(
+        '.chip[data-filter="' + tile.getAttribute("data-jump") + '"]'
+      );
+      if (chip) chip.click();
+      var target = document.getElementById("publications");
+      if (target) target.scrollIntoView({ behavior: reduced ? "auto" : "smooth" });
+    });
+  });
+
   /* ---------- Reveal on scroll ---------------------------------------
      The reveal is decoration; the content must never depend on it. Every
      path below ends with the element visible, and a timer sweeps up any

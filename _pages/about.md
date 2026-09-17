@@ -95,39 +95,39 @@ redirect_from:
 <section class="section" id="news">
   <div class="wrap">
     <div class="section-head">
-      <h2>News</h2>
+      <h2 class="h2-news">News</h2>
     </div>
 
     <ul class="news">
-      <li>
+      <li data-kind="role">
         <span class="news-date">09/2026</span>
         <span>Honored to serve again as <strong>Area Chair</strong> at CVPR 2027!</span>
       </li>
-      <li>
+      <li data-kind="paper">
         <span class="news-date">09/2026</span>
         <span>Our paper <a href="https://huggingface.co/spaces/huawei-bayerlab/marigold-v2-web">“Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation”</a> has been accepted at <strong>SIGGRAPH Asia 2026</strong> (ACM Transactions on Graphics)!</span>
       </li>
-      <li>
+      <li data-kind="event">
         <span class="news-date">09/2026</span>
         <span>The <a href="https://sites.google.com/view/neuslam"><strong>3rd Workshop on Neural SLAM (NeuSLAM)</strong></a> I co-organized took place at ECCV 2026 in Malmö, Sweden. Thanks to all the speakers and everyone who joined!</span>
       </li>
-      <li>
+      <li data-kind="paper">
         <span class="news-date">08/2026</span>
         <span>1 paper accepted to BMVC 2026!</span>
       </li>
-      <li>
+      <li data-kind="paper">
         <span class="news-date">06/2026</span>
         <span>3 papers accepted to ECCV 2026, 1 paper accepted to IROS 2026!</span>
       </li>
-      <li>
+      <li data-kind="award">
         <span class="news-date">05/2026</span>
         <span>Honored to be recognized as an <strong>Outstanding Area Chair</strong> at CVPR 2026!</span>
       </li>
-      <li>
+      <li data-kind="paper">
         <span class="news-date">02/2026</span>
         <span>3 papers at CVPR 2026, 1 at CVPR Findings 2026!</span>
       </li>
-      <li>
+      <li data-kind="paper">
         <span class="news-date">02/2026</span>
         <span>Our survey on NeRF &amp; 3DGS-based SLAM accepted to T-RO!</span>
       </li>
@@ -136,86 +136,86 @@ redirect_from:
     <details class="more">
       <summary><span class="closed">Earlier news</span><span class="open">Hide earlier news</span></summary>
       <ul class="news">
-        <li>
+        <li data-kind="paper">
           <span class="news-date">12/2025</span>
           <span>2 paper accepted to WACV 2025 and AAAI 2025 <span class="mark">(Oral)</span>!</span>
         </li>
-        <li>
+        <li data-kind="award">
           <span class="news-date">09/2024</span>
           <span>Grateful for the <strong>Outstanding Reviewer</strong> recognition at ICCV 2025!</span>
         </li>
-        <li>
+        <li data-kind="paper">
           <span class="news-date">09/2025</span>
           <span>1 paper accepted with <a href="https://youmi-zym.github.io/">Rawmantic AI</a> to NIPS 2025!</span>
         </li>
-        <li>
+        <li data-kind="paper">
           <span class="news-date">06/2025</span>
           <span>2 paper accepted to ICCV 2025!</span>
         </li>
-        <li>
+        <li data-kind="paper">
           <span class="news-date">06/2025</span>
           <span>One paper is set for IROS 2025, and another for IJCV!</span>
         </li>
-        <li>
+        <li data-kind="award">
           <span class="news-date">05/2025</span>
           <span>Grateful for the recognition as an <strong>Outstanding Reviewer</strong> at CVPR 2025!</span>
-        </li><li>
+        </li><li data-kind="paper">
           <span class="news-date">02/2025</span>
           <span>Our paper <a href="https://stereoanywhere.github.io/">“Stereo Anywhere: Robust Zero-Shot Deep Stereo Matching Even Where Either Stereo or Mono Fail”</a> has been accepted at CVPR 2025!</span>
         </li>
-        <li>
+        <li data-kind="paper">
           <span class="news-date">01/2025</span>
           <span>1 paper accepted to ICRA 2025!</span>
         </li>
-        <li>
+        <li data-kind="paper">
           <span class="news-date">12/2024</span>
           <span>Our survey paper, <a href="https://fabiotosi92.github.io/files/survey-stereo.pdf">“A Survey on Deep Stereo Matching in the Twenties”</a>, has been accepted at the IJCV journal!</span>
         </li>
-        <li>
+        <li data-kind="award">
           <span class="news-date">11/2024</span>
           <span>Our research with <a href="https://sadrasafa.github.io/">Sadra</a> and <a href="https://mysite.ku.edu.tr/fguney/">Fatma</a> received the <a href="http://fabiotosi92.github.io/files/BMVC2024_awards.pdf"><strong>Best Poster Award</strong></a> at BMVC 2024!</span>
         </li>
-        <li>
+        <li data-kind="paper">
           <span class="news-date">07/2024</span>
           <span>1 paper accepted to WACV 2024!</span>
         </li>
-        <li>
+        <li data-kind="award">
           <span class="news-date">09/2024</span>
           <span>Grateful for the <strong>Outstanding Reviewer</strong> recognition at ECCV 2024!</span>
         </li>
-        <li>
+        <li data-kind="paper">
           <span class="news-date">07/2024</span>
           <span>Our paper <a href="https://diffusion4robustdepth.github.io/">“Diffusion Models for Monocular Depth Estimation”</a> has been accepted at ECCV 2024!</span>
         </li>
-        <li>
+        <li data-kind="event">
           <span class="news-date">06/2024</span>
           <span>Our <strong>CVPR tutorial</strong> on deep stereo matching is now available! Get all the insights <a href="https://sites.google.com/view/stereo-twenties">here</a>!</span>
         </li>
-        <li>
+        <li data-kind="paper">
           <span class="news-date">06/2024</span>
           <span>Our extended version of <a href="https://github.com/CVLAB-Unibo/neural-disparity-refinement">Neural Disparity Refinement</a> has been accepted for publication in the TPAMI journal!</span>
         </li>
-        <li>
+        <li data-kind="award">
           <span class="news-date">05/2024</span>
           <span>Honored to be recognized as a <strong>Outstanding Reviewer</strong> at CVPR 2024!</span>
         </li>
-        <li>
+        <li data-kind="role">
           <span class="news-date">10/2023</span>
           <span>I am proud to announce my new role as a <strong>Junior Assistant Professor (RTDA)</strong> at the Department of Computer Science and Engineering (DISI)!</span>
         </li>
-        <li>
+        <li data-kind="award">
           <span class="news-date">05/2023</span>
           <span>It is with great pleasure that I announce my achievement as an <strong>Outstanding Reviewer</strong> at CVPR 2023! (<a href="http://fabiotosi92.github.io/files/cvpr23_outstanding_certificate.pdf">Award Certificate</a>)</span>
         </li>
-        <li>
+        <li data-kind="role">
           <span class="news-date">02/2023</span>
           <span>I received my <a href="https://asn21.cineca.it/pubblico/miur/esito/09%252FH1/2/4">National Scientific Habilitation</a> (09/H1)</span>
         </li>
-        <li>
+        <li data-kind="award">
           <span class="news-date">11/2022</span>
-          <span>🏆 Celebrating the recognition of the <a href="https://www.cvpl.it/en/awards/#miglior_tesi_dottorato">Best PhD Thesis Award</a> from the Italian Association for Computer Vision Research (CVPL 2022)</span>
+          <span>Celebrating the recognition of the <a href="https://www.cvpl.it/en/awards/#miglior_tesi_dottorato">Best PhD Thesis Award</a> from the Italian Association for Computer Vision Research (CVPL 2022)</span>
         </li>
-        <li>
+        <li data-kind="award">
           <span class="news-date">09/2021</span>
           <span><a href="https://3dv2021.surrey.ac.uk/prizes/">Best Paper Honorable Mention</a> to our work <strong>“Neural Disparity Refinement for Arbitrary Resolution Stereo”</strong></span>
         </li>
@@ -309,6 +309,37 @@ redirect_from:
         </div>
       </li>
     </ul>
+  </div>
+</section>
+
+<section class="strip-section">
+  <div class="wrap">
+    <div class="strip-head">
+      <h2>What we work on</h2>
+      <p>Recent results from the group — click to filter the publications below</p>
+    </div>
+    <div class="strip">
+      <button type="button" class="strip-tile" data-jump="depth">
+        <img src="/images/publications/zipdepth.png" loading="lazy" decoding="async" alt="Monocular depth estimation result">
+        <span class="strip-label">Monocular depth</span>
+      </button>
+      <button type="button" class="strip-tile" data-jump="stereo">
+        <img src="/images/publications/stereoanywhere.png" style="object-position: 78% 50%" loading="lazy" decoding="async" alt="Stereo matching result">
+        <span class="strip-label">Stereo</span>
+      </button>
+      <button type="button" class="strip-tile" data-jump="slam">
+        <img src="/images/publications/goslam.png" style="object-position: 22% 50%" loading="lazy" decoding="async" alt="Dense 3D reconstruction from SLAM">
+        <span class="strip-label">SLAM &amp; 3D</span>
+      </button>
+      <button type="button" class="strip-tile" data-jump="rendering">
+        <img src="/images/publications/stereogs.png" style="object-position: 80% 50%" loading="lazy" decoding="async" alt="Neural rendering result">
+        <span class="strip-label">Neural rendering</span>
+      </button>
+      <button type="button" class="strip-tile" data-jump="flow">
+        <img src="/images/publications/flowseek.png" style="object-position: 88% 50%" loading="lazy" decoding="async" alt="Optical flow result">
+        <span class="strip-label">Optical flow</span>
+      </button>
+    </div>
   </div>
 </section>
 
