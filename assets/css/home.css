@@ -1062,3 +1062,41 @@ details.more .news { border-top: 0; margin-top: 1.2rem; }
   mask: center / contain no-repeat var(--news-mark);
   --news-mark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 10v4a1 1 0 0 0 1 1h3l6 4V5L8 9H5a1 1 0 0 0-1 1z'/%3E%3Cpath d='M17.6 8.6a5 5 0 0 1 0 6.8'/%3E%3C/svg%3E");
 }
+
+/* ---------- Per-publication TL;DR ---------- */
+.tldr { margin-top: .75rem; }
+.tldr > summary {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  cursor: pointer;
+  list-style: none;
+  font-size: .7rem;
+  font-weight: 600;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  transition: color .15s ease;
+}
+.tldr > summary::-webkit-details-marker { display: none; }
+.tldr > summary::after {
+  content: "";
+  width: 0; height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid currentColor;
+  transition: transform .2s ease;
+}
+.tldr[open] > summary::after { transform: rotate(180deg); }
+.tldr > summary:hover,
+.tldr[open] > summary { color: var(--accent); }
+.tldr p {
+  margin: .6rem 0 0;
+  padding-left: .9rem;
+  border-left: 2px solid var(--accent-bg);
+  max-width: 46em;
+  font-size: .9rem;
+  line-height: 1.65;
+  color: var(--ink-2);
+}
+.tldr[open] p { border-left-color: rgba(184, 83, 44, .35); }

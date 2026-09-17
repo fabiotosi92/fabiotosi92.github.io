@@ -423,6 +423,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://huggingface.co/spaces/huawei-bayerlab/marigold-v2-web">project page</a><a href="https://arxiv.org/abs/2609.08084">arXiv</a><a href="https://github.com/huawei-bayerlab/marigold-v2">code</a><a href="https://huggingface.co/huawei-bayerlab/marigold-v2-0">weights</a><a href="https://huggingface.co/spaces/toshas/Marigold-V2">demo</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>Turns a pretrained image-editing diffusion transformer into a single-step depth estimator, through representation alignment and a two-stage fine-tuning built on a Sinkhorn loss. It recovers fur, foliage and hair-thin edges that earlier models smooth away, while staying cheap enough to run.</p>
+          </details>
         </div>
       </div>
 
@@ -436,6 +440,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://zipdepth.github.io/">project page</a><a href="https://arxiv.org/abs/2607.08771">arXiv</a><a href="https://zipdepth.github.io/static/pdfs/zipdepth_supplementary.pdf">supplementary</a><a href="https://github.com/fabiotosi92/ZipDepth">code</a><a href="https://fabiotosi92.github.io/depth.zip/">demo</a><a href="https://www.youtube.com/watch?v=Rmlk2TsIl6k">video</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>A 6.1M-parameter depth network distilled from a foundation model over many domains. It keeps zero-shot generalization while running in real time on embedded hardware, closing much of the gap to models fifty times larger.</p>
+          </details>
         </div>
       </div>
 
@@ -449,6 +457,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://zorangong.github.io/DINO-SLAM/">project page</a><a href="https://arxiv.org/abs/2507.19474">arXiv</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>Feeds DINO features, enriched by a scene geometry encoder, into NeRF- and Gaussian-Splatting SLAM. The map then carries semantics and geometry together, instead of appearance alone.</p>
+          </details>
         </div>
       </div>
 
@@ -462,6 +474,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://zorangong.github.io/magist3r_page/">project page</a><a href="https://arxiv.org/abs/2607.15211">arXiv</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>Reconstructs and tracks from monocular video at nearly 10 FPS by splitting the work across agents: each regresses local point maps, a merging model fuses them, and pose-graph optimization cancels the drift a feed-forward pipeline accumulates.</p>
+          </details>
         </div>
       </div>
 
@@ -475,6 +491,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://github.com/sadrasafa/FlowIt">code</a><a href="https://arxiv.org/abs/2603.28759">arXiv</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>Treats optical flow as global matching. A hierarchical transformer supplies long-range context, and casting the initialization as an optimal transport problem yields a robust starting flow together with explicit occlusion and confidence maps, which then guide the refinement.</p>
+          </details>
         </div>
       </div>
 
@@ -488,6 +508,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Xu_Bidirectional_Cross-Modal_Prompting_for_Event-Frame_Asymmetric_Stereo_CVPR_2026_paper.pdf">paper</a><a href="https://github.com/xnh97/Bi-CMPStereo">code</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>Stereo between an event camera and an ordinary one. Prompting the two modalities in both directions keeps the cues specific to each from being washed out by the other, which is what usually breaks asymmetric stereo.</p>
+          </details>
         </div>
       </div>
 
@@ -501,6 +525,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://bartn8.github.io/eventhub/">project page</a><a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Bartolomei_EventHub_Data_Factory_for_Generalizable_Event-Based_Stereo_Networks_without_Active_CVPR_2026_paper.pdf">paper</a><a href="https://arxiv.org/abs/2604.02331">arXiv</a><a href="https://bartn8.github.io/eventhub/assets/poster_cvpr2026.pdf">poster</a><a href="https://github.com/bartn8/eventhub">code</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>Trains event-based stereo without active depth sensors. Novel view synthesis turns ordinary colour images into proxy events and proxy labels, and stereo models from the RGB literature are repurposed on that data, generalizing far beyond what annotated event datasets allow.</p>
+          </details>
         </div>
       </div>
 
@@ -514,6 +542,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://arxiv.org/abs/2512.10959">arXiv</a><a href="https://openaccess.thecvf.com/content/CVPR2026F/papers/Behrens_StereoSpace_Depth-Free_Synthesis_of_Stereo_Geometry_via_End-to-End_Diffusion_in_CVPRF_2026_paper.pdf">paper</a><a href="https://github.com/prs-eth/stereospace">code</a><a href="https://huggingface.co/spaces/prs-eth/stereospace">demo</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>Synthesizes the second view of a stereo pair directly with diffusion, conditioned on viewpoint in a canonical rectified space — no depth estimation, no warping. It also proposes an evaluation protocol that forbids ground-truth geometry at test time.</p>
+          </details>
         </div>
       </div>
 
@@ -527,6 +559,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://zorangong.github.io/Ov3R_page/">project page</a><a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Gong_Ov3R_Open-Vocabulary_Semantic_3D_Reconstruction_from_RGB_Videos_CVPR_2026_paper.pdf">paper</a><a href="https://github.com/ZoranGong/Ov3R">code</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>Open-vocabulary semantic 3D reconstruction from RGB video: CLIP semantics enter the reconstruction itself rather than being painted on afterwards, and 2D features are lifted into 3D descriptors that fuse space, geometry and meaning.</p>
+          </details>
         </div>
       </div>
 
@@ -540,6 +576,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://arxiv.org/abs/2402.13255">arXiv</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>The first survey of SLAM seen through radiance fields: how NeRF and 3D Gaussian Splatting reshaped mapping and tracking, what each representation buys you, and where they still break.</p>
+          </details>
         </div>
       </div>
 
@@ -553,6 +593,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://arxiv.org/pdf/2512.25008">paper</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>Monocular dense SLAM that grounds flow estimation in depth foundation models, so correspondences stay geometrically consistent, and then enforces global consistency with a bundle adjustment layer optimizing poses and depth jointly.</p>
+          </details>
         </div>
       </div>
 
@@ -566,6 +610,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://kuis-ai.github.io/WarpRF/">project page</a><a href="https://arxiv.org/pdf/2506.22433.pdf">paper</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>Measures how much a radiance field can be trusted without training anything. Render from the views you have, warp them into one you do not, and see whether the model agrees with itself.</p>
+          </details>
         </div>
       </div>
 
@@ -579,6 +627,10 @@ redirect_from:
           <p class="pub-links">
             <a href="/files/14521_Eve3D_Elevating_Vision_M-main.pdf">paper</a><a href="/files/14521_Eve3D_Elevating_Vision_M-appendix.pdf">supplementary</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>Optimizes 3D Gaussian Splatting and the vision-model priors that supervise it at the same time, so each keeps improving the other, with a bundle-adjustment step that escapes the purely local supervision of standard 3DGS pipelines.</p>
+          </details>
         </div>
       </div>
 
@@ -592,6 +644,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://flowseek25.github.io/">project page</a><a href="https://arxiv.org/abs/2509.05297">paper</a><a href="https://github.com/mattpoggi/flowseek">code</a><a href="https://iccv.thecvf.com/media/PosterPDFs/ICCV%202025/1668.png?t=1756118189.8297398">poster</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>Optical flow trained on a single consumer GPU — roughly eight times less hardware than comparable methods — by pairing depth foundation models with a classical low-dimensional motion parametrization, and still generalizing better across datasets.</p>
+          </details>
         </div>
       </div>
 
@@ -605,6 +661,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://link.springer.com/article/10.1007/s11263-024-02331-0">paper</a><a href="/files/survey-stereo.pdf">pdf</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>Maps the 2020s of deep stereo: the architectures and paradigms that redefined the field in the last five years, the challenges that stayed open, and a quantitative account of where the benchmarks now stand.</p>
+          </details>
         </div>
       </div>
 
@@ -618,6 +678,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://stereoanywhere.github.io/">project page</a><a href="https://arxiv.org/pdf/2412.04472">paper</a><a href="https://github.com/bartn8/stereoanywhere/">code</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>Couples a stereo network with monocular priors from a vision foundation model, so the two cover each other's blind spots. Trained only on synthetic data, it still holds up on mirrors, transparencies and textureless regions, where either cue alone fails.</p>
+          </details>
         </div>
       </div>
 
@@ -631,6 +695,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://bartn8.github.io/depthanyevent/">project page</a><a href="https://doi.org/10.1109/ICCV51701.2025.01829">paper</a><a href="https://github.com/bartn8/depthanyevent">code</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>Brings monocular depth to event cameras, where dense ground truth essentially does not exist, by distilling a vision foundation model through spatially aligned RGB into dense proxy labels for the event stream.</p>
+          </details>
         </div>
       </div>
 
@@ -644,6 +712,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://arxiv.org/pdf/2406.04345">paper</a><a href="https://vppstereo.github.io/">project page</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>Replaces the physical projector of active stereo with a virtual one: sparse measurements from any depth sensor are painted onto both images as patterns consistent with the scene, turning a passive rig into an active one without the projector's range and lighting limits.</p>
+          </details>
         </div>
       </div>
 
@@ -657,6 +729,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://cabnir.github.io/">project page</a><a href="https://doi.org/10.1109/WACV61041.2025.00256">paper</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>A near-infrared benchmark for depth estimation inside the cabin: more than 41,000 frames with ground truth, across 36 vehicles and 45 participants — the scale in-vehicle depth research was missing.</p>
+          </details>
         </div>
       </div>
 
@@ -670,6 +746,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://zorangong.github.io/HS-SLAM/">project page</a><a href="https://doi.org/10.1109/ICRA55743.2025.11127551">paper</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>NeRF-based SLAM with a hybrid encoding — hash grid, tri-planes and one-blob together — plus structural supervision, aimed at the scenes where existing systems lose completeness or drift out of global consistency.</p>
+          </details>
         </div>
       </div>
 
@@ -683,6 +763,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://kuis-ai.github.io/StereoGS/">project page</a><a href="https://arxiv.org/pdf/2409.07456">paper</a><a href="https://github.com/sadrasafa/StereoGS/">code</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>The Gaussian Splatting model renders virtual stereo pairs of itself, a stereo network turns them into depth supervision, and that supervision repairs the floating artifacts in its own geometry. A loop that improves as it runs.</p>
+          </details>
         </div>
       </div>
 
@@ -696,6 +780,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://diffusion4robustdepth.github.io/">project page</a><a href="https://raw.githubusercontent.com/fabiotosi92/Diffusion4RobustDepth/main/assets/main.pdf">paper</a><a href="https://github.com/fabiotosi92/Diffusion4RobustDepth">code</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>Generates the hard cases instead of hunting for them: text-to-image diffusion with depth-aware control turns easy scenes into rainy, dark or otherwise adverse ones while preserving their depth, so monocular networks can learn conditions nobody has labelled.</p>
+          </details>
         </div>
       </div>
 
@@ -709,6 +797,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://doi.org/10.1109/TPAMI.2023.3323858">paper</a><a href="https://cvlab-unibo.github.io/booster-web/">project page</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>Dense, high-resolution ground truth for exactly what breaks depth estimation — mirrors, glass and other non-Lambertian surfaces — labelled with sub-pixel precision through a deep space-time stereo pipeline.</p>
+          </details>
         </div>
       </div>
 
@@ -722,6 +814,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://doi.org/10.1109/TPAMI.2024.3411292">paper</a><a href="https://cvlab-unibo.github.io/neural-disparity-refinement-web/">project page</a><a href="https://github.com/CVLAB-Unibo/neural-disparity-refinement">code</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>The journal version of neural disparity refinement: a continuous formulation that outputs a refined disparity map at any resolution, built for phones, where a high-resolution and a low-resolution camera have to cooperate.</p>
+          </details>
         </div>
       </div>
 
@@ -735,6 +831,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://fedstereo.github.io/">project page</a><a href="https://mattpoggi.github.io/assets/papers/poggi2024cvpr.pdf">paper</a><a href="https://github.com/mattpoggi/fedstereo">code</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>Stereo networks deployed in different environments share what they learn while adapting online. A device that cannot afford to adapt on its own still benefits from the experience of the others.</p>
+          </details>
         </div>
       </div>
 
@@ -748,6 +848,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://youmi-zym.github.io/projects/GO-SLAM/">project page</a><a href="https://arxiv.org/pdf/2309.02436.pdf">paper</a><a href="https://github.com/youmi-zym/GO-SLAM">code</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>Dense neural SLAM that keeps poses and reconstruction globally consistent in real time, through loop closing and online full bundle adjustment, instead of letting tracking error accumulate into a distorted map.</p>
+          </details>
         </div>
       </div>
 
@@ -761,6 +865,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://vppstereo.github.io/">project page</a><a href="https://github.com/bartn8/vppstereo">code</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>Gives a passive stereo pair the benefits of active stereo with no projector at all: sparse depth hints are virtually projected onto both images as a pattern, so correspondence becomes easy where texture is missing.</p>
+          </details>
         </div>
       </div>
 
@@ -774,6 +882,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://nerfstereo.github.io/">project page</a><a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Tosi_NeRF-Supervised_Deep_Stereo_CVPR_2023_paper.pdf">paper</a><a href="https://github.com/fabiotosi92/NeRF-Supervised-Deep-Stereo/raw/main/assets/Tosi_et_al_CVPR2023_supplementary.pdf">supplementary</a><a href="https://github.com/fabiotosi92/NeRF-Supervised-Deep-Stereo">code</a><a href="https://amsacta.unibo.it/id/eprint/7218/">dataset</a><a href="https://www.youtube.com/watch?v=m7dqHkxb4yg&feature=youtu.be">video</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>Trains stereo networks with no ground truth whatsoever. A handheld video becomes a NeRF, the NeRF renders stereo triplets and proxy depth, and the network learns sharp disparities from images that were never captured by a stereo rig.</p>
+          </details>
         </div>
       </div>
 
@@ -787,6 +899,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://cvlab-unibo.github.io/Depth4ToM-website/">project page</a><a href="https://doi.org/10.1109/ICCV51070.2023.00848">paper</a><a href="https://github.com/CVLAB-Unibo/Depth4ToM">code</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>Teaches depth for transparent and mirror surfaces without a single annotation: in-paint the offending object, let a monocular model label the repaired image, and fine-tune on those pseudo labels.</p>
+          </details>
         </div>
       </div>
 
@@ -800,6 +916,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://doi.org/10.1109/ICCV51070.2023.01485">paper</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>Self-supervised indoor depth, where large rotations and bare walls break the usual recipe. Coarse poses from multi-view geometry help, but only once the scale ambiguity across scenes is handled — which is the paper's actual contribution.</p>
+          </details>
         </div>
       </div>
 
@@ -813,6 +933,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://arxiv.org/abs/2208.03543">paper</a><a href="https://github.com/zxcqlf/MonoViT">code</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>Brings the global reasoning of vision transformers to self-supervised monocular depth, where the limited receptive field of convolutions had confined the network to local decisions.</p>
+          </details>
         </div>
       </div>
 
@@ -826,6 +950,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://arxiv.org/abs/2209.00648">paper</a><a href="https://drive.google.com/file/d/1V40AeNQ7qacg4GlxK_6jmfm6bCcqykms/view">video &amp; supplementary</a><a href="http://amsacta.unibo.it/7142/">dataset</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>A radiance field shared by cameras that see different parts of the spectrum — colour, multispectral, infrared. It optimizes poses across spectra so that any viewpoint can be rendered in any modality, aligned and at the same resolution.</p>
+          </details>
         </div>
       </div>
 
@@ -839,6 +967,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Ramirez_Open_Challenges_in_Deep_Stereo_The_Booster_Dataset_CVPR_2022_paper.pdf">paper</a><a href="https://openaccess.thecvf.com/content/CVPR2022/supplemental/Ramirez_Open_Challenges_in_CVPR_2022_supplemental.pdf">supplementary</a><a href="http://amsacta.unibo.it/6876/">dataset</a><a href="https://cvlab-unibo.github.io/booster-web/benchmark.html">benchmark</a><a href="https://youtu.be/EEg3z9b_Bt4">video</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>419 high-resolution indoor samples across 64 scenes, densely annotated and deliberately full of specular and transparent surfaces: a benchmark built around the cases where stereo networks fail.</p>
+          </details>
         </div>
       </div>
 
@@ -852,6 +984,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Tosi_RGB-Multispectral_Matching_Dataset_Learning_Methodology_Evaluation_CVPR_2022_paper.pdf">paper</a><a href="https://openaccess.thecvf.com/content/CVPR2022/supplemental/Tosi_RGB-Multispectral_Matching_Dataset_CVPR_2022_supplemental.pdf">supplementary</a><a href="http://amsacta.unibo.it/6877/">dataset</a><a href="https://youtu.be/dmN23_rnmjQ">video</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>Registers colour and multispectral images of very different resolution by treating it as stereo matching, with a new dataset and an architecture trained self-supervised by borrowing a third camera as supervision.</p>
+          </details>
         </div>
       </div>
 
@@ -865,6 +1001,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://doi.org/10.1109/TPAMI.2021.3075815">paper</a><a href="https://github.com/CVLAB-Unibo/Real-time-self-adaptive-deep-stereo">code</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>Adaptation that never stops: rather than assuming the training distribution covers deployment, the stereo network keeps adjusting to whatever environment it actually meets.</p>
+          </details>
         </div>
       </div>
 
@@ -878,6 +1018,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://doi.org/10.1109/TPAMI.2021.3069706">paper</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>A quantitative account of how far confidence estimation for stereo has come in the deep learning era — which measures are worth trusting, and what that reliability buys the algorithms downstream.</p>
+          </details>
         </div>
       </div>
 
@@ -891,6 +1035,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://cvlab-unibo.github.io/neural-disparity-refinement-web/">project page</a><a href="https://arxiv.org/abs/2110.15367">paper &amp; supplementary</a><a href="https://github.com/CVLAB-Unibo/neural-disparity-refinement">code</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>Refines a disparity map at any output resolution through a continuous formulation, so cheap consumer devices — phones with one high-resolution and one low-resolution camera — can produce clean 3D.</p>
+          </details>
         </div>
       </div>
 
@@ -904,6 +1052,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://arxiv.org/abs/2004.08566">paper</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>Forty years of stereo read through the lens of machine learning: how the two traditions met, where learning genuinely helped, and which problems survived the transition.</p>
+          </details>
         </div>
       </div>
 
@@ -917,6 +1069,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://www.cvlibs.net/publications/Tosi2021CVPR.pdf">paper</a><a href="http://www.cvlibs.net/publications/Tosi2021CVPR_supplementary.pdf">supplement</a><a href="https://autonomousvision.github.io/smdnets/">blog</a><a href="https://github.com/fabiotosi92/SMD-Nets">code</a><a href="https://www.youtube.com/watch?v=tvVGuUSe2n8&t=148s">video</a><a href="http://www.cvlibs.net/publications/Tosi2021CVPR_poster.pdf">poster</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>Predicts a bimodal mixture density instead of a single disparity per pixel. Edges stay sharp where depth jumps, and the output can be sampled at arbitrary resolution.</p>
+          </details>
         </div>
       </div>
 
@@ -930,6 +1086,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Tosi_Distilled_Semantics_for_Comprehensive_Scene_Understanding_from_Videos_CVPR_2020_paper.pdf">paper</a><a href="https://openaccess.thecvf.com/content_CVPR_2020/supplemental/Tosi_Distilled_Semantics_for_CVPR_2020_supplemental.pdf">supplementary</a><a href="https://github.com/CVLAB-Unibo/omeganet">code</a><a href="https://github.com/CVLAB-Unibo/omeganet/blob/master/assets/poster.pdf">poster</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>Learns depth, motion and semantics together from monocular video, with the semantic supervision distilled from a pretrained network — no manual labels for any of the three.</p>
+          </details>
         </div>
       </div>
 
@@ -943,6 +1103,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://arxiv.org/pdf/2008.07130.pdf">paper</a><a href="https://github.com/FilippoAleotti/Reversing">code</a><a href="https://drive.google.com/file/d/1V1vrMtEw6uy3TfAW0wXlc-zxxsuIlJY2/view">video</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>Reverses the usual direction of self-supervision: instead of stereo teaching a monocular network, a monocular completion network is distilled into a stereo one, which softens the artifacts stereo self-supervision leaves behind.</p>
+          </details>
         </div>
       </div>
 
@@ -956,6 +1120,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Tosi_Learning_Monocular_Depth_Estimation_Infusing_Traditional_Stereo_Knowledge_CVPR_2019_paper.pdf">paper</a><a href="https://openaccess.thecvf.com/content_CVPR_2019/supplemental/Tosi_Learning_Monocular_Depth_CVPR_2019_supplemental.pdf">supplementary</a><a href="https://github.com/fabiotosi92/monoResMatch-Tensorflow">code</a><a href="https://vision.disi.unibo.it/~ftosi/papers/monoResMatch_poster.pdf">poster</a><a href="https://www.youtube.com/watch?v=h6Wo5MqbCY0&t=2s">video</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>Infers depth from a single image by synthesizing the features of a second view and matching them, importing the machinery of stereo into a monocular network — and training it without any labels, using traditional stereo as the teacher.</p>
+          </details>
         </div>
       </div>
 
@@ -969,6 +1137,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Tonioni_Real-Time_Self-Adaptive_Deep_Stereo_CVPR_2019_paper.pdf">paper</a><a href="https://openaccess.thecvf.com/content_CVPR_2019/supplemental/Tonioni_Real-Time_Self-Adaptive_Deep_CVPR_2019_supplemental.pdf">supplementary</a><a href="https://github.com/CVLAB-Unibo/Real-time-self-adaptive-deep-stereo">code</a><a href="https://www.youtube.com/watch?v=7SjyzDxmCY4">video</a><a href="https://www.youtube.com/watch?v=4O-7OzVYAeU">live demo</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>A stereo network that fine-tunes itself online while it runs, so accuracy does not collapse the moment the scene stops resembling the training set.</p>
+          </details>
         </div>
       </div>
 
@@ -982,6 +1154,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Poggi_Guided_Stereo_Matching_CVPR_2019_paper.pdf">paper</a><a href="https://github.com/mattpoggi/guided-stereo">demo code</a><a href="https://www.youtube.com/watch?v=AVlPu3K2ays">video</a><a href="https://vision.deis.unibo.it/~mpoggi/papers/cvpr2019guided_poster.pdf">poster</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>A handful of sparse but reliable depth measurements, fed to the network at inference, steer stereo matching back to accuracy when the environment changes and a fixed model would drift.</p>
+          </details>
         </div>
       </div>
 
@@ -995,6 +1171,10 @@ redirect_from:
           <p class="pub-links">
             <a href="https://doi.org/10.1109/ICCV.2017.559">paper</a>
           </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>An extensive comparison of confidence measures for stereo, hand-crafted and learned, across algorithms and datasets — the reference point for telling a good match from a bad one.</p>
+          </details>
         </div>
       </div>
 
