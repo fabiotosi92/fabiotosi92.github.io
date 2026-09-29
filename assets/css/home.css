@@ -15,7 +15,8 @@
   --line-soft:  #eeece4;
   --accent:     #b8532c;
   --accent-2:   #9a4322;
-  --accent-bg:  rgba(184, 83, 44, .07);
+  --accent-rgb: 184, 83, 44;
+  --accent-bg:  rgba(var(--accent-rgb), .07);
 
   --shadow:     0 8px 20px rgba(60, 45, 30, .13);
   --topbar-bg:  rgba(250, 249, 245, .82);
@@ -38,7 +39,8 @@
   --line-soft:  #292722;
   --accent:     #e08a62;
   --accent-2:   #eda57f;
-  --accent-bg:  rgba(224, 138, 98, .1);
+  --accent-rgb: 224, 138, 98;
+  --accent-bg:  rgba(var(--accent-rgb), .1);
   --shadow:     0 8px 22px rgba(0, 0, 0, .45);
   --topbar-bg:  rgba(22, 21, 18, .84);
 }
@@ -90,12 +92,12 @@ html.js .reveal.is-visible {
 }
 
 body.home a {
-  color: var(--ink);
+  color: var(--accent);
   text-decoration: none;
-  border-bottom: 1px solid rgba(184, 83, 44, .32);
+  border-bottom: 1px solid rgba(var(--accent-rgb), .3);
   transition: color .15s ease, border-color .15s ease, background-color .15s ease;
 }
-body.home a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+body.home a:hover { color: var(--accent-2); border-bottom-color: var(--accent); }
 
 .wrap {
   width: 100%;
@@ -185,7 +187,7 @@ body.home a:hover { color: var(--accent); border-bottom-color: var(--accent); }
 :root[data-theme="dark"] .theme-toggle .icon-sun { display: none; }
 
 /* ---------- Hero ---------- */
-.hero { padding: 5.5rem 0 4rem; }
+.hero { padding: 4.4rem 0 3.2rem; }
 .hero-grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 300px;
@@ -214,7 +216,7 @@ body.home a:hover { color: var(--accent); border-bottom-color: var(--accent); }
 .hero h1 {
   font-family: var(--serif);
   font-weight: 400;
-  font-size: clamp(2.9rem, 6.4vw, 4.6rem);
+  font-size: clamp(2.5rem, 5.4vw, 3.9rem);
   line-height: 1.02;
   letter-spacing: -.025em;
   color: var(--ink);
@@ -306,8 +308,8 @@ body.home a.btn-solid:hover {
 .actions-note { font-size: .78rem; color: var(--ink-3); }
 
 /* ---------- Sections ---------- */
-.section { padding: 4.2rem 0; border-top: 1px solid var(--line-soft); scroll-margin-top: var(--nav-h); }
-.section-head { margin-bottom: 2.4rem; }
+.section { padding: 3.1rem 0; border-top: 1px solid var(--line-soft); scroll-margin-top: var(--nav-h); }
+.section-head { margin-bottom: 1.9rem; }
 .section-head h2 {
   font-family: var(--serif);
   font-weight: 400;
@@ -612,7 +614,7 @@ details.more .news { border-top: 0; margin-top: 1.2rem; }
   font-family: var(--sans);
 }
 .badge-new   { color: #fff; background: var(--accent); }
-.badge-oral  { color: var(--accent); background: var(--accent-bg); border: 1px solid rgba(184,83,44,.28); }
+.badge-oral  { color: var(--accent); background: var(--accent-bg); border: 1px solid rgba(var(--accent-rgb), .28); }
 .badge-award { color: #7a5b12; background: rgba(196, 160, 48, .16); border: 1px solid rgba(196, 160, 48, .38); text-transform: none; letter-spacing: .01em; font-size: .7rem; }
 
 /* ---------- Footer ---------- */
@@ -636,11 +638,11 @@ details.more .news { border-top: 0; margin-top: 1.2rem; }
 @media (max-width: 720px) {
   body.home { font-size: 16px; }
   .wrap { padding: 0 22px; }
-  .hero { padding: 3.2rem 0 2.6rem; }
+  .hero { padding: 2.6rem 0 2.2rem; }
   .hero-grid { grid-template-columns: minmax(0, 1fr); gap: 2.4rem; }
   .portrait { max-width: 190px; order: -1; }
   .portrait::after { inset: 10px -10px -10px 10px; }
-  .section { padding: 3rem 0; }
+  .section { padding: 2.4rem 0; }
   .section-head h2 { font-size: 1.7rem; }
   .row, .news li { grid-template-columns: minmax(0, 1fr); gap: .35rem; }
   .row-label, .news-date { padding-top: 0; }
@@ -722,7 +724,7 @@ details.more .news { border-top: 0; margin-top: 1.2rem; }
   text-transform: uppercase;
   color: var(--accent);
   background: var(--accent-bg);
-  border: 1px solid rgba(184, 83, 44, .28);
+  border: 1px solid rgba(var(--accent-rgb), .28);
   border-radius: 3px;
   padding: .16rem .4rem;
   vertical-align: 3px;
@@ -945,7 +947,7 @@ details.more .news { border-top: 0; margin-top: 1.2rem; }
 }
 
 /* ---------- Work strip (visual break between teaching and thesis) ---------- */
-.strip-section { padding: 3.4rem 0; border-top: 1px solid var(--line-soft); }
+.strip-section { padding: 2.7rem 0; border-top: 1px solid var(--line-soft); }
 .strip-head {
   display: flex;
   flex-wrap: wrap;
@@ -1099,4 +1101,80 @@ details.more .news { border-top: 0; margin-top: 1.2rem; }
   line-height: 1.65;
   color: var(--ink-2);
 }
-.tldr[open] p { border-left-color: rgba(184, 83, 44, .35); }
+.tldr[open] p { border-left-color: rgba(var(--accent-rgb), .35); }
+
+/* ---------- Social icon row ---------- */
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .55rem;
+  margin-top: 1.1rem;
+}
+body.home a.social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.85rem;
+  height: 2.85rem;
+  border-radius: 999px;
+  border: 1px solid var(--line) !important;
+  background: var(--card);
+  color: var(--ink-3);
+  transition: color .16s ease, border-color .16s ease, background-color .16s ease, transform .16s ease;
+}
+body.home a.social-link:hover {
+  color: var(--accent);
+  border-color: var(--accent) !important;
+  background: var(--accent-bg);
+  transform: translateY(-1px);
+}
+.social-link svg { width: 1.3rem; height: 1.3rem; display: block; }
+
+/* ---------- Topic tags on publications ---------- */
+.pub-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .3rem;
+  margin: 0 0 .45rem;
+}
+.ptag {
+  font-size: .66rem;
+  font-weight: 600;
+  letter-spacing: .04em;
+  border-radius: 999px;
+  padding: .14rem .5rem;
+  white-space: nowrap;
+}
+.ptag-stereo    { color: #1a5c50; background: rgba(93, 168, 152, .18); }
+.ptag-depth     { color: #7a4a12; background: rgba(224, 160, 62, .18); }
+.ptag-slam      { color: #7a2f1a; background: rgba(214, 122, 94, .18); }
+.ptag-rendering { color: #4b2a6e; background: rgba(150, 112, 190, .18); }
+.ptag-flow      { color: #1d4f6e; background: rgba(86, 148, 186, .18); }
+
+:root[data-theme="dark"] .ptag-stereo    { color: #9fd9c9; background: rgba(93, 168, 152, .2); }
+:root[data-theme="dark"] .ptag-depth     { color: #edc283; background: rgba(224, 160, 62, .2); }
+:root[data-theme="dark"] .ptag-slam      { color: #efab91; background: rgba(214, 122, 94, .2); }
+:root[data-theme="dark"] .ptag-rendering { color: #c4a9e4; background: rgba(150, 112, 190, .24); }
+:root[data-theme="dark"] .ptag-flow      { color: #9ec8e2; background: rgba(86, 148, 186, .24); }
+
+/* ---------- Link hierarchy ----------
+   `body.home a` outranks a bare `.class a`, so every quiet-link rule has to
+   be stated at the same weight or it silently loses and everything goes ink.
+   Prose links carry the accent; these stay deliberately quiet. */
+body.home .navlinks a            { color: var(--ink-3); }
+body.home .navlinks a:hover,
+body.home .navlinks a.is-active  { color: var(--ink); }
+body.home .brand                 { color: var(--ink); }
+body.home .brand:hover           { color: var(--accent); }
+body.home .pub-title a           { color: var(--ink); }
+body.home .pub-title a:hover     { color: var(--accent); }
+body.home .pub-authors a         { color: var(--ink-3); border-bottom-color: var(--line); }
+body.home .pub-authors a:hover   { color: var(--accent); border-bottom-color: var(--accent); }
+body.home .pub-links a           { color: var(--ink-2); }
+body.home .pub-links a:hover     { color: var(--accent); }
+body.home .course h3 a           { color: var(--ink); }
+body.home .course h3 a:hover     { color: var(--accent); }
+body.home .foot a                { color: var(--ink-3); border-bottom-color: var(--line); }
+body.home .foot a:hover          { color: var(--accent); border-bottom-color: var(--accent); }
+body.home .member a              { color: var(--ink); }
