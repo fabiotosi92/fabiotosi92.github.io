@@ -326,23 +326,23 @@ redirect_from:
     </div>
     <div class="strip">
       <button type="button" class="strip-tile" data-jump="depth">
-        <img src="/images/publications/zipdepth.png" loading="lazy" decoding="async" alt="Monocular depth estimation result">
+        <img src="/images/tasks/web/monocular.jpg" width="586" height="584" loading="lazy" decoding="async" alt="Monocular depth estimation result">
         <span class="strip-label">Monocular depth</span>
       </button>
       <button type="button" class="strip-tile" data-jump="stereo">
-        <img src="/images/publications/stereoanywhere.png" style="object-position: 78% 50%" loading="lazy" decoding="async" alt="Stereo matching result">
+        <img src="/images/tasks/web/stereo.jpg" width="799" height="704" loading="lazy" decoding="async" alt="Stereo matching result">
         <span class="strip-label">Stereo</span>
       </button>
       <button type="button" class="strip-tile" data-jump="slam">
-        <img src="/images/publications/goslam.png" style="object-position: 22% 50%" loading="lazy" decoding="async" alt="Dense 3D reconstruction from SLAM">
+        <img src="/images/tasks/web/slam.jpg" width="900" height="485" loading="lazy" decoding="async" alt="Dense 3D reconstruction">
         <span class="strip-label">SLAM &amp; 3D</span>
       </button>
       <button type="button" class="strip-tile" data-jump="rendering">
-        <img src="/images/publications/stereogs.png" style="object-position: 80% 50%" loading="lazy" decoding="async" alt="Neural rendering result">
+        <img src="/images/tasks/web/rendering.jpg" width="900" height="546" loading="lazy" decoding="async" alt="Novel view synthesis result">
         <span class="strip-label">Neural rendering</span>
       </button>
       <button type="button" class="strip-tile" data-jump="flow">
-        <img src="/images/publications/flowseek.png" style="object-position: 88% 50%" loading="lazy" decoding="async" alt="Optical flow result">
+        <img src="/images/tasks/web/flow.jpg" width="900" height="450" loading="lazy" decoding="async" alt="Optical flow result">
         <span class="strip-label">Optical flow</span>
       </button>
     </div>
