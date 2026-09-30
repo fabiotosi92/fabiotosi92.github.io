@@ -17,10 +17,7 @@ redirect_from:
       <p class="eyebrow">Junior Assistant Professor · University of Bologna</p>
       <h1>Fabio Tosi</h1>
       <p class="hero-lead">
-        I work at the intersection of <strong>computer vision</strong> and <strong>deep learning</strong>, on machines that understand the 3D structure of the world: stereo matching, monocular depth estimation, neural rendering and SLAM. I am just as interested in shrinking these models until they run on embedded and low-power devices, down to a phone.
-      </p>
-      <p class="hero-sub">
-        Department of Computer Science and Engineering (DISI), <a href="https://www.unibo.it/it">University of Bologna</a>.
+        I am a <strong>Junior Assistant Professor (RTDA)</strong> at the Department of Computer Science and Engineering (DISI), <a href="https://www.unibo.it/it">University of Bologna</a>. I work at the intersection of <strong>computer vision</strong> and <strong>deep learning</strong>, on machines that understand the 3D structure of the world: stereo matching, monocular depth estimation, neural rendering, SLAM and 3D reconstruction. I am just as interested in shrinking these models until they run on embedded and low-power devices, down to a phone. The same interest runs through my teaching, on <strong>GPU-accelerated computing</strong>.
       </p>
       <div class="actions">
         <a class="btn btn-solid" href="/files/Fabio_Tosi_s_CV.pdf">Curriculum Vitae</a>
@@ -74,7 +71,9 @@ redirect_from:
             <li>Monocular Depth Estimation</li>
             <li>Neural Rendering</li>
             <li>SLAM</li>
-            <li>Efficient Deep Learning</li>
+            <li>3D Reconstruction</li>
+            <li>Optical Flow</li>
+            <li>Efficient &amp; GPU-Accelerated Deep Learning</li>
           </ul>
         </div>
       </div>
@@ -334,8 +333,12 @@ redirect_from:
         <span class="strip-label">Stereo</span>
       </button>
       <button type="button" class="strip-tile" data-jump="slam">
-        <img src="/images/tasks/web/slam.jpg" width="900" height="485" loading="lazy" decoding="async" alt="Dense 3D reconstruction">
-        <span class="strip-label">SLAM &amp; 3D</span>
+        <img src="/images/tasks/web/slam.jpg" width="797" height="406" style="object-position: 50% 78%" loading="lazy" decoding="async" alt="Dense SLAM result">
+        <span class="strip-label">SLAM</span>
+      </button>
+      <button type="button" class="strip-tile" data-jump="recon">
+        <img src="/images/tasks/web/recon.jpg" width="900" height="485" loading="lazy" decoding="async" alt="3D reconstruction result">
+        <span class="strip-label">3D reconstruction</span>
       </button>
       <button type="button" class="strip-tile" data-jump="rendering">
         <img src="/images/tasks/web/rendering.jpg" width="900" height="546" loading="lazy" decoding="async" alt="Novel view synthesis result">
@@ -410,7 +413,8 @@ redirect_from:
         <button type="button" class="chip is-active" data-filter="all" aria-pressed="true">All</button>
         <button type="button" class="chip" data-filter="stereo" aria-pressed="false">Stereo</button>
         <button type="button" class="chip" data-filter="depth" aria-pressed="false">Monocular depth</button>
-        <button type="button" class="chip" data-filter="slam" aria-pressed="false">SLAM &amp; 3D</button>
+        <button type="button" class="chip" data-filter="slam" aria-pressed="false">SLAM</button>
+        <button type="button" class="chip" data-filter="recon" aria-pressed="false">3D reconstruction</button>
         <button type="button" class="chip" data-filter="rendering" aria-pressed="false">Neural rendering</button>
         <button type="button" class="chip" data-filter="flow" aria-pressed="false">Optical flow</button>
       </div>
@@ -473,7 +477,7 @@ redirect_from:
         </div>
       </div>
 
-      <div class="pub reveal" data-topic="slam">
+      <div class="pub reveal" data-topic="recon">
         <div class="pub-year">2026</div>
         <div class="pub-thumb"><img src="/images/publications/magist3r.png" width="1814" height="615" loading="lazy" decoding="async" alt="MAGiSt3R"></div>
         <div>
@@ -563,7 +567,7 @@ redirect_from:
         </div>
       </div>
 
-      <div class="pub reveal" data-topic="slam">
+      <div class="pub reveal" data-topic="recon">
         <div class="pub-year">2026</div>
         <div class="pub-thumb"><img src="/images/publications/ov3r.png" width="1469" height="322" loading="lazy" decoding="async" alt="Ov3R"></div>
         <div>
@@ -635,7 +639,7 @@ redirect_from:
         </div>
       </div>
 
-      <div class="pub reveal" data-topic="rendering slam">
+      <div class="pub reveal" data-topic="rendering recon">
         <div class="pub-year">2025</div>
         <div class="pub-thumb"><img src="/images/publications/eve3d.png" width="1475" height="424" loading="lazy" decoding="async" alt="Eve3D"></div>
         <div>
