@@ -199,7 +199,8 @@ body.home a:hover { color: var(--accent-2); border-bottom-color: var(--accent); 
 .eyebrow {
   display: flex;
   align-items: center;
-  gap: .6rem;
+  flex-wrap: wrap;
+  gap: 0;
   font-size: .72rem;
   font-weight: 500;
   letter-spacing: .16em;
@@ -210,6 +211,7 @@ body.home a:hover { color: var(--accent-2); border-bottom-color: var(--accent); 
 .eyebrow::before {
   content: "";
   width: 22px; height: 1px;
+  margin-right: .6rem;
   background: var(--accent);
   flex: none;
 }
@@ -1188,3 +1190,16 @@ body.home .course h3 a:hover     { color: var(--accent); }
 body.home .foot a                { color: var(--ink-3); border-bottom-color: var(--line); }
 body.home .foot a:hover          { color: var(--accent); border-bottom-color: var(--accent); }
 body.home .member a              { color: var(--ink); }
+
+/* il link nell'occhiello non deve spezzare la riga di etichetta */
+body.home .eyebrow a {
+  color: inherit;
+  border-bottom-color: var(--line);
+}
+body.home .eyebrow a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+/* quinto tipo di notizia: un sito che va online */
+.news li[data-kind="link"] {
+  --news-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='M3.2 9h17.6M3.2 15h17.6'/%3E%3Cpath d='M12 3a14 14 0 0 1 0 18a14 14 0 0 1 0-18z'/%3E%3C/svg%3E");
+}
+.news li[data-kind="link"] .news-date::before { background-color: var(--accent); }

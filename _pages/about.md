@@ -14,10 +14,10 @@ redirect_from:
 <section class="hero">
   <div class="wrap hero-grid">
     <div>
-      <p class="eyebrow">Junior Assistant Professor · University of Bologna</p>
+      <p class="eyebrow">Junior Assistant Professor ·&nbsp;<a href="https://cvlab-unibo.github.io/">CVLab</a>, University of Bologna</p>
       <h1>Fabio Tosi</h1>
       <p class="hero-lead">
-        I am a <strong>Junior Assistant Professor (RTDA)</strong> at the Department of Computer Science and Engineering (DISI), <a href="https://www.unibo.it/it">University of Bologna</a>. I work at the intersection of <strong>computer vision</strong> and <strong>deep learning</strong>, on machines that understand the 3D structure of the world: stereo matching, monocular depth estimation, neural rendering, SLAM and 3D reconstruction. I am just as interested in shrinking these models until they run on embedded and low-power devices, down to a phone. The same interest runs through my teaching, on <strong>GPU-accelerated computing</strong>.
+        I am a <strong>Junior Assistant Professor (RTDA)</strong> in the <a href="https://cvlab-unibo.github.io/"><strong>Computer Vision Laboratory (CVLab)</strong></a> at the Department of Computer Science and Engineering (DISI), <a href="https://www.unibo.it/it">University of Bologna</a>. I work at the intersection of <strong>computer vision</strong> and <strong>deep learning</strong>, on machines that understand the 3D structure of the world: stereo matching, monocular depth estimation, neural rendering, SLAM and 3D reconstruction. I am just as interested in shrinking these models until they run on embedded and low-power devices, down to a phone. The same interest runs through my teaching, on <strong>GPU-accelerated computing</strong>.
       </p>
       <div class="actions">
         <a class="btn btn-solid" href="/files/Fabio_Tosi_s_CV.pdf">Curriculum Vitae</a>
@@ -105,6 +105,10 @@ redirect_from:
     </div>
 
     <ul class="news">
+      <li data-kind="link">
+        <span class="news-date">10/2026</span>
+        <span>The new website of our lab, <a href="https://cvlab-unibo.github.io/"><strong>CVLab</strong></a>, is online — come and see what we are working on!</span>
+      </li>
       <li data-kind="role">
         <span class="news-date">09/2026</span>
         <span>Honored to serve again as <strong>Area Chair</strong> at CVPR 2027!</span>
@@ -234,7 +238,7 @@ redirect_from:
   <div class="wrap">
     <div class="section-head">
       <h2>Research team</h2>
-      <p>CVLab — University of Bologna</p>
+      <p><a href="https://cvlab-unibo.github.io/">CVLab</a> — University of Bologna</p>
     </div>
 
     <div class="team">
@@ -361,7 +365,7 @@ redirect_from:
     </div>
 
     <p class="join-lead">
-      A thesis here is an open research problem, not a closed exercise: you work inside <a href="#team">our group at CVLab</a>, with our GPUs and codebases, on a topic close to what we publish. The strongest projects grow into a paper.
+      A thesis here is an open research problem, not a closed exercise: you work inside our group at <a href="https://cvlab-unibo.github.io/">CVLab</a>, with our GPUs and codebases, on a topic close to what we publish. The strongest projects grow into a paper.
     </p>
 
     <div class="topics">
