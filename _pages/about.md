@@ -105,6 +105,14 @@ redirect_from:
     </div>
 
     <ul class="news">
+      <li data-kind="award">
+        <span class="news-date">10/2026</span>
+        <span>Our project <strong>PREMISE</strong> has been funded by <strong>PRIN 2026</strong>, ranked 2nd in panel PE6 on the under-40 line. I am part of the Bologna unit, with <a href="https://mattpoggi.github.io/">Matteo Poggi</a> as <strong>Co-PI</strong>, in a consortium with UNIMORE, Trento, CNR and Politecnico di Milano.</span>
+      </li>
+      <li data-kind="grant">
+        <span class="news-date">10/2026</span>
+        <span>Our group signed a new industrial research contract with <strong>Genesi Elettronica</strong> on anomaly detection for quality control, running on embedded accelerators — with me as <strong>scientific lead</strong> of the <a href="https://cvlab-unibo.github.io/">CVLab</a> unit.</span>
+      </li>
       <li data-kind="link">
         <span class="news-date">10/2026</span>
         <span>The new website of our lab, <a href="https://cvlab-unibo.github.io/"><strong>CVLab</strong></a>, is online — come and see what we are working on!</span>

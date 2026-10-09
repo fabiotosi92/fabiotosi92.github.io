@@ -1203,3 +1203,9 @@ body.home .eyebrow a:hover { color: var(--accent); border-bottom-color: var(--ac
   --news-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='M3.2 9h17.6M3.2 15h17.6'/%3E%3Cpath d='M12 3a14 14 0 0 1 0 18a14 14 0 0 1 0-18z'/%3E%3C/svg%3E");
 }
 .news li[data-kind="link"] .news-date::before { background-color: var(--accent); }
+
+/* sesto tipo: contratti e finanziamenti su cui ho un ruolo di guida */
+.news li[data-kind="grant"] {
+  --news-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='2.5' y='6' width='19' height='12' rx='2'/%3E%3Ccircle cx='12' cy='12' r='2.6'/%3E%3Cpath d='M6 9.5v5M18 9.5v5'/%3E%3C/svg%3E");
+}
+.news li[data-kind="grant"] .news-date::before { background-color: var(--accent); }
