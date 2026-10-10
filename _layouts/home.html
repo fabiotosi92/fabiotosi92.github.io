@@ -14,7 +14,7 @@ layout: compress
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="{{ base_path }}/assets/css/home.css">
+    <link rel="stylesheet" href="{{ base_path }}/assets/css/home.css?v={{ site.time | date: '%s' }}">
 
     <script>document.documentElement.classList.add("js");</script>
   </head>
@@ -55,7 +55,7 @@ layout: compress
       </div>
     </footer>
 
-    <script src="{{ base_path }}/assets/js/home.js" defer></script>
+    <script src="{{ base_path }}/assets/js/home.js?v={{ site.time | date: '%s' }}" defer></script>
     {% include analytics.html %}
   </body>
 </html>
