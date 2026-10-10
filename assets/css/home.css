@@ -194,7 +194,7 @@ body.home a:hover { color: var(--accent-2); border-bottom-color: var(--accent); 
 }
 
 .hero-lead {
-  font-size: 1.01rem;
+  font-size: 1.05rem;
   line-height: 1.62;
   color: var(--ink-2);
   max-width: 40em;
@@ -304,7 +304,7 @@ body.home a.btn-solid:hover {
   color: var(--ink-3);
   padding-top: .35rem;
 }
-.row-body { font-size: 1.02rem; line-height: 1.72; color: var(--ink-2); }
+.row-body { font-size: 1.05rem; line-height: 1.72; color: var(--ink-2); }
 .row-body p { margin: 0 0 .8rem; }
 .row-body p:last-child { margin-bottom: 0; }
 .row-body strong { color: var(--ink); font-weight: 600; }
@@ -327,7 +327,7 @@ body.home a.btn-solid:hover {
   gap: 0 3rem;
   padding: .62rem 0;
   border-bottom: 0;
-  font-size: 1.02rem;
+  font-size: 1.05rem;
   line-height: 1.6;
 }
 .news-date {
@@ -507,7 +507,7 @@ details.more .news { border-top: 0; margin-top: 1.2rem; }
 
 .pub-authors {
   margin: 0 0 .55rem;
-  font-size: .95rem;
+  font-size: 1rem;
   line-height: 1.6;
   color: var(--ink-3);
 }
@@ -642,7 +642,7 @@ details.more .news { border-top: 0; margin-top: 1.2rem; }
 
 /* ---------- Thesis & internships ---------- */
 .join-lead {
-  font-size: 1.02rem;
+  font-size: 1.05rem;
   line-height: 1.72;
   color: var(--ink-2);
   max-width: 46em;
@@ -694,7 +694,7 @@ details.more .news { border-top: 0; margin-top: 1.2rem; }
   padding: 1rem 1.25rem;
   background: var(--bg-warm);
   border-radius: 6px;
-  font-size: .98rem;
+  font-size: 1.05rem;
   line-height: 1.65;
   color: var(--ink-2);
 }
@@ -709,7 +709,7 @@ details.more .news { border-top: 0; margin-top: 1.2rem; }
 }
 .join-cta p {
   margin: 0;
-  font-size: 1.02rem;
+  font-size: 1.05rem;
   line-height: 1.65;
   color: var(--ink-2);
   max-width: 38em;
@@ -868,7 +868,7 @@ details.more .news { border-top: 0; margin-top: 1.2rem; }
 }
 .course p {
   margin: 0;
-  font-size: .98rem;
+  font-size: 1.05rem;
   line-height: 1.6;
   color: var(--ink-3);
 }
@@ -1058,7 +1058,7 @@ details.more .news { border-top: 0; margin-top: 1.2rem; }
   padding-left: .9rem;
   border-left: 2px solid var(--accent-bg);
   max-width: 46em;
-  font-size: .96rem;
+  font-size: 1.05rem;
   line-height: 1.65;
   color: var(--ink-2);
 }

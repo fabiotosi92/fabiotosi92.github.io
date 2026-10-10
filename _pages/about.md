@@ -280,6 +280,16 @@ redirect_from:
         <span class="member-name">Enrico Mannocci</span>
         <span class="member-role">PhD Student</span>
       </div>
+      <div class="member">
+        <a href="https://mehdiamlal.com/"><img src="/images/mamlal.jpg" width="320" height="320" alt="Mehdi Amlal"></a>
+        <span class="member-name">Mehdi Amlal</span>
+        <span class="member-role">PhD Student · from Nov 2026</span>
+      </div>
+      <div class="member">
+        <a href="https://it.linkedin.com/in/gabriele-pattarozzi"><img src="/images/gpattarozzi.jpg" width="320" height="320" alt="Gabriele Pattarozzi"></a>
+        <span class="member-name">Gabriele Pattarozzi</span>
+        <span class="member-role">PhD Student · from Nov 2026</span>
+      </div>
     </div>
 
     <p class="team-more"><a class="btn btn-lab" href="https://cvlab.unibo.it/team/">All members of CVLab</a></p>
