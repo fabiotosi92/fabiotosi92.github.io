@@ -194,7 +194,7 @@ body.home a:hover { color: var(--accent-2); border-bottom-color: var(--accent); 
 }
 
 .hero-lead {
-  font-size: 1.12rem;
+  font-size: 1.01rem;
   line-height: 1.62;
   color: var(--ink-2);
   max-width: 40em;
