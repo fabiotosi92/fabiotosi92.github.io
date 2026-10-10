@@ -14,10 +14,10 @@ redirect_from:
 <section class="hero">
   <div class="wrap hero-grid">
     <div>
-      <p class="eyebrow">Junior Assistant Professor ·&nbsp;<a href="https://cvlab-unibo.github.io/">CVLab</a>, University of Bologna</p>
+      <p class="eyebrow">Junior Assistant Professor ·&nbsp;<a class="lab-link" href="https://cvlab-unibo.github.io/">CVLab</a>, University of Bologna</p>
       <h1>Fabio Tosi</h1>
       <p class="hero-lead">
-        I am a <strong>Junior Assistant Professor (RTDA)</strong> in the <a href="https://cvlab-unibo.github.io/"><strong>Computer Vision Laboratory (CVLab)</strong></a> at the Department of Computer Science and Engineering (DISI), <a href="https://www.unibo.it/it">University of Bologna</a>. I work at the intersection of <strong>computer vision</strong> and <strong>deep learning</strong>, on machines that understand the 3D structure of the world: stereo matching, monocular depth estimation, neural rendering, SLAM and 3D reconstruction. I am just as interested in shrinking these models until they run on embedded and low-power devices, down to a phone. The same interest runs through my teaching, on <strong>GPU-accelerated computing</strong>.
+        I am a <strong>Junior Assistant Professor (RTDA)</strong> in the <a class="lab-link" href="https://cvlab-unibo.github.io/"><strong>Computer Vision Laboratory (CVLab)</strong></a> at the Department of Computer Science and Engineering (DISI), <a href="https://www.unibo.it/it">University of Bologna</a>. I work at the intersection of <strong>computer vision</strong> and <strong>deep learning</strong>, on machines that understand the 3D structure of the world: stereo matching, monocular depth estimation, neural rendering, SLAM and 3D reconstruction. I am just as interested in shrinking these models until they run on embedded and low-power devices, down to a phone. The same interest runs through my teaching, on <strong>GPU-accelerated computing</strong>.
       </p>
       <div class="actions">
         <a class="btn btn-solid" href="/files/Fabio_Tosi_s_CV.pdf">Curriculum Vitae</a>
@@ -111,11 +111,11 @@ redirect_from:
       </li>
       <li data-kind="grant">
         <span class="news-date">10/2026</span>
-        <span>Our group signed a new industrial research contract with <strong>Genesi Elettronica</strong> on anomaly detection for quality control, running on embedded accelerators — with me as <strong>scientific lead</strong> of the <a href="https://cvlab-unibo.github.io/">CVLab</a> unit.</span>
+        <span>Our group signed a new industrial research contract with <strong>Genesi Elettronica</strong> on anomaly detection for quality control, running on embedded accelerators — with me as <strong>scientific lead</strong> of the <a class="lab-link" href="https://cvlab-unibo.github.io/">CVLab</a> unit.</span>
       </li>
       <li data-kind="link">
         <span class="news-date">10/2026</span>
-        <span>The new website of our lab, <a href="https://cvlab-unibo.github.io/"><strong>CVLab</strong></a>, is online — come and see what we are working on!</span>
+        <span>The new website of our lab, <a class="lab-link" href="https://cvlab-unibo.github.io/"><strong>CVLab</strong></a>, is online — come and see what we are working on!</span>
       </li>
       <li data-kind="role">
         <span class="news-date">09/2026</span>
@@ -246,7 +246,7 @@ redirect_from:
   <div class="wrap">
     <div class="section-head">
       <h2>Research team</h2>
-      <p><a href="https://cvlab-unibo.github.io/">CVLab</a> — University of Bologna</p>
+      <p>The people I work with most closely at <a class="lab-link" href="https://cvlab-unibo.github.io/">CVLab</a>, University of Bologna — the lab is larger than this</p>
     </div>
 
     <div class="team">
@@ -281,6 +281,8 @@ redirect_from:
         <span class="member-role">PhD Student</span>
       </div>
     </div>
+
+    <p class="team-more"><a class="btn btn-lab" href="https://cvlab.unibo.it/team/">All members of CVLab</a></p>
   </div>
 </section>
 
@@ -293,6 +295,7 @@ redirect_from:
 
     <ul class="courses">
       <li class="course">
+        <div class="course-thumb"><img src="/images/teaching/gpu.jpg" width="460" height="400" loading="lazy" decoding="async" alt="NVIDIA A100 GPU board"></div>
         <div>
           <h3><a href="https://www.unibo.it/it/studiare/insegnamenti-competenze-trasversali-moocs/insegnamenti/insegnamento/2026/543027">Accelerated Computing Systems</a></h3>
           <p class="course-orig">Sistemi di Elaborazione Accelerata M</p>
@@ -305,6 +308,7 @@ redirect_from:
         </div>
       </li>
       <li class="course">
+        <div class="course-thumb"><img src="/images/teaching/alu.jpg" width="760" height="415" loading="lazy" decoding="async" alt="Diagram of a 4-bit arithmetic logic unit"></div>
         <div>
           <h3><a href="https://www.unibo.it/it/studiare/insegnamenti-competenze-trasversali-moocs/insegnamenti/insegnamento/2026/498955">Fundamentals of Computer Science</a></h3>
           <p>Logic networks and computer architectures.</p>
@@ -316,6 +320,7 @@ redirect_from:
         </div>
       </li>
       <li class="course">
+        <div class="course-thumb"><img src="/images/teaching/phd.jpg" width="760" height="426" loading="lazy" decoding="async" alt="GPU compute stack"></div>
         <div>
           <h3><a href="https://fabiotosi92.github.io/phd-course-gpu-2026/">GPU-accelerated Computing for AI</a></h3>
           <p>The same machinery from the deep learning side: where the time goes when a model trains.</p>
@@ -330,15 +335,16 @@ redirect_from:
   </div>
 </section>
 
-<section class="strip-section">
+<section class="section" id="work">
   <div class="wrap">
-    <div class="strip-head">
-      <h2>What we work on</h2>
-      <p>Recent results from the group — click to filter the publications below</p>
+    <div class="section-head">
+      <h2>Research &amp; theses</h2>
+      <p>Click a topic to see the papers — these are also the areas where we offer MSc theses and internships</p>
     </div>
+
     <div class="strip">
       <button type="button" class="strip-tile" data-jump="depth">
-        <img src="/images/tasks/web/monocular.jpg" width="586" height="584" loading="lazy" decoding="async" alt="Monocular depth estimation result">
+        <img src="/images/tasks/web/monocular.jpg" width="900" height="896" loading="lazy" decoding="async" alt="Monocular depth estimation result">
         <span class="strip-label">Monocular depth</span>
       </button>
       <button type="button" class="strip-tile" data-jump="stereo">
@@ -346,7 +352,7 @@ redirect_from:
         <span class="strip-label">Stereo</span>
       </button>
       <button type="button" class="strip-tile" data-jump="slam">
-        <img src="/images/tasks/web/slam.jpg" width="797" height="406" style="object-position: 50% 78%" loading="lazy" decoding="async" alt="Dense SLAM result">
+        <img src="/images/tasks/web/slam.jpg" width="900" height="458" loading="lazy" decoding="async" alt="Dense SLAM result">
         <span class="strip-label">SLAM</span>
       </button>
       <button type="button" class="strip-tile" data-jump="recon">
@@ -361,47 +367,35 @@ redirect_from:
         <img src="/images/tasks/web/flow.jpg" width="900" height="450" loading="lazy" decoding="async" alt="Optical flow result">
         <span class="strip-label">Optical flow</span>
       </button>
-    </div>
-  </div>
-</section>
-
-<section class="section" id="join">
-  <div class="wrap">
-    <div class="section-head">
-      <h2>Thesis &amp; internships</h2>
-      <p>For MSc students in Computer Engineering and Artificial Intelligence at the University of Bologna</p>
+      <button type="button" class="strip-tile" data-jump="active">
+        <img src="/images/tasks/web/active.jpg" width="900" height="698" loading="lazy" decoding="async" alt="Active depth sensing">
+        <span class="strip-label">Active sensing</span>
+      </button>
+      <button type="button" class="strip-tile" data-jump="uncertainty">
+        <img src="/images/tasks/web/uncertainty.jpg" width="900" height="392" loading="lazy" decoding="async" alt="Uncertainty map">
+        <span class="strip-label">Uncertainty</span>
+      </button>
+      <button type="button" class="strip-tile" data-jump="efficient">
+        <img src="/images/tasks/web/efficient.jpg" width="513" height="696" loading="lazy" decoding="async" alt="Depth estimation running on a phone">
+        <span class="strip-label">Efficient &amp; real-time</span>
+      </button>
+      <div class="strip-tile is-static">
+        <img src="/images/tasks/web/vlm.jpg" width="900" height="900" loading="lazy" decoding="async" alt="Vision-language model describing a scene">
+        <span class="strip-label">Vision-Language Models <span class="tile-new">New</span></span>
+      </div>
+      <div class="strip-tile is-static">
+        <img src="/images/tasks/web/vla.jpg" width="852" height="584" loading="lazy" decoding="async" alt="Language instructions driving actions in a 3D scene">
+        <span class="strip-label">Vision-Language-Action <span class="tile-new">New</span></span>
+      </div>
+      <a class="strip-tile strip-tile--idea" href="mailto:fabio.tosi5@unibo.it?subject=Thesis%20%2F%20internship%20enquiry">
+        <span class="idea-mark">+</span>
+        <span class="strip-label">Your own idea</span>
+      </a>
     </div>
 
     <p class="join-lead">
-      A thesis here is an open research problem, not a closed exercise: you work inside our group at <a href="https://cvlab-unibo.github.io/">CVLab</a>, with our GPUs and codebases, on a topic close to what we publish. The strongest projects grow into a paper.
+      A thesis here is an open research problem, not a closed exercise: you work inside our group at <a class="lab-link" href="https://cvlab-unibo.github.io/">CVLab</a>, with our GPUs and codebases, on a topic close to what we publish. The strongest projects grow into a paper.
     </p>
-
-    <div class="topics">
-      <div class="topic">
-        <h3>Monocular depth estimation</h3>
-        <p>Depth foundation models: sharper boundaries, and small enough to run on a phone.</p>
-      </div>
-      <div class="topic">
-        <h3>Stereo matching</h3>
-        <p>Zero-shot generalization, glass and mirrors, event cameras, networks that adapt on the fly.</p>
-      </div>
-      <div class="topic">
-        <h3>Multi-view stereo &amp; 3D reconstruction</h3>
-        <p>Feed-forward reconstruction from casual video, 3D Gaussian Splatting, dense SLAM.</p>
-      </div>
-      <div class="topic">
-        <h3>Vision-Language Models <span class="topic-tag">New</span></h3>
-        <p>What a VLM can and cannot say about geometry, and how to teach it spatial understanding.</p>
-      </div>
-      <div class="topic">
-        <h3>Vision-Language-Action <span class="topic-tag">New</span></h3>
-        <p>How far accurate 3D perception takes a robot policy, and where manipulation still breaks.</p>
-      </div>
-      <div class="topic">
-        <h3>Your own idea</h3>
-        <p>Bring a proposal that overlaps with what we do. The list above is not closed.</p>
-      </div>
-    </div>
 
     <p class="join-note">
       <strong>A period abroad.</strong> We collaborate with universities and companies worldwide, and students from the group have already spent research periods abroad. Not guaranteed, but worth asking about early.
@@ -410,6 +404,7 @@ redirect_from:
     <div class="join-cta">
       <p>Write to me with your CV, your transcript, and a few lines on what you would like to work on.</p>
       <a class="btn btn-solid" href="mailto:fabio.tosi5@unibo.it?subject=Thesis%20%2F%20internship%20enquiry">Get in touch</a>
+      <a class="btn btn-lab" href="https://cvlab.unibo.it/positions/">All openings at CVLab</a>
     </div>
   </div>
 </section>
@@ -430,6 +425,9 @@ redirect_from:
         <button type="button" class="chip" data-filter="recon" aria-pressed="false">3D reconstruction</button>
         <button type="button" class="chip" data-filter="rendering" aria-pressed="false">Neural rendering</button>
         <button type="button" class="chip" data-filter="flow" aria-pressed="false">Optical flow</button>
+        <button type="button" class="chip" data-filter="active" aria-pressed="false">Active sensing</button>
+        <button type="button" class="chip" data-filter="uncertainty" aria-pressed="false">Uncertainty</button>
+        <button type="button" class="chip" data-filter="efficient" aria-pressed="false">Efficient &amp; real-time</button>
       </div>
       <p class="filter-count" data-filter-count aria-live="polite"></p>
     </div>
@@ -454,7 +452,7 @@ redirect_from:
         </div>
       </div>
 
-      <div class="pub reveal" data-topic="depth">
+      <div class="pub reveal" data-topic="depth efficient">
         <div class="pub-year">2026</div>
         <div class="pub-thumb"><img src="/images/publications/zipdepth.png" width="1779" height="634" loading="lazy" decoding="async" alt="ZipDepth"></div>
         <div>
@@ -504,6 +502,24 @@ redirect_from:
           <details class="tldr">
             <summary>TL;DR</summary>
             <p>Reconstructs and tracks from monocular video at nearly 10 FPS by splitting the work across agents: each regresses local point maps, a merging model fuses them, and pose-graph optimization cancels the drift a feed-forward pipeline accumulates.</p>
+          </details>
+        </div>
+      </div>
+
+      <div class="pub reveal" data-topic="rendering">
+        <div class="pub-year">2026</div>
+        <div class="pub-thumb"><img src="/images/publications/prodygs.png" width="711" height="448" loading="lazy" decoding="async" alt="ProDyGS"></div>
+        <div>
+          <div class="pub-tags"><span class="ptag ptag-rendering">neural rendering</span></div>
+          <h3 class="pub-title"><a href="https://arxiv.org/abs/2609.32711">ProDyGS: Dynamic Gaussian Splatting from a Single Static Monocular Camera</a> <span class="badge badge-new">New</span></h3>
+          <p class="pub-authors"><a href="https://www.ugoleonecavalcanti.com/">Ugo Leone Cavalcanti</a>, <strong>Fabio Tosi</strong>, <a href="https://mattpoggi.github.io/">Matteo Poggi</a>, <a href="https://andreaconti.github.io//">Andrea Conti</a>, Vladimir Zlokolica, Valerio Cambareri, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a></p>
+          <p class="pub-venue"><span class="venue">IROS</span><span class="dot">|</span><span class="rank" data-scale="GGS">A+</span><span class="dot">|</span><span class="venue-full">IEEE/RSJ International Conference on Intelligent Robots and Systems</span></p>
+          <p class="pub-links">
+            <a href="https://arxiv.org/abs/2609.32711">arXiv</a>
+          </p>
+          <details class="tldr">
+            <summary>TL;DR</summary>
+            <p>Dynamic Gaussian Splatting from video shot by one fixed camera, where multi-view supervision simply does not exist: temporally consistent monocular depth renders proxy views from viewpoints never captured, and a deformation network learns how the scene moves.</p>
           </details>
         </div>
       </div>
@@ -634,7 +650,7 @@ redirect_from:
         </div>
       </div>
 
-      <div class="pub reveal" data-topic="rendering">
+      <div class="pub reveal" data-topic="rendering uncertainty">
         <div class="pub-year">2026</div>
         <div class="pub-thumb"><img src="/images/publications/warprf.png" width="1507" height="374" loading="lazy" decoding="async" alt="WarpRF"></div>
         <div>
@@ -670,7 +686,7 @@ redirect_from:
         </div>
       </div>
 
-      <div class="pub reveal" data-topic="flow">
+      <div class="pub reveal" data-topic="flow efficient">
         <div class="pub-year">2025</div>
         <div class="pub-thumb"><img src="/images/publications/flowseek.png" width="998" height="311" loading="lazy" decoding="async" alt="FlowSeek"></div>
         <div>
@@ -742,7 +758,7 @@ redirect_from:
         </div>
       </div>
 
-      <div class="pub reveal" data-topic="stereo">
+      <div class="pub reveal" data-topic="stereo active">
         <div class="pub-year">2025</div>
         <div class="pub-thumb"><img src="/images/publications/active_stereo_wild.png" width="1600" height="600" loading="lazy" decoding="async" alt="Active Stereo in the Wild"></div>
         <div>
@@ -904,7 +920,7 @@ redirect_from:
         </div>
       </div>
 
-      <div class="pub reveal" data-topic="stereo">
+      <div class="pub reveal" data-topic="stereo active">
         <div class="pub-year">2023</div>
         <div class="pub-thumb"><img src="/images/publications/vpp.png" width="1799" height="745" loading="lazy" decoding="async" alt="Active Stereo Without Pattern Projector"></div>
         <div>
@@ -1066,7 +1082,7 @@ redirect_from:
         </div>
       </div>
 
-      <div class="pub reveal" data-topic="stereo">
+      <div class="pub reveal" data-topic="stereo uncertainty">
         <div class="pub-year">2022</div>
         <div class="pub-thumb"><img src="/images/publications/confidence_quantitative_tpami.png" width="1600" height="600" loading="lazy" decoding="async" alt="On the Confidence of Stereo Matching in a Deep-Learning Era"></div>
         <div>
@@ -1120,7 +1136,7 @@ redirect_from:
         </div>
       </div>
 
-      <div class="pub reveal" data-topic="stereo">
+      <div class="pub reveal" data-topic="stereo uncertainty">
         <div class="pub-year">2021</div>
         <div class="pub-thumb"><img src="/images/publications/smdnets.png" width="1424" height="588" loading="lazy" decoding="async" alt="SMD-Nets"></div>
         <div>
@@ -1192,7 +1208,7 @@ redirect_from:
         </div>
       </div>
 
-      <div class="pub reveal" data-topic="stereo">
+      <div class="pub reveal" data-topic="stereo efficient">
         <div class="pub-year">2019</div>
         <div class="pub-thumb"><img src="/images/publications/adaptation2019.png" width="867" height="555" loading="lazy" decoding="async" alt="Real-time self-adaptive deep stereo"></div>
         <div>
@@ -1210,7 +1226,7 @@ redirect_from:
         </div>
       </div>
 
-      <div class="pub reveal" data-topic="stereo">
+      <div class="pub reveal" data-topic="stereo active">
         <div class="pub-year">2019</div>
         <div class="pub-thumb"><img src="/images/publications/guided.png" width="1323" height="597" loading="lazy" decoding="async" alt="Guided Stereo Matching"></div>
         <div>
@@ -1228,7 +1244,7 @@ redirect_from:
         </div>
       </div>
 
-      <div class="pub reveal" data-topic="stereo">
+      <div class="pub reveal" data-topic="stereo uncertainty">
         <div class="pub-year">2017</div>
         <div class="pub-thumb"><img src="/images/publications/confidence2017.png" width="1600" height="600" loading="lazy" decoding="async" alt="Quantitative Evaluation of Confidence Measures"></div>
         <div>

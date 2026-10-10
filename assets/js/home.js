@@ -5,28 +5,6 @@
 
   var reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  /* ---------- Theme toggle ------------------------------------------- */
-  var toggle = document.querySelector("[data-theme-toggle]");
-  if (toggle) {
-    var apply = function (theme) {
-      document.documentElement.setAttribute("data-theme", theme);
-      toggle.setAttribute("aria-pressed", theme === "dark" ? "true" : "false");
-      toggle.setAttribute(
-        "aria-label",
-        theme === "dark" ? "Switch to light theme" : "Switch to dark theme"
-      );
-    };
-    toggle.addEventListener("click", function () {
-      var next =
-        document.documentElement.getAttribute("data-theme") === "dark"
-          ? "light"
-          : "dark";
-      try { localStorage.setItem("theme", next); } catch (e) {}
-      apply(next);
-    });
-    apply(document.documentElement.getAttribute("data-theme") || "light");
-  }
-
   /* ---------- Portrait compare slider --------------------------------
      Wipes the estimated depth / normal maps over the photo. The photo
      alone is what shows if this never runs. */

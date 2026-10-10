@@ -27,27 +27,6 @@
   --nav-h: 58px;
 }
 
-/* Dark theme — set on <html> before first paint by the inline script.
-   Falls back to the OS preference when the visitor has no stored choice. */
-:root[data-theme="dark"] {
-  --bg:         #161512;
-  --bg-warm:    #1e1d19;
-  --card:       #201f1b;
-  --ink:        #f3f0e8;
-  --ink-2:      #cbc7bb;
-  --ink-3:      #918d81;
-  --line:       #33312b;
-  --line-soft:  #292722;
-  --accent:     #e08a62;
-  --accent-2:   #eda57f;
-  --accent-rgb: 224, 138, 98;
-  --accent-bg:  rgba(var(--accent-rgb), .1);
-  --shadow:     0 8px 22px rgba(0, 0, 0, .45);
-  --topbar-bg:  rgba(22, 21, 18, .84);
-}
-:root[data-theme="dark"] .portrait-media img,
-:root[data-theme="dark"] .member img,
-:root[data-theme="dark"] .pub-thumb img { filter: brightness(.92) saturate(.95); }
 
 /* ---------- Base ---------- */
 html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
@@ -166,26 +145,6 @@ body.home a:hover { color: var(--accent-2); border-bottom-color: var(--accent); 
 .navlinks a:hover::after,
 .navlinks a.is-active::after { transform: scaleX(1); }
 .navlinks a.is-active { color: var(--ink); }
-
-/* Theme toggle */
-.theme-toggle {
-  flex: none;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 34px; height: 34px;
-  padding: 0;
-  border: 1px solid var(--line);
-  border-radius: 50%;
-  background: transparent;
-  color: var(--ink-3);
-  cursor: pointer;
-  transition: color .15s ease, border-color .15s ease, background-color .15s ease;
-}
-.theme-toggle:hover { color: var(--accent); border-color: var(--accent); background: var(--accent-bg); }
-.theme-toggle .icon-moon { display: none; }
-:root[data-theme="dark"] .theme-toggle .icon-moon { display: block; }
-:root[data-theme="dark"] .theme-toggle .icon-sun { display: none; }
 
 /* ---------- Hero ---------- */
 .hero { padding: 4.4rem 0 3.2rem; }
@@ -345,7 +304,7 @@ body.home a.btn-solid:hover {
   color: var(--ink-3);
   padding-top: .35rem;
 }
-.row-body { font-size: .98rem; line-height: 1.72; color: var(--ink-2); }
+.row-body { font-size: 1.02rem; line-height: 1.72; color: var(--ink-2); }
 .row-body p { margin: 0 0 .8rem; }
 .row-body p:last-child { margin-bottom: 0; }
 .row-body strong { color: var(--ink); font-weight: 600; }
@@ -368,7 +327,7 @@ body.home a.btn-solid:hover {
   gap: 0 3rem;
   padding: .62rem 0;
   border-bottom: 0;
-  font-size: .96rem;
+  font-size: 1.02rem;
   line-height: 1.6;
 }
 .news-date {
@@ -463,7 +422,7 @@ details.more .news { border-top: 0; margin-top: 1.2rem; }
 .filter-chips { display: flex; flex-wrap: wrap; gap: .45rem; }
 .chip {
   font-family: inherit;
-  font-size: .82rem;
+  font-size: .88rem;
   color: var(--ink-2);
   background: transparent;
   border: 1px solid var(--line);
@@ -494,7 +453,7 @@ details.more .news { border-top: 0; margin-top: 1.2rem; }
 .pubs { border-top: 0; }
 .pub {
   display: grid;
-  grid-template-columns: 58px 220px minmax(0, 1fr);
+  grid-template-columns: 54px 280px minmax(0, 1fr);
   gap: 0 2rem;
   align-items: start;
   padding: 1.15rem 1rem;
@@ -516,14 +475,18 @@ details.more .news { border-top: 0; margin-top: 1.2rem; }
 }
 
 .pub-thumb {
+  display: grid;
+  place-items: center;
   border-radius: 4px;
   overflow: hidden;
-  background: var(--bg-warm);
   line-height: 0;
 }
+/* every teaser gets the same box, whatever its aspect ratio */
 .pub-thumb img {
   width: 100%;
   height: auto;
+  max-height: 11rem;
+  object-fit: contain;
   display: block;
   transition: transform .4s cubic-bezier(.22, .61, .36, 1);
 }
@@ -544,7 +507,7 @@ details.more .news { border-top: 0; margin-top: 1.2rem; }
 
 .pub-authors {
   margin: 0 0 .55rem;
-  font-size: .89rem;
+  font-size: .95rem;
   line-height: 1.6;
   color: var(--ink-3);
 }
@@ -588,7 +551,7 @@ details.more .news { border-top: 0; margin-top: 1.2rem; }
 
 .pub-links { margin: 0; display: flex; flex-wrap: wrap; align-items: center; }
 .pub-links a {
-  font-size: .82rem;
+  font-size: .88rem;
   color: var(--ink-2);
   border-bottom: 1px solid var(--line);
   padding-bottom: 1px;
@@ -666,7 +629,7 @@ details.more .news { border-top: 0; margin-top: 1.2rem; }
 
 /* ---------- Print ---------- */
 @media print {
-  .topbar, .theme-toggle, .filters, .portrait, details.more > summary { display: none !important; }
+  .topbar, .filters, .portrait, details.more > summary { display: none !important; }
   body.home { background: #fff; color: #000; font-size: 10.5pt; }
   .section { padding: 1.2rem 0; border-top: 0; }
   .pub { break-inside: avoid; padding: .7rem 0; margin: 0; }
@@ -680,7 +643,7 @@ details.more .news { border-top: 0; margin-top: 1.2rem; }
 /* ---------- Thesis & internships ---------- */
 .join-lead {
   font-size: 1.02rem;
-  line-height: 1.7;
+  line-height: 1.72;
   color: var(--ink-2);
   max-width: 46em;
   margin: 0 0 2.2rem;
@@ -728,10 +691,10 @@ details.more .news { border-top: 0; margin-top: 1.2rem; }
 
 .join-note {
   margin: 1.5rem 0 0;
-  padding: .95rem 1.2rem;
+  padding: 1rem 1.25rem;
   background: var(--bg-warm);
   border-radius: 6px;
-  font-size: .92rem;
+  font-size: .98rem;
   line-height: 1.65;
   color: var(--ink-2);
 }
@@ -746,7 +709,7 @@ details.more .news { border-top: 0; margin-top: 1.2rem; }
 }
 .join-cta p {
   margin: 0;
-  font-size: .94rem;
+  font-size: 1.02rem;
   line-height: 1.65;
   color: var(--ink-2);
   max-width: 38em;
@@ -888,8 +851,8 @@ details.more .news { border-top: 0; margin-top: 1.2rem; }
 .courses { list-style: none; margin: 0; padding: 0; border-top: 0; }
 .course {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 260px;
-  gap: 0 2.5rem;
+  grid-template-columns: 150px minmax(0, 1fr) 240px;
+  gap: 0 1.8rem;
   align-items: baseline;
   padding: .95rem 0;
   border-bottom: 0;
@@ -905,12 +868,12 @@ details.more .news { border-top: 0; margin-top: 1.2rem; }
 }
 .course p {
   margin: 0;
-  font-size: .92rem;
+  font-size: .98rem;
   line-height: 1.6;
   color: var(--ink-3);
 }
 .course-meta {
-  font-size: .82rem;
+  font-size: .88rem;
   line-height: 1.5;
   color: var(--ink-3);
 }
@@ -965,6 +928,7 @@ details.more .news { border-top: 0; margin-top: 1.2rem; }
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: .6rem;
+  margin-bottom: 2rem;
 }
 .strip-tile {
   position: relative;
@@ -998,7 +962,7 @@ details.more .news { border-top: 0; margin-top: 1.2rem; }
   left: .7rem;
   bottom: .55rem;
   z-index: 1;
-  font-size: .74rem;
+  font-size: .8rem;
   font-weight: 600;
   letter-spacing: .02em;
   color: #fff;
@@ -1008,25 +972,10 @@ details.more .news { border-top: 0; margin-top: 1.2rem; }
 /* Sotto i 900px le cinque tessere non ci stanno: invece di nasconderne
    alcune, la striscia diventa scorrevole con aggancio. */
 @media (max-width: 900px) {
-  .strip {
-    display: flex;
-    gap: .6rem;
-    overflow-x: auto;
-    scroll-snap-type: x proximity;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-    margin: 0 -32px;
-    padding: 0 32px .2rem;
-  }
-  .strip::-webkit-scrollbar { display: none; }
-  .strip-tile {
-    flex: 0 0 58%;
-    scroll-snap-align: start;
-  }
+  .strip { grid-template-columns: repeat(3, 1fr); gap: .5rem; }
 }
 @media (max-width: 560px) {
-  .strip { margin: 0 -22px; padding: 0 22px .2rem; }
-  .strip-tile { flex: 0 0 72%; }
+  .strip { grid-template-columns: repeat(2, 1fr); }
 }
 
 /* ---------- News icons ----------
@@ -1109,7 +1058,7 @@ details.more .news { border-top: 0; margin-top: 1.2rem; }
   padding-left: .9rem;
   border-left: 2px solid var(--accent-bg);
   max-width: 46em;
-  font-size: .9rem;
+  font-size: .96rem;
   line-height: 1.65;
   color: var(--ink-2);
 }
@@ -1164,11 +1113,6 @@ body.home a.social-link:hover {
 .ptag-rendering { color: #4b2a6e; background: rgba(150, 112, 190, .18); }
 .ptag-flow      { color: #1d4f6e; background: rgba(86, 148, 186, .18); }
 
-:root[data-theme="dark"] .ptag-stereo    { color: #9fd9c9; background: rgba(93, 168, 152, .2); }
-:root[data-theme="dark"] .ptag-depth     { color: #edc283; background: rgba(224, 160, 62, .2); }
-:root[data-theme="dark"] .ptag-slam      { color: #efab91; background: rgba(214, 122, 94, .2); }
-:root[data-theme="dark"] .ptag-rendering { color: #c4a9e4; background: rgba(150, 112, 190, .24); }
-:root[data-theme="dark"] .ptag-flow      { color: #9ec8e2; background: rgba(86, 148, 186, .24); }
 
 /* ---------- Link hierarchy ----------
    `body.home a` outranks a bare `.class a`, so every quiet-link rule has to
@@ -1209,3 +1153,182 @@ body.home .eyebrow a:hover { color: var(--accent); border-bottom-color: var(--ac
   --news-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='2.5' y='6' width='19' height='12' rx='2'/%3E%3Ccircle cx='12' cy='12' r='2.6'/%3E%3Cpath d='M6 9.5v5M18 9.5v5'/%3E%3C/svg%3E");
 }
 .news li[data-kind="grant"] .news-date::before { background-color: var(--accent); }
+
+/* ---------- Publication row: hover cues borrowed from the CVLab cards ----------
+   The rows have no separators any more, so the row needs to announce itself on
+   hover: an accent bar grows at the left edge, and the title gets a marker sweep. */
+.pub { position: relative; }
+.pub::before {
+  content: "";
+  position: absolute;
+  left: -1rem;
+  top: .35rem;
+  bottom: .35rem;
+  width: 3px;
+  border-radius: 3px;
+  background: var(--accent);
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform .35s cubic-bezier(.2, .7, .2, 1);
+}
+.pub:hover::before { transform: scaleY(1); }
+
+body.home .pub-title a {
+  background-image: linear-gradient(rgba(var(--accent-rgb), .18), rgba(var(--accent-rgb), .18));
+  background-repeat: no-repeat;
+  background-position: 0 88%;
+  background-size: 0% 36%;
+  transition: background-size .45s cubic-bezier(.2, .7, .2, 1), color .15s ease;
+}
+.pub:hover .pub-title a { background-size: 100% 36%; }
+
+@media (hover: none) {
+  .pub::before { display: none; }
+  body.home .pub-title a { background-size: 0 0; }
+}
+@media (max-width: 720px) {
+  .pub::before { left: -.6rem; }
+}
+
+/* --- tiles that are not (yet) linked to papers, and the open-proposal one --- */
+.strip-tile.is-static { cursor: default; }
+.tile-new {
+  display: inline-block;
+  margin-left: .35rem;
+  padding: .04rem .32rem;
+  border-radius: 3px;
+  font-size: .58rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--accent);
+  vertical-align: 1px;
+}
+body.home a.strip-tile--idea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: .3rem;
+  aspect-ratio: 4 / 3;
+  border: 1px dashed var(--line) !important;
+  background: var(--bg);
+  transition: border-color .18s ease, background-color .18s ease;
+}
+body.home a.strip-tile--idea::after { content: none; }     /* niente velatura scura */
+body.home a.strip-tile--idea:hover { border-color: var(--accent) !important; background: var(--accent-bg); }
+.idea-mark {
+  font-family: var(--serif);
+  font-size: 1.9rem;
+  line-height: 1;
+  color: var(--accent);
+}
+.strip-tile--idea .strip-label {
+  position: static;
+  color: var(--ink-2);
+  text-shadow: none;
+}
+
+/* ---------- News as a timeline ----------
+   A continuous spine on the left, one node per entry sitting on it, and the
+   type icon drawn inside the node. */
+.news { position: relative; padding-left: 2.3rem; }
+.news::before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 1.1rem;
+  bottom: 1.1rem;
+  width: 2px;
+  border-radius: 2px;
+  background: var(--line);
+}
+.news li { position: relative; }
+.news li::before {           /* the node */
+  content: "";
+  position: absolute;
+  left: -2.3rem;
+  top: .5rem;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  box-shadow: 0 0 0 3px var(--bg);
+}
+.news li[data-kind] .news-date::before {
+  position: absolute;
+  left: calc(-2.3rem + 5px);
+  top: .9rem;
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  vertical-align: baseline;
+}
+/* the two kinds worth spotting get a filled node */
+.news li[data-kind="award"]::before,
+.news li[data-kind="grant"]::before,
+.news li[data-kind="link"]::before { border-color: var(--accent); }
+
+@media (max-width: 720px) {
+  .news { padding-left: 1.9rem; }
+  .news::before { left: 8px; }
+  .news li::before { left: -1.9rem; width: 19px; height: 19px; }
+  .news li[data-kind] .news-date::before { left: calc(-1.9rem + 4px); top: .78rem; width: 11px; height: 11px; }
+}
+
+/* ---------- Course thumbnails ---------- */
+.course-thumb { align-self: start; }
+.course-thumb img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+}
+
+/* ---------- Figures on white ----------
+   Paper teasers and course images come with a white background. Multiply makes
+   that white take the colour underneath, so a figure never sits in a visible
+   white box — on the warm hover of a publication row, for instance. */
+.pub-thumb img,
+.course-thumb img { mix-blend-mode: multiply; }
+.pub-thumb { background: transparent; }
+/* on a dark page multiply would swallow the figures */
+
+@media (max-width: 720px) {
+  .course { grid-template-columns: minmax(0, 1fr); gap: .7rem; }
+  .course-thumb { max-width: 190px; }
+}
+
+/* ---------- The lab, wherever it is mentioned ----------
+   CVLab is where the work happens: its links are marked, not merely coloured. */
+body.home a.lab-link {
+  color: var(--accent);
+  font-weight: 600;
+  border-bottom: 0;
+  background: rgba(var(--accent-rgb), .11);
+  border-radius: 4px;
+  padding: .05em .3em;
+  margin: 0 -.05em;
+  transition: background-color .16s ease, color .16s ease;
+}
+body.home a.lab-link:hover {
+  color: #fff;
+  background: var(--accent);
+}
+.eyebrow a.lab-link { padding: .1em .35em; }
+
+body.home a.btn-lab {
+  border-color: var(--accent) !important;
+  color: var(--accent) !important;
+  background: rgba(var(--accent-rgb), .07);
+}
+body.home a.btn-lab:hover {
+  background: var(--accent);
+  color: #fff !important;
+}
+/* inside the marked link, bold text must not fall back to ink */
+body.home a.lab-link strong { color: inherit; font-weight: 600; }
+
+.team-more { margin: 1.6rem 0 0; }
