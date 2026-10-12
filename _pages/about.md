@@ -21,7 +21,7 @@ redirect_from:
       </p>
       <div class="actions">
         <a class="btn btn-solid" href="/files/Fabio_Tosi_s_CV.pdf">Curriculum Vitae</a>
-        <span class="actions-note">updated 24/08/2026</span>
+        <span class="actions-note">updated 12/10/2026</span>
       </div>
 
       <!-- Brand marks: Font Awesome Free 6.7.2, icons under CC BY 4.0 -->
