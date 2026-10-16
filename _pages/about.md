@@ -27,6 +27,7 @@ redirect_from:
       <!-- Brand marks: Font Awesome Free 6.7.2, icons under CC BY 4.0 -->
       <div class="social">
         <a class="social-link" href="mailto:fabio.tosi5@unibo.it" aria-label="Email" title="Email"><svg viewBox="0 0 512 512" aria-hidden="true" fill="currentColor"><path d="M64 112c-8.8 0-16 7.2-16 16l0 22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1l0-22.1c0-8.8-7.2-16-16-16L64 112zM48 212.2L48 384c0 8.8 7.2 16 16 16l384 0c8.8 0 16-7.2 16-16l0-171.8L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64l384 0c35.3 0 64 28.7 64 64l0 256c0 35.3-28.7 64-64 64L64 448c-35.3 0-64-28.7-64-64L0 128z"/></svg></a>
+        <a class="social-link" href="https://www.unibo.it/sitoweb/fabio.tosi5" aria-label="University page" title="University page"><svg viewBox="0 0 512 512" aria-hidden="true" fill="currentColor"><path d="M243.4 2.6l-224 96c-14 6-21.8 21-18.7 35.8S16.8 160 32 160l0 8c0 13.3 10.7 24 24 24l400 0c13.3 0 24-10.7 24-24l0-8c15.2 0 28.3-10.7 31.3-25.6s-4.8-29.9-18.7-35.8l-224-96c-8-3.4-17.2-3.4-25.2 0zM128 224l-64 0 0 196.3c-.6 .3-1.2 .7-1.8 1.1l-48 32c-11.7 7.8-17 22.4-12.9 35.9S17.9 512 32 512l448 0c14.1 0 26.5-9.2 30.6-22.7s-1.1-28.1-12.9-35.9l-48-32c-.6-.4-1.2-.7-1.8-1.1L448 224l-64 0 0 192-40 0 0-192-64 0 0 192-48 0 0-192-64 0 0 192-40 0 0-192zM256 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg></a>
         <a class="social-link" href="https://scholar.google.com/citations?user=5-UOaQkAAAAJ&hl=it" aria-label="Google Scholar" title="Google Scholar"><svg viewBox="0 0 512 512" aria-hidden="true" fill="currentColor"><path d="M390.9 298.5c0 0 0 .1 .1 .1c9.2 19.4 14.4 41.1 14.4 64C405.3 445.1 338.5 512 256 512s-149.3-66.9-149.3-149.3c0-22.9 5.2-44.6 14.4-64h0c1.7-3.6 3.6-7.2 5.6-10.7c4.4-7.6 9.4-14.7 15-21.3c27.4-32.6 68.5-53.3 114.4-53.3c33.6 0 64.6 11.1 89.6 29.9c9.1 6.9 17.4 14.7 24.8 23.5c5.6 6.6 10.6 13.8 15 21.3c2 3.4 3.8 7 5.5 10.5zm26.4-18.8c-30.1-58.4-91-98.4-161.3-98.4s-131.2 40-161.3 98.4L0 202.7 256 0 512 202.7l-94.7 77.1z"/></svg></a>
         <a class="social-link" href="https://github.com/fabiotosi92" aria-label="GitHub" title="GitHub"><svg viewBox="0 0 496 512" aria-hidden="true" fill="currentColor"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></a>
         <a class="social-link" href="https://www.researchgate.net/profile/Fabio-Tosi" aria-label="ResearchGate" title="ResearchGate"><svg viewBox="0 0 448 512" aria-hidden="true" fill="currentColor"><path d="M0 32v448h448V32H0zm262.2 334.4c-6.6 3-33.2 6-50-14.2-9.2-10.6-25.3-33.3-42.2-63.6-8.9 0-14.7 0-21.4-.6v46.4c0 23.5 6 21.2 25.8 23.9v8.1c-6.9-.3-23.1-.8-35.6-.8-13.1 0-26.1.6-33.6.8v-8.1c15.5-2.9 22-1.3 22-23.9V225c0-22.6-6.4-21-22-23.9V193c25.8 1 53.1-.6 70.9-.6 31.7 0 55.9 14.4 55.9 45.6 0 21.1-16.7 42.2-39.2 47.5 13.6 24.2 30 45.6 42.2 58.9 7.2 7.8 17.2 14.7 27.2 14.7v7.3zm22.9-135c-23.3 0-32.2-15.7-32.2-32.2V167c0-12.2 8.8-30.4 34-30.4s30.4 17.9 30.4 17.9l-10.7 7.2s-5.5-12.5-19.7-12.5c-7.9 0-19.7 7.3-19.7 19.7v26.8c0 13.4 6.6 23.3 17.9 23.3 14.1 0 21.5-10.9 21.5-26.8h-17.9v-10.7h30.4c0 20.5 4.7 49.9-34 49.9zm-116.5 44.7c-9.4 0-13.6-.3-20-.8v-69.7c6.4-.6 15-.6 22.5-.6 23.3 0 37.2 12.2 37.2 34.5 0 21.9-15 36.6-39.7 36.6z"/></svg></a>
@@ -65,21 +66,6 @@ redirect_from:
 
     <div class="rows">
       <div class="row">
-        <div class="row-label">Research</div>
-        <div class="row-body">
-          <ul class="keywords">
-            <li>Stereo Matching</li>
-            <li>Monocular Depth Estimation</li>
-            <li>Neural Rendering</li>
-            <li>SLAM</li>
-            <li>3D Reconstruction</li>
-            <li>Optical Flow</li>
-            <li>Efficient &amp; GPU-Accelerated Deep Learning</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="row">
         <div class="row-label">Background</div>
         <div class="row-body">
           <p>I received my PhD in 2021 from the University of Bologna, supervised by Professor <a href="https://stefanomattoccia.github.io/">Stefano Mattoccia</a>, and my Master’s (2017) and Bachelor’s (2014) degrees in Computer Engineering from the same university.</p>
@@ -91,6 +77,21 @@ redirect_from:
         <div class="row-label">Service</div>
         <div class="row-body">
           <p>Since 2024, I serve as <strong>Associate Editor</strong> for <a href="https://www.sciencedirect.com/journal/pattern-recognition/about/editorial-board">Pattern Recognition (Elsevier)</a>. I have also served as Area Chair at CVPR 2026, ECCV 2026, ACCV 2026, and ICIAP 2025, and as Associate Editor at IROS 2025.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="row-label">Research</div>
+        <div class="row-body">
+          <ul class="keywords">
+            <li>Stereo Matching</li>
+            <li>Monocular Depth Estimation</li>
+            <li>Neural Rendering</li>
+            <li>SLAM</li>
+            <li>3D Reconstruction</li>
+            <li>Optical Flow</li>
+            <li>Efficient &amp; GPU-Accelerated Deep Learning</li>
+          </ul>
         </div>
       </div>
 
