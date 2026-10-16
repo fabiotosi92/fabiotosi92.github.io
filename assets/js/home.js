@@ -68,31 +68,45 @@
     }
   }
 
-  /* ---------- Publication filters ------------------------------------ */
+  /* ---------- Publication filters and the short list ------------------
+     Only the first few papers are shown; the rest stay in the page (so they
+     are still searchable and linkable) and are revealed by the button. */
   var bar = document.querySelector("[data-filters]");
   var pubs = Array.prototype.slice.call(document.querySelectorAll(".pub"));
+  var moreBtn = document.querySelector("[data-pubs-toggle]");
+  var CAP = 7;
 
   if (bar && pubs.length) {
     bar.hidden = false;
     var counter = bar.querySelector("[data-filter-count]");
     var chips = Array.prototype.slice.call(bar.querySelectorAll(".chip"));
+    var topic = "all";
+    var expanded = false;
 
-    /* Announced to screen readers only: the list is a selection, so a
-       visible total would misrepresent the full publication record. */
-    var setCount = function (shown) {
-      if (!counter) return;
-      counter.textContent = "Showing " + shown + " publications";
+    var matches = function (pub) {
+      var t = (pub.getAttribute("data-topic") || "").split(/\s+/);
+      return topic === "all" || t.indexOf(topic) !== -1;
     };
 
-    var filter = function (topic) {
-      var shown = 0;
+    var render = function () {
+      var shown = 0, total = 0;
       pubs.forEach(function (pub) {
-        var topics = (pub.getAttribute("data-topic") || "").split(/\s+/);
-        var match = topic === "all" || topics.indexOf(topic) !== -1;
-        pub.hidden = !match;
-        if (match) shown++;
+        if (!matches(pub)) { pub.hidden = true; return; }
+        total++;
+        var visible = expanded || total <= CAP;
+        pub.hidden = !visible;
+        if (visible) shown++;
       });
-      setCount(shown);
+      if (counter) counter.textContent = "Showing " + shown + " of " + total + " publications";
+      if (moreBtn) {
+        /* no totals on the button: the list is a selection, and a number
+           there would read as the whole publication record */
+        moreBtn.hidden = total <= CAP;
+        var label = moreBtn.querySelector("[data-expand-label]");
+        if (label) label.textContent = expanded ? "Collapse" : "Expand";
+        moreBtn.classList.toggle("is-open", expanded);
+        moreBtn.setAttribute("aria-expanded", expanded ? "true" : "false");
+      }
     };
 
     chips.forEach(function (chip) {
@@ -102,11 +116,25 @@
           c.classList.toggle("is-active", on);
           c.setAttribute("aria-pressed", on ? "true" : "false");
         });
-        filter(chip.getAttribute("data-filter"));
+        topic = chip.getAttribute("data-filter");
+        expanded = false;          /* a new topic starts from the short list */
+        render();
       });
     });
 
-    setCount(pubs.length);
+    if (moreBtn) {
+      moreBtn.hidden = false;
+      moreBtn.addEventListener("click", function () {
+        expanded = !expanded;
+        render();
+        if (!expanded) {
+          var head = document.getElementById("publications");
+          if (head) head.scrollIntoView({ behavior: reduced ? "auto" : "smooth" });
+        }
+      });
+    }
+
+    render();
   }
 
   /* ---------- Work strip: jump to the matching publication filter ----- */

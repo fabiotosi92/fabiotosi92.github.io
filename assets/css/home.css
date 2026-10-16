@@ -240,7 +240,8 @@ body.home a:hover { color: var(--accent-2); border-bottom-color: var(--accent); 
 
 /* Buttons */
 .actions { display: flex; flex-wrap: wrap; gap: .6rem; align-items: center; }
-body.home a.btn {
+body.home a.btn,
+body.home button.btn {
   display: inline-flex;
   align-items: center;
   gap: .45rem;
@@ -252,17 +253,20 @@ body.home a.btn {
   background: var(--card);
   color: var(--ink-2);
 }
-body.home a.btn:hover {
+body.home a.btn:hover,
+body.home button.btn:hover {
   border-color: var(--accent) !important;
   color: var(--accent);
   background: var(--accent-bg);
 }
-body.home a.btn-solid {
+body.home a.btn-solid,
+body.home button.btn-solid {
   background: var(--ink);
   border-color: var(--ink) !important;
   color: var(--bg);
 }
-body.home a.btn-solid:hover {
+body.home a.btn-solid:hover,
+body.home button.btn-solid:hover {
   background: var(--accent);
   border-color: var(--accent) !important;
   color: #fff;
@@ -271,7 +275,7 @@ body.home a.btn-solid:hover {
 
 /* ---------- Sections ---------- */
 .section { padding: 3.1rem 0; border-top: 1px solid var(--line-soft); scroll-margin-top: var(--nav-h); }
-.section-head { margin-bottom: 1.9rem; }
+.section-head { margin-bottom: 1.25rem; }
 .section-head h2 {
   font-family: var(--serif);
   font-weight: 400;
@@ -293,7 +297,7 @@ body.home a.btn-solid:hover {
   display: grid;
   grid-template-columns: 160px minmax(0, 1fr);
   gap: 0 3rem;
-  padding: 1.05rem 0;
+  padding: .9rem 0;
   border-bottom: 0;
 }
 .row-label {
@@ -325,7 +329,7 @@ body.home a.btn-solid:hover {
   display: grid;
   grid-template-columns: 160px minmax(0, 1fr);
   gap: 0 3rem;
-  padding: .62rem 0;
+  padding: .55rem 0;
   border-bottom: 0;
   font-size: 1.05rem;
   line-height: 1.6;
@@ -456,7 +460,7 @@ details.more .news { border-top: 0; margin-top: 1.2rem; }
   grid-template-columns: 54px 280px minmax(0, 1fr);
   gap: 0 2rem;
   align-items: start;
-  padding: 1.15rem 1rem;
+  padding: 1rem 1rem;
   margin: 0 -1rem;
   border-bottom: 0;
   border-radius: 6px;
@@ -608,7 +612,7 @@ details.more .news { border-top: 0; margin-top: 1.2rem; }
   .hero-grid { grid-template-columns: minmax(0, 1fr); gap: 2.4rem; }
   .portrait { max-width: 190px; order: -1; }
   .portrait::after { inset: 10px -10px -10px 10px; }
-  .section { padding: 2.4rem 0; }
+  .section { padding: 2.1rem 0; }
   .section-head h2 { font-size: 1.7rem; }
   .row, .news li { grid-template-columns: minmax(0, 1fr); gap: .35rem; }
   .row-label, .news-date { padding-top: 0; }
@@ -853,8 +857,8 @@ details.more .news { border-top: 0; margin-top: 1.2rem; }
   display: grid;
   grid-template-columns: 150px minmax(0, 1fr) 240px;
   gap: 0 1.8rem;
-  align-items: baseline;
-  padding: .95rem 0;
+  align-items: start;
+  padding: .85rem 0;
   border-bottom: 0;
 }
 .course h3 {
@@ -1283,8 +1287,9 @@ body.home a.strip-tile--idea:hover { border-color: var(--accent) !important; bac
 .course-thumb img {
   width: 100%;
   height: auto;
-  aspect-ratio: 4 / 3;
+  max-height: 120px;
   object-fit: contain;
+  object-position: left center;
 }
 
 /* ---------- Figures on white ----------
@@ -1319,12 +1324,14 @@ body.home a.lab-link:hover {
 }
 .eyebrow a.lab-link { padding: .1em .35em; }
 
-body.home a.btn-lab {
+body.home a.btn-lab,
+body.home button.btn-lab {
   border-color: var(--accent) !important;
   color: var(--accent) !important;
   background: rgba(var(--accent-rgb), .07);
 }
-body.home a.btn-lab:hover {
+body.home a.btn-lab:hover,
+body.home button.btn-lab:hover {
   background: var(--accent);
   color: #fff !important;
 }
@@ -1332,3 +1339,16 @@ body.home a.btn-lab:hover {
 body.home a.lab-link strong { color: inherit; font-weight: 600; }
 
 .team-more { margin: 1.6rem 0 0; }
+
+.pubs-more { margin: 2rem 0 0; text-align: center; }
+body.home .expand-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+}
+.expand-btn svg { transition: transform .25s ease; }
+.expand-btn.is-open svg { transform: rotate(180deg); }
+body.home .pubs-more .btn { cursor: pointer; font-family: inherit; font-size: .9rem; }
+
+  .steps span { padding: .14rem .6rem; }
+}

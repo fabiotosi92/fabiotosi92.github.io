@@ -133,27 +133,27 @@ redirect_from:
         <span class="news-date">08/2026</span>
         <span>1 paper accepted to BMVC 2026!</span>
       </li>
-      <li data-kind="paper">
-        <span class="news-date">06/2026</span>
-        <span>3 papers accepted to ECCV 2026, 1 paper accepted to IROS 2026!</span>
-      </li>
-      <li data-kind="award">
-        <span class="news-date">05/2026</span>
-        <span>Honored to be recognized as an <strong>Outstanding Area Chair</strong> at CVPR 2026!</span>
-      </li>
-      <li data-kind="paper">
-        <span class="news-date">02/2026</span>
-        <span>3 papers at CVPR 2026, 1 at CVPR Findings 2026!</span>
-      </li>
-      <li data-kind="paper">
-        <span class="news-date">02/2026</span>
-        <span>Our survey on NeRF &amp; 3DGS-based SLAM accepted to T-RO!</span>
-      </li>
     </ul>
 
     <details class="more">
       <summary><span class="closed">Earlier news</span><span class="open">Hide earlier news</span></summary>
       <ul class="news">
+        <li data-kind="paper">
+          <span class="news-date">06/2026</span>
+          <span>3 papers accepted to ECCV 2026, 1 paper accepted to IROS 2026!</span>
+        </li>
+        <li data-kind="award">
+          <span class="news-date">05/2026</span>
+          <span>Honored to be recognized as an <strong>Outstanding Area Chair</strong> at CVPR 2026!</span>
+        </li>
+        <li data-kind="paper">
+          <span class="news-date">02/2026</span>
+          <span>3 papers at CVPR 2026, 1 at CVPR Findings 2026!</span>
+        </li>
+        <li data-kind="paper">
+          <span class="news-date">02/2026</span>
+          <span>Our survey on NeRF &amp; 3DGS-based SLAM accepted to T-RO!</span>
+        </li>
         <li data-kind="paper">
           <span class="news-date">12/2025</span>
           <span>2 paper accepted to WACV 2025 and AAAI 2025 <span class="mark">(Oral)</span>!</span>
@@ -246,7 +246,7 @@ redirect_from:
   <div class="wrap">
     <div class="section-head">
       <h2>Research team</h2>
-      <p>The people I work with most closely at <a class="lab-link" href="https://cvlab-unibo.github.io/">CVLab</a>, University of Bologna — the lab is larger than this</p>
+      <p>Some of the people I work with at <a class="lab-link" href="https://cvlab-unibo.github.io/">CVLab</a>, University of Bologna. The lab has many more members</p>
     </div>
 
     <div class="team">
@@ -289,6 +289,11 @@ redirect_from:
         <a href="https://it.linkedin.com/in/gabriele-pattarozzi"><img src="/images/gpattarozzi.jpg" width="320" height="320" alt="Gabriele Pattarozzi"></a>
         <span class="member-name">Gabriele Pattarozzi</span>
         <span class="member-role">PhD Student · from Nov 2026</span>
+      </div>
+      <div class="member">
+        <a href="https://mikemiller0401.github.io/"><img src="/images/ctian.jpg" width="320" height="320" alt="Chenyu Tian"></a>
+        <span class="member-name">Chenyu Tian</span>
+        <span class="member-role">Visiting PhD Student · China University of Geosciences (Wuhan)</span>
       </div>
     </div>
 
@@ -404,7 +409,7 @@ redirect_from:
     </div>
 
     <p class="join-lead">
-      A thesis here is an open research problem, not a closed exercise: you work inside our group at <a class="lab-link" href="https://cvlab-unibo.github.io/">CVLab</a>, with our GPUs and codebases, on a topic close to what we publish. The strongest projects grow into a paper.
+      You would work on a research problem we are actually trying to solve, inside our group at <a class="lab-link" href="https://cvlab-unibo.github.io/">CVLab</a>, with our GPUs and our codebases. Several of these theses have ended up as papers.
     </p>
 
     <p class="join-note">
@@ -529,7 +534,7 @@ redirect_from:
           </p>
           <details class="tldr">
             <summary>TL;DR</summary>
-            <p>Dynamic Gaussian Splatting from video shot by one fixed camera, where multi-view supervision simply does not exist: temporally consistent monocular depth renders proxy views from viewpoints never captured, and a deformation network learns how the scene moves.</p>
+            <p>Dynamic Gaussian Splatting from video shot by a single fixed camera, with no multi-view supervision available. Temporally consistent monocular depth renders proxy views from viewpoints that were never captured, and a deformation network models the motion.</p>
           </details>
         </div>
       </div>
@@ -835,7 +840,7 @@ redirect_from:
           </p>
           <details class="tldr">
             <summary>TL;DR</summary>
-            <p>The Gaussian Splatting model renders virtual stereo pairs of itself, a stereo network turns them into depth supervision, and that supervision repairs the floating artifacts in its own geometry. A loop that improves as it runs.</p>
+            <p>The Gaussian Splatting model renders virtual stereo pairs of itself, a stereo network turns them into depth supervision, and that supervision repairs the floating artifacts in its own geometry, round after round.</p>
           </details>
         </div>
       </div>
@@ -1273,5 +1278,7 @@ redirect_from:
       </div>
 
     </div>
+
+    <p class="pubs-more"><button type="button" class="btn expand-btn" data-pubs-toggle hidden><span data-expand-label>Expand</span><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button></p>
   </div>
 </section>
